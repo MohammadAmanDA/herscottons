@@ -1,0 +1,32 @@
+name: Update Instagram Posts
+
+on:
+  schedule:
+    # Runs every day at 8:00 AM IST (2:30 AM UTC)
+    - cron: '30 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update posts.json with new links
+        run: |
+          # ================================================================
+          # MANUAL UPDATE INSTRUCTIONS:
+          # Replace the URLs below with your latest Instagram post links.
+          # This file is automatically committed each day.
+          # Or just edit posts.json directly in GitHub and commit.
+          # ================================================================
+          echo "Posts updated. Edit posts.json directly with new Instagram links."
+
+      - name: Commit if changed
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add posts.json
+          git diff --staged --quiet || git commit -m "Auto: update posts [skip ci]"
+          git push

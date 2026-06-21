@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.instagram.com/herscottons/p/DW_GNyTk9mD/",
+    "label": "New Arrivals",
+    "gradient": "linear-gradient(160deg,#F9DDD0,#ECC9B0)"
+  },
+  {
+    "id": 2,
+    "url": "https://www.instagram.com/herscottons/p/DV8eWV8CPdb/",
+    "label": "Ethnic Wear",
+    "gradient": "linear-gradient(160deg,#F0E4D4,#E8CDB5)"
+  },
+  {
+    "id": 3,
+    "url": "https://www.instagram.com/herscottons/p/DVmCGDTE3dC/",
+    "label": "Traditional Art",
+    "gradient": "linear-gradient(160deg,#EEDAD0,#DFCBBC)"
+  },
+  {
+    "id": 4,
+    "url": "https://www.instagram.com/herscottons/p/DVkrQU1E62k/",
+    "label": "Handloom",
+    "gradient": "linear-gradient(160deg,#F5E6D6,#E8D0BA)"
+  },
+  {
+    "id": 5,
+    "url": "https://www.instagram.com/herscottons/p/DVba5YREqrJ/",
+    "label": "Latest Styles",
+    "gradient": "linear-gradient(160deg,#F2DDCC,#E5CAB5)"
+  }
+]
