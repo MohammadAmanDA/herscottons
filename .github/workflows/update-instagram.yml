@@ -1,0 +1,67 @@
+name: Update Instagram feed
+
+# Meta's long-lived tokens expire after 60 days with no grace period, so this
+# runs daily: it refreshes the token AND pulls the latest posts in one pass.
+# Missing a day is harmless; missing 60 is not.
+
+on:
+  schedule:
+    - cron: '30 2 * * *' # 08:00 IST
+  workflow_dispatch:
+
+# Needed to push the regenerated feed back to the branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-feed
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install image tooling
+        run: npm install --no-audit --no-fund sharp
+
+      - name: Fetch latest posts and refresh token
+        id: instagram
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: node scripts/fetch-instagram.mjs
+
+      # The refreshed token is only useful if it survives to the next run, and
+      # GITHUB_TOKEN cannot write secrets — this needs a PAT with secrets:write.
+      # Without it the feed still works, but dies 60 days after the last manual
+      # token issue, so the absence is surfaced loudly rather than ignored.
+      - name: Persist refreshed token
+        if: steps.instagram.outputs.new_token != ''
+        env:
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+          NEW_TOKEN: ${{ steps.instagram.outputs.new_token }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning title=Token will expire::SECRETS_PAT is not configured, so the refreshed Instagram token cannot be saved. The feed will stop updating within 60 days of the last manual token issue. See docs/INSTAGRAM_SETUP.md."
+            exit 0
+          fi
+          echo "$NEW_TOKEN" | gh secret set INSTAGRAM_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "Refreshed token saved to repository secrets."
+
+      - name: Commit updated feed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/instagram
+          if git diff --staged --quiet; then
+            echo "No change to the feed."
+          else
+            git commit -m "chore: refresh Instagram feed [skip ci]"
+            git push
+          fi

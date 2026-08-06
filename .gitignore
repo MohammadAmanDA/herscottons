@@ -1,1 +1,7 @@
-node_modules/ 
+node_modules/
+
+# Instagram access token — never commit this. It lives in GitHub Secrets.
+.env
+
+# Scratch review artefacts from the image scripts (contact sheets, experiments).
+assets/img/_*

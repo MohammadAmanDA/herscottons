@@ -1,0 +1,847 @@
+/* ============================================================================
+   HERS COTTONS — design system
+   Aligarh, since 1980.
+
+   Every contrast pair below is verified by scripts/check-contrast.mjs. Re-run
+   it whenever a colour changes; do not eyeball ratios.
+   ========================================================================= */
+
+:root {
+  /* ---- surfaces ---- */
+  --cream:      #FDF8F3;
+  --ivory:      #F7F0E8;
+  --sand:       #EFE4D6;
+  --deep:       #1A120D;
+  --deep-soft:  #241912;
+
+  /* ---- text (all verified >= 4.5:1 on every surface they appear on) ---- */
+  --ink:        #2E211A;   /* 14.75:1 on cream */
+  --ink-soft:   #6B5344;   /*  6.75:1 on cream */
+  --gold:       #855D2D;   /*  5.53:1 on cream — links, accents, small caps */
+
+  --ink-invert:      #F4EBE1;  /* 15.68:1 on deep */
+  --ink-invert-soft: #C3AE9B;  /*  8.67:1 on deep */
+  --gold-invert:     #E0AC72;  /*  9.08:1 on deep */
+
+  /* ---- ornament: linework and hairlines only, never text ---- */
+  --gold-leaf:  #C49A6C;
+  --rule:       #E0D2C0;
+  --rule-soft:  rgba(196, 154, 108, 0.22);
+
+  /* ---- type ---- */
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  /* System stack: no second webfont request, which matters on 4G. */
+  --font-body: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+               'Helvetica Neue', Arial, sans-serif;
+
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.84rem);
+  --step-0:  clamp(1rem, 0.96rem + 0.2vw, 1.09rem);
+  --step-1:  clamp(1.25rem, 1.16rem + 0.45vw, 1.5rem);
+  --step-2:  clamp(1.56rem, 1.38rem + 0.9vw, 2.07rem);
+  --step-3:  clamp(1.95rem, 1.62rem + 1.65vw, 2.84rem);
+  --step-4:  clamp(2.44rem, 1.86rem + 2.9vw, 3.91rem);
+  --step-5:  clamp(3.05rem, 1.99rem + 5.3vw, 5.38rem);
+
+  --leading-prose: 1.7;
+  --leading-tight: 1.08;
+  --measure: 62ch;
+
+  /* ---- space ---- */
+  --s1: 0.25rem;  --s2: 0.5rem;   --s3: 0.75rem;  --s4: 1rem;
+  --s6: 1.5rem;   --s8: 2rem;     --s12: 3rem;    --s16: 4rem;
+  --s24: 6rem;    --s32: 8rem;
+
+  --gutter: clamp(1.25rem, 5vw, 4.5rem);
+  --shell: 82rem;
+
+  /* ---- motion ---- */
+  --fast: 180ms;
+  --base: 320ms;
+  --slow: 640ms;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ============================================================================
+   RESET
+   ========================================================================= */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+* { margin: 0; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: var(--leading-prose);
+  color: var(--ink);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+img, picture, svg, canvas { display: block; max-width: 100%; }
+img { height: auto; }
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  line-height: var(--leading-tight);
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+p { text-wrap: pretty; }
+
+a { color: var(--gold); text-underline-offset: 0.22em; }
+
+/* Visible focus for keyboard users on every interactive element. */
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection { background: var(--gold-leaf); color: var(--deep); }
+
+/* ============================================================================
+   UTILITIES
+   ========================================================================= */
+
+.shell {
+  width: 100%;
+  max-width: var(--shell);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.prose { max-width: var(--measure); }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip-link {
+  position: absolute;
+  top: var(--s4);
+  left: var(--s4);
+  z-index: 200;
+  padding: var(--s3) var(--s6);
+  background: var(--ink);
+  color: var(--cream);
+  text-decoration: none;
+  border-radius: 3px;
+  transform: translateY(-160%);
+  transition: transform var(--fast) var(--ease);
+}
+.skip-link:focus { transform: translateY(0); }
+
+.overline {
+  font-size: var(--step--1);
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.rule {
+  width: 3.5rem;
+  height: 1px;
+  border: 0;
+  background: var(--gold-leaf);
+  margin: var(--s6) 0;
+}
+
+/* ============================================================================
+   NAV
+   ========================================================================= */
+
+.nav {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s6);
+  padding: var(--s6) var(--gutter);
+  transition: background var(--base) var(--ease),
+              padding var(--base) var(--ease),
+              box-shadow var(--base) var(--ease);
+}
+
+.nav[data-scrolled='true'] {
+  padding-block: var(--s3);
+  background: rgba(253, 248, 243, 0.86);
+  backdrop-filter: blur(16px) saturate(1.4);
+  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  box-shadow: 0 1px 0 var(--rule);
+}
+
+.nav__logo {
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav__links {
+  display: flex;
+  gap: clamp(1rem, 2.4vw, 2.5rem);
+  list-style: none;
+  padding: 0;
+}
+
+.nav__links a {
+  position: relative;
+  font-size: var(--step--1);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  padding-block: var(--s1);
+}
+
+.nav__links a::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 100%; height: 1px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--base) var(--ease);
+}
+.nav__links a:hover::after,
+.nav__links a:focus-visible::after { transform: scaleX(1); transform-origin: left; }
+
+.nav__toggle {
+  display: none;
+  width: 2.75rem; height: 2.75rem;
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0;
+}
+.nav__toggle span {
+  display: block;
+  width: 1.15rem; height: 1px;
+  margin: 0.28rem auto;
+  background: var(--ink);
+  transition: transform var(--base) var(--ease), opacity var(--fast) var(--ease);
+}
+.nav__toggle[aria-expanded='true'] span:nth-child(1) { transform: translateY(0.34rem) rotate(45deg); }
+.nav__toggle[aria-expanded='true'] span:nth-child(2) { opacity: 0; }
+.nav__toggle[aria-expanded='true'] span:nth-child(3) { transform: translateY(-0.34rem) rotate(-45deg); }
+
+/* ============================================================================
+   HERO — WebGL cloth, with a real image underneath as the fallback
+   ========================================================================= */
+
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* place-self: stretch is load-bearing. The hero is a grid with
+   place-items: center, and grid alignment applies to absolutely positioned
+   children too — without this the stage shrink-to-fits to ~1px wide instead
+   of filling the hero. */
+.hero__stage {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  place-self: stretch;
+}
+
+/* The still that shows before WebGL takes over, and permanently if it can't. */
+.hero__still {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: opacity var(--slow) var(--ease);
+}
+.hero__stage[data-gl='ready'] .hero__still { opacity: 0; }
+
+.hero__canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  opacity: 0;
+  transition: opacity var(--slow) var(--ease);
+}
+.hero__stage[data-gl='ready'] .hero__canvas { opacity: 1; }
+
+/* Keeps the display type legible over any photograph. */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  place-self: stretch; /* same grid-alignment caveat as .hero__stage */
+  background:
+    linear-gradient(180deg, rgba(26,18,13,0.5) 0%, rgba(26,18,13,0.18) 38%, rgba(26,18,13,0.72) 100%);
+}
+
+.hero__content {
+  position: relative;
+  /* width:100% is required, not cosmetic. As a grid item under
+     place-items:center this would otherwise shrink-to-fit its max-content
+     width and overflow narrow screens, and the buttons below would never
+     reach their flex-wrap point. */
+  width: 100%;
+  max-width: 46rem;
+  text-align: center;
+  color: var(--ink-invert);
+  padding: var(--s24) var(--gutter) var(--s16);
+}
+
+.hero__overline {
+  font-size: var(--step--1);
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+  color: var(--gold-invert);
+}
+
+.hero__title {
+  font-size: var(--step-5);
+  margin-block: var(--s6) var(--s4);
+  letter-spacing: 0.02em;
+}
+
+.hero__tagline {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--step-2);
+  color: var(--ink-invert);
+  max-width: 22ch;
+  margin-inline: auto;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s4);
+  justify-content: center;
+  margin-top: var(--s12);
+}
+
+.hero__scroll {
+  position: absolute;
+  left: 50%; bottom: var(--s8);
+  transform: translateX(-50%);
+  display: grid;
+  justify-items: center;
+  gap: var(--s3);
+  font-size: var(--step--1);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--ink-invert-soft);
+}
+.hero__scroll::after {
+  content: '';
+  width: 1px; height: 3rem;
+  background: linear-gradient(var(--gold-invert), transparent);
+}
+
+/* ============================================================================
+   BUTTONS
+   ========================================================================= */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s3);
+  padding: var(--s4) var(--s8);
+  font-size: var(--step--1);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background var(--base) var(--ease), color var(--base) var(--ease);
+}
+
+.btn svg { width: 1em; height: 1em; flex: none; }
+
+.btn--primary {
+  background: var(--gold-invert);
+  border-color: var(--gold-invert);
+  color: var(--deep);
+}
+.btn--primary:hover { background: transparent; color: var(--gold-invert); }
+
+.btn--ghost { background: transparent; color: var(--ink-invert); }
+.btn--ghost:hover { background: var(--ink-invert); color: var(--deep); }
+
+.btn--ink {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--cream);
+}
+.btn--ink:hover { background: transparent; color: var(--ink); }
+
+/* ============================================================================
+   SECTIONS
+   ========================================================================= */
+
+.section { padding-block: clamp(4rem, 12vw, 9rem); }
+.section--sand { background: var(--sand); }
+.section--ivory { background: var(--ivory); }
+
+.section--deep {
+  background: var(--deep);
+  color: var(--ink-invert);
+}
+.section--deep .overline { color: var(--gold-invert); }
+.section--deep p { color: var(--ink-invert-soft); }
+.section--deep a { color: var(--gold-invert); }
+
+.section__head { margin-bottom: var(--s16); }
+.section__title { font-size: var(--step-4); margin-top: var(--s4); }
+.section__lede {
+  font-size: var(--step-1);
+  color: var(--ink-soft);
+  max-width: 46ch;
+  margin-top: var(--s6);
+}
+.section--deep .section__lede { color: var(--ink-invert-soft); }
+
+.split {
+  display: grid;
+  gap: clamp(2.5rem, 7vw, 6rem);
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 62rem) {
+  .split { grid-template-columns: 1fr 1fr; }
+  .split--wide-left { grid-template-columns: 1.15fr 1fr; }
+}
+
+.split p + p { margin-top: var(--s6); }
+
+/* ---- framed imagery ---- */
+
+.frame { position: relative; }
+
+.frame img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.frame--wide img { aspect-ratio: 3 / 2; }
+
+/* Offset gold outline — the one ornamental flourish, kept restrained. */
+.frame::after {
+  content: '';
+  position: absolute;
+  inset: var(--s4) calc(var(--s4) * -1) calc(var(--s4) * -1) var(--s4);
+  border: 1px solid var(--gold-leaf);
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.frame__tag {
+  position: absolute;
+  bottom: var(--s4); left: 0;
+  transform: translateX(-12%);
+  padding: var(--s3) var(--s6);
+  background: var(--cream);
+  border: 1px solid var(--rule);
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+/* ---- stats ---- */
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  gap: var(--s8);
+  margin-top: var(--s16);
+  padding-top: var(--s8);
+  border-top: 1px solid var(--rule);
+}
+.stats dt {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  color: var(--ink);
+  line-height: 1;
+}
+.section--deep .stats dt { color: var(--gold-invert); }
+.stats dd {
+  margin: var(--s3) 0 0;
+  font-size: var(--step--1);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.section--deep .stats dd { color: var(--ink-invert-soft); }
+
+/* ============================================================================
+   THE WEAVE — WebGL gallery, degrades to a plain scroller
+   ========================================================================= */
+
+.weave { position: relative; }
+
+.weave__canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--slow) var(--ease);
+}
+.weave[data-gl='ready'] .weave__canvas { opacity: 1; }
+
+.weave__track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(74vw, 24rem);
+  gap: var(--s6);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-inline: var(--gutter);
+  padding-block: var(--s4);
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold-leaf) transparent;
+  overscroll-behavior-x: contain;
+}
+
+/* When WebGL drives the visuals the DOM track becomes the accessible layer
+   only: still focusable and readable, but visually replaced by the canvas. */
+.weave[data-gl='ready'] .weave__track { opacity: 0; pointer-events: none; }
+
+.weave__item { scroll-snap-align: center; }
+
+.weave__item figure { margin: 0; }
+
+.weave__item img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 2px;
+  background: var(--sand);
+}
+
+.weave__item figcaption {
+  margin-top: var(--s4);
+  font-size: var(--step--1);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.weave__hint {
+  margin-top: var(--s8);
+  font-size: var(--step--1);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+/* ============================================================================
+   INSTAGRAM
+   ========================================================================= */
+
+.feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  gap: var(--s4);
+}
+
+.feed__item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 2px;
+  background: var(--sand);
+  text-decoration: none;
+  aspect-ratio: 1;
+}
+
+.feed__item img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform var(--slow) var(--ease);
+}
+.feed__item:hover img,
+.feed__item:focus-visible img { transform: scale(1.05); }
+
+.feed__meta {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: var(--s8) var(--s4) var(--s4);
+  background: linear-gradient(transparent, rgba(26, 18, 13, 0.88));
+  color: var(--ink-invert);
+  font-size: var(--step--1);
+  opacity: 0;
+  transition: opacity var(--base) var(--ease);
+}
+.feed__item:hover .feed__meta,
+.feed__item:focus-visible .feed__meta { opacity: 1; }
+
+.feed__caption {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.feed__status {
+  grid-column: 1 / -1;
+  padding: var(--s8);
+  text-align: center;
+  color: var(--ink-soft);
+  border: 1px dashed var(--rule);
+  border-radius: 2px;
+}
+
+/* ============================================================================
+   VISIT
+   ========================================================================= */
+
+.visit__map {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+
+.address { font-style: normal; line-height: 1.9; }
+
+.hours { list-style: none; padding: 0; margin: var(--s6) 0 0; }
+.hours li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s4);
+  padding-block: var(--s3);
+  border-bottom: 1px solid var(--rule-soft);
+}
+.hours [data-closed] { color: var(--gold); }
+
+.hours li[data-today] {
+  font-weight: 600;
+  color: var(--ink);
+}
+.section--deep .hours li[data-today] { color: var(--ink-invert); }
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s2);
+  margin-top: var(--s6);
+  padding: var(--s2) var(--s4);
+  border: 1px solid currentColor;
+  border-radius: 100px;
+  font-size: var(--step--1);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.status-pill::before {
+  content: '';
+  width: 0.5rem; height: 0.5rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* ============================================================================
+   WHATSAPP — the shop's actual sales channel, so it gets a persistent CTA
+   ========================================================================= */
+
+.whatsapp {
+  position: fixed;
+  right: clamp(1rem, 3vw, 2rem);
+  bottom: clamp(1rem, 3vw, 2rem);
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s3);
+  padding: var(--s4) var(--s6);
+  background: var(--deep);
+  color: var(--ink-invert);
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: var(--step--1);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  box-shadow: 0 6px 28px rgba(26, 18, 13, 0.26);
+  transition: transform var(--base) var(--ease), background var(--base) var(--ease);
+}
+.whatsapp:hover { transform: translateY(-3px); background: var(--gold); color: var(--deep); }
+.whatsapp svg { width: 1.15rem; height: 1.15rem; flex: none; }
+
+@media (max-width: 32rem) {
+  .whatsapp__label { display: none; }
+  .whatsapp { padding: var(--s4); }
+}
+
+/* ============================================================================
+   MARQUEE
+   ========================================================================= */
+
+.marquee {
+  padding-block: var(--s8);
+  border-block: 1px solid var(--rule);
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.marquee__track {
+  display: inline-flex;
+  gap: var(--s8);
+  align-items: center;
+  padding-left: var(--s8);
+  animation: marquee 48s linear infinite;
+  will-change: transform;
+}
+
+.marquee span {
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  color: var(--ink-soft);
+}
+.marquee span[aria-hidden] { color: var(--gold-leaf); }
+
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* ============================================================================
+   FOOTER
+   ========================================================================= */
+
+.footer {
+  padding-block: var(--s16) var(--s8);
+  background: var(--deep);
+  color: var(--ink-invert-soft);
+  text-align: center;
+}
+.footer__logo {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--ink-invert);
+}
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s6);
+  list-style: none;
+  padding: 0;
+  margin-block: var(--s12);
+}
+.footer__nav a {
+  font-size: var(--step--1);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-invert-soft);
+  text-decoration: none;
+}
+.footer__nav a:hover { color: var(--gold-invert); }
+.footer__legal {
+  padding-top: var(--s8);
+  border-top: 1px solid rgba(196, 154, 108, 0.18);
+  font-size: var(--step--1);
+}
+
+/* ============================================================================
+   SCROLL CHOREOGRAPHY
+   Entrances are opacity + a small translate, applied by IntersectionObserver.
+   ========================================================================= */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(1.5rem);
+  transition: opacity var(--slow) var(--ease), transform var(--slow) var(--ease);
+}
+[data-reveal].is-visible { opacity: 1; transform: none; }
+
+[data-reveal-delay='1'] { transition-delay: 90ms; }
+[data-reveal-delay='2'] { transition-delay: 180ms; }
+[data-reveal-delay='3'] { transition-delay: 270ms; }
+
+/* ============================================================================
+   RESPONSIVE
+   ========================================================================= */
+
+@media (max-width: 56rem) {
+  .nav__links {
+    position: fixed;
+    inset: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--s8);
+    background: var(--cream);
+    transform: translateY(-100%);
+    transition: transform var(--base) var(--ease);
+  }
+  .nav__links[data-open='true'] { transform: none; }
+  .nav__links a { font-size: var(--step-1); }
+  .nav__toggle { display: block; z-index: 1; }
+}
+
+/* ============================================================================
+   REDUCED MOTION
+   Every transform, transition and animation is disabled — including the
+   marquee and the WebGL scenes, which main.js also drops to a single frame.
+   ========================================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Reveals must not leave content invisible when their transition is killed. */
+  [data-reveal] { opacity: 1; transform: none; }
+
+  .marquee__track { animation: none; }
+  .feed__item:hover img { transform: none; }
+  .whatsapp:hover { transform: none; }
+}
+
+/* Honour forced-colors / high-contrast mode. */
+@media (forced-colors: active) {
+  .hero::after { display: none; }
+  .btn { border: 1px solid ButtonText; }
+}
+
+@media print {
+  .nav, .whatsapp, .hero__scroll, .weave__canvas, .hero__canvas { display: none; }
+  body { background: #fff; color: #000; }
+}

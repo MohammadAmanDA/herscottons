@@ -1,0 +1,5 @@
+{
+  "_comment": "Placeholder. The daily GitHub Action overwrites this with real posts once INSTAGRAM_ACCESS_TOKEN is configured — see docs/INSTAGRAM_SETUP.md. While posts is empty the page shows curated shop photos instead.",
+  "fetchedAt": null,
+  "posts": []
+}

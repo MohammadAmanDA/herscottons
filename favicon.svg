@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#1A120D"/>
+  <!-- A warp-and-weft lattice: the shop is a cotton house. -->
+  <g stroke="#E0AC72" stroke-width="2.4" stroke-linecap="round" opacity="0.95">
+    <path d="M18 14v36M32 14v36M46 14v36"/>
+  </g>
+  <g stroke="#C49A6C" stroke-width="2.4" stroke-linecap="round" opacity="0.75">
+    <path d="M14 22h36M14 32h36M14 42h36"/>
+  </g>
+</svg>
