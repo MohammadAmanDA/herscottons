@@ -17,6 +17,7 @@ import heicConvert from 'heic-convert';
 const SRC = 'photos';
 const OUT = 'assets/img';
 const WIDTHS = [480, 960, 1600];
+const BASE_WIDTHS = [480, 960]; // always emitted for every image
 const CROP_WIDTHS = [480, 960];
 const QUALITY = { webp: 78, jpg: 82 };
 
@@ -155,9 +156,11 @@ async function main() {
       height: swapped ? raw.width : raw.height,
     };
 
-    const widths = WIDTHS.filter((w) => w <= meta.width).concat(
-      WIDTHS.every((w) => w > meta.width) ? [meta.width] : []
-    );
+    // Contract: EVERY image gets -480 and -960, capped by withoutEnlargement
+    // so a narrow source is never upscaled. 1600 is only emitted when the
+    // source can actually fill it. Skipping a size instead of capping it is
+    // what left the HTML pointing at files that did not exist.
+    const widths = [...BASE_WIDTHS, ...(meta.width >= 1600 ? [1600] : [])];
 
     // Track the largest WebP separately: a browser downloads exactly one
     // variant, so total-across-variants is not a meaningful saving.

@@ -317,11 +317,21 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
   padding: var(--s24) var(--gutter) var(--s16);
 }
 
+/* Sits on top of a photograph, so it needs more than colour to stay legible:
+   heavier weight, tighter tracking, and a shadow that lifts it off any
+   background the hero image happens to have behind it. */
 .hero__overline {
-  font-size: var(--step--1);
-  letter-spacing: 0.36em;
+  font-size: var(--step-0);
+  font-weight: 600;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--gold-invert);
+  color: #F6D9B6;
+  text-shadow: 0 1px 3px rgba(20, 12, 8, 0.9), 0 2px 18px rgba(20, 12, 8, 0.75);
+}
+
+.hero__title,
+.hero__tagline {
+  text-shadow: 0 2px 24px rgba(20, 12, 8, 0.55);
 }
 
 .hero__title {
@@ -454,6 +464,13 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
 }
 
 .frame--wide img { aspect-ratio: 3 / 2; }
+
+/* Portraits keep the source's own 2:3 shape. Forcing 4:5 with object-fit:cover
+   crops the top of the frame and cuts off the top of the subject's head. */
+.frame--portrait img {
+  aspect-ratio: 2 / 3;
+  object-position: center top;
+}
 
 /* Offset gold outline — the one ornamental flourish, kept restrained. */
 .frame::after {
