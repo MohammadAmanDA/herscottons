@@ -1,15 +1,21 @@
-name: Update Instagram feed
+name: Update Instagram feed and deploy
 
-# Pulls the latest posts every morning and commits them.
+# Does two things:
+#   - every morning, pulls the latest posts and commits them
+#   - after any change to main, publishes the site to Cloudflare Pages
 #
-# On the default Behold source this needs NO secrets — a feed ID is public and
-# lives in instagram.config.json. On the direct Meta source it needs
-# INSTAGRAM_ACCESS_TOKEN, and SECRETS_PAT so the 60-day token can renew itself.
+# Both live in one workflow on purpose. A push made with the default
+# GITHUB_TOKEN does NOT trigger other workflows — GitHub blocks that to prevent
+# loops — so a separate deploy workflow would never fire after the nightly
+# commit. Deploying in the same run is the only arrangement that actually
+# publishes the new photos.
 
 on:
   schedule:
     - cron: '30 2 * * *' # 08:00 IST
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
@@ -32,8 +38,11 @@ jobs:
       - name: Install image tooling
         run: npm install --no-audit --no-fund sharp
 
+      # On a push the feed is already whatever it should be; only the scheduled
+      # and manual runs go and fetch.
       - name: Fetch latest posts
         id: instagram
+        if: github.event_name != 'push'
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
         run: node scripts/fetch-instagram.mjs
@@ -47,13 +56,13 @@ jobs:
           NEW_TOKEN: ${{ steps.instagram.outputs.new_token }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
-            echo "::warning title=Token will expire::SECRETS_PAT is not set, so the refreshed Instagram token cannot be saved. The feed will stop updating within 60 days. See docs/INSTAGRAM_SETUP.md."
+            echo "::warning title=Token will expire::SECRETS_PAT is not set, so the refreshed Instagram token cannot be saved. See docs/INSTAGRAM_SETUP.md."
             exit 0
           fi
           echo "$NEW_TOKEN" | gh secret set INSTAGRAM_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY"
-          echo "Refreshed token saved to repository secrets."
 
       - name: Commit updated feed
+        if: github.event_name != 'push'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -61,10 +70,30 @@ jobs:
           if git diff --staged --quiet; then
             echo "No change to the feed."
           else
-            # Do NOT add [skip ci] here. Cloudflare Pages honours that marker
-            # and would skip the deploy, so the feed would update in the repo
-            # but never reach the live site. Nothing in this repo triggers on
-            # push, so there is no CI loop to guard against anyway.
+            # No [skip ci] here — Cloudflare honours that marker and would skip
+            # the deploy, leaving the live site showing stale photos.
             git commit -m "chore: refresh Instagram feed"
             git push
           fi
+
+      # Publishes whatever is in the working tree, including a feed committed
+      # moments ago by the step above.
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # An account ID is an identifier, not a credential, so it lives here
+          # rather than in secrets. Set explicitly so the deploy cannot pick the
+          # wrong account if the token ever gains access to more than one.
+          CLOUDFLARE_ACCOUNT_ID: 52b991b019c81112de72d92bf968b60b
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::error title=Cannot deploy::CLOUDFLARE_API_TOKEN is not set. Add it under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          npx --yes wrangler@4 pages deploy . \
+            --project-name=herscottons \
+            --branch=main \
+            --commit-dirty=true
+        # The account this project belongs to. An account ID is an identifier,
+        # not a credential, so it does not need to be a secret.
+        # Account: 52b991b019c81112de72d92bf968b60b
