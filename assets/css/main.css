@@ -608,6 +608,28 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
 
 .weave { position: relative; }
 
+/* Without WebGL these are inert wrappers and the track below is simply a
+   horizontal scroller. Pinning is applied ONLY when the canvas is driving,
+   so nobody gets a tall empty section or scroll-jacking they cannot use. */
+.weave__scroller { position: relative; }
+.weave__pin { position: relative; }
+
+/* --weave-count is set by main.js from the number of fabrics. Each one needs
+   roughly a third of a screen of scrolling to pass through comfortably, plus
+   one full screen for the pin itself. */
+.weave[data-gl='ready'] .weave__scroller {
+  height: calc(100vh + (var(--weave-count, 9) - 1) * 32vh);
+}
+
+.weave[data-gl='ready'] .weave__pin {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+}
+
 .weave__canvas {
   position: absolute;
   inset: 0;

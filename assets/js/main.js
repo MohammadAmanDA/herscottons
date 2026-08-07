@@ -267,6 +267,9 @@ async function initWeave() {
       return;
     }
 
+    // Tell the CSS how many fabrics there are so the scroller is tall enough
+    // for all of them. Too short and the section scrolls away mid-strip.
+    weave.style.setProperty('--weave-count', String(items.length));
     weave.dataset.gl = 'ready';
 
     // The track stays in the accessibility tree (opacity alone does not remove
@@ -277,17 +280,19 @@ async function initWeave() {
     bindVisibility(scene, weave);
     scene.play();
 
-    // The canvas is driven by the section's own progress through the viewport,
-    // so the strip advances as the page scrolls.
+    // Progress is measured across the PINNED scroller, not the whole section.
+    // While the pin is stuck, scroller.top runs from 0 down to -(scrollable),
+    // which maps cleanly onto 0..1 and gives every fabric its turn on screen.
+    const scroller = select('.weave__scroller', weave);
     let ticking = false;
     const update = () => {
       if (ticking) return;
       ticking = true;
       requestAnimationFrame(() => {
-        const rect = weave.getBoundingClientRect();
-        const total = rect.height + window.innerHeight;
-        const progress = (window.innerHeight - rect.top) / total;
-        scene.setProgress(progress);
+        const rect = scroller.getBoundingClientRect();
+        const scrollable = rect.height - window.innerHeight;
+        const progress = scrollable > 0 ? -rect.top / scrollable : 0;
+        scene.setProgress(Math.min(1, Math.max(0, progress)));
         ticking = false;
       });
     };

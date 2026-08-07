@@ -187,9 +187,15 @@
         Every piece chosen by hand, and stitched to your measurements after.</p>
     </div>
 
-    <canvas class="weave__canvas" aria-hidden="true"></canvas>
+    <!-- The scroller is tall; the pin inside it sticks for one viewport. That
+         vertical distance is what the horizontal strip travels through. Both
+         only take effect once WebGL is driving, so everyone else gets a plain
+         swipeable row with no pinning. -->
+    <div class="weave__scroller">
+      <div class="weave__pin">
+        <canvas class="weave__canvas" aria-hidden="true"></canvas>
 
-    <ul class="weave__track" role="list" tabindex="0" data-stagger="1"
+        <ul class="weave__track" role="list" tabindex="0" data-stagger="1"
         aria-label="Fabrics currently in the shop. Scroll horizontally to browse.">
       <li class="weave__item" data-tilt>
         <figure>
@@ -281,9 +287,11 @@
           <figcaption>Tie-dye, charcoal and crimson</figcaption>
         </figure>
       </li>
-    </ul>
+        </ul>
+      </div>
+    </div>
 
-    <p class="weave__hint shell">Scroll to move through the cloth</p>
+    <p class="weave__hint shell">Keep scrolling to move through the cloth</p>
   </section>
 
   <!-- ======================================================================

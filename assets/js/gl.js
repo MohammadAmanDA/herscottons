@@ -369,6 +369,10 @@ void main() {
   fragColor = vec4(color, 1.0);
 }`;
 
+/** Spacing between plane centres, in clip units. Shared by the renderer and
+    setProgress — they must agree or the strip stops at the wrong place. */
+const GAP = 0.62;
+
 export async function weaveGallery(canvas, items) {
   const gl = canvas.getContext('webgl2', {
     antialias: true,
@@ -446,7 +450,7 @@ export async function weaveGallery(canvas, items) {
     const aspect = canvas.width / canvas.height;
     const planeW = 0.52;
     const planeH = Math.min(1.7, (planeW * aspect) / 0.8); // keep 4:5 portrait
-    const gap = 0.62;
+    const gap = GAP;
 
     gl.uniform2f(u.u_resolution, canvas.width, canvas.height);
     gl.uniform1f(u.u_planeW, planeW);
@@ -467,10 +471,17 @@ export async function weaveGallery(canvas, items) {
   }
 
   const api = {
-    /** Progress through the strip, 0..1. */
+    /**
+     * Progress through the strip, 0..1.
+     *
+     * Maps straight onto 0..span so p=0 centres the FIRST plane and p=1
+     * centres the last. Offsetting by -span/2 (as this once did) pushes the
+     * whole strip half its length off-screen at both ends, leaving only the
+     * middle few fabrics ever visible.
+     */
     setProgress(p) {
-      const span = (items.length - 1) * 0.62;
-      state.target = Math.min(1, Math.max(0, p)) * span - span / 2 + 0;
+      const span = (items.length - 1) * GAP;
+      state.target = Math.min(1, Math.max(0, p)) * span;
     },
     play() {
       if (state.running || state.destroyed) return;
