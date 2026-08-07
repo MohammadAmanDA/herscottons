@@ -1,0 +1,5 @@
+{
+  "_comment": "Which source the daily job pulls posts from. A Behold feed ID is a public identifier, not a secret, so it lives here in the repo rather than in GitHub Secrets. Set provider to 'meta' to use the Instagram API directly instead, which needs INSTAGRAM_ACCESS_TOKEN.",
+  "provider": "behold",
+  "beholdFeedId": ""
+}
