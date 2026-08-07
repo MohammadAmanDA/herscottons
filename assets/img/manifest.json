@@ -11,6 +11,18 @@
     "crop": null,
     "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADQBQCdASoUAB4APu1iqE2ppaOiMAgBMB2JQBhQBD+VFbwFWXeJyPQjWfbeOGbDiBU/KwdRY8PAAPjRkKltfrbBZliGaeVqRE0uCrCvOPvUAY4wxmNXMuqUSsDxIv/d5K1Y7coDF+o0wTWnD83WQG1YxzimpjJo3D0y7X8FO5lGd1b1smnXZ8h5kp1277CdgWVmZ00TFkvEM5GGKpidjMASHJ0uHFYK1haMbxrkxGoAAA=="
   },
+  "owner2": {
+    "widths": [
+      480,
+      960
+    ],
+    "width": 677,
+    "height": 846,
+    "aspect": 0.8002,
+    "orientation": "portrait",
+    "crop": null,
+    "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAACwBQCdASoUABkAPu1uq1EppiOiqAqpMB2JQBOmWqggAsAy0fzzHixzJsLW+/R7FNazb4bU4yAA+NJtlUwTUtOT/vuVFyuE4PosuDVQsphikseg1kXvP8Ky5cBgvtLU5DKA9liaWsNuXYj+8ABC1uF+luDbM3NIuMnONEclExkke2A2XY/Q9OAIhGJfXb6xdPe0W3TK7Kcys4YqehYJYyaTREbnUvqAI+3NSUwSJkHvrYKtnbhOdsez6sUg4aSc0z4g2ZSi4AA="
+  },
   "photo1": {
     "widths": [
       480,
