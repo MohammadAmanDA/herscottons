@@ -8,7 +8,7 @@
   "scripts": {
     "images": "node scripts/optimize-images.mjs",
     "contact-sheet": "node scripts/contact-sheet.mjs",
-    "instagram": "node scripts/fetch-instagram.mjs",
+    "instagram": "node --env-file-if-exists=.env scripts/fetch-instagram.mjs",
     "serve": "node scripts/serve.mjs"
   },
   "devDependencies": {
