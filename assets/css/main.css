@@ -59,6 +59,36 @@
   --base: 320ms;
   --slow: 640ms;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Real spring curves, sampled from a damped harmonic oscillator and written
+     as linear() so CSS can overshoot and settle without a JS animation loop.
+     cubic-bezier cannot express overshoot; this is what replaces the usual
+     reason for pulling in an animation library.
+
+     --spring       gentle overshoot, for lifts and reveals
+     --spring-snap  tighter and faster, for buttons and nav
+     --spring-bounce pronounced, for press-release */
+  --spring: linear(
+    0, 0.009 1.3%, 0.035 2.7%, 0.139 5.6%, 0.605 15.3%, 0.784 19.9%,
+    0.908 24.4%, 0.982 28.6%, 1.029 33.4%, 1.045 37.6%, 1.041 42.4%,
+    1.021 50.7%, 0.996 61.3%, 0.99 70.5%, 0.997 88.4%, 1
+  );
+  --spring-snap: linear(
+    0, 0.026 2.3%, 0.104 4.8%, 0.437 12%, 0.741 19.3%, 0.888 24.4%,
+    0.984 29.9%, 1.037 36.4%, 1.05 42.4%, 1.035 51.4%, 0.997 65.5%,
+    0.994 74.6%, 1.001 89.5%, 1
+  );
+  --spring-bounce: linear(
+    0, 0.014 1.7%, 0.062 3.6%, 0.253 8.2%, 0.79 19.1%, 0.966 23.9%,
+    1.079 28.9%, 1.124 33.1%, 1.121 38%, 1.077 44.5%, 1.008 55.4%,
+    0.98 64.4%, 0.987 75.6%, 1.003 89.1%, 1
+  );
+
+  /* Tilt */
+  --tilt-max: 9deg;
+  --tilt-scale: 1.05;
+  --tilt-lift: 10px;
+  --tilt-perspective: 900px;
 }
 
 /* ============================================================================
@@ -217,6 +247,11 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
   padding-block: var(--s1);
 }
 
+.nav__links a {
+  transition: color var(--base) var(--ease), transform 520ms var(--spring-snap);
+}
+.nav__links a:hover { transform: translateY(-2px); }
+
 .nav__links a::after {
   content: '';
   position: absolute;
@@ -225,10 +260,17 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
   background: var(--gold);
   transform: scaleX(0);
   transform-origin: right;
-  transition: transform var(--base) var(--ease);
+  /* Springs slightly past full width, then settles — a small thing that reads
+     as liveliness rather than a mechanical wipe. */
+  transition: transform 620ms var(--spring-snap);
 }
 .nav__links a:hover::after,
 .nav__links a:focus-visible::after { transform: scaleX(1); transform-origin: left; }
+
+.nav__logo {
+  transition: transform 520ms var(--spring-snap);
+}
+.nav__logo:hover { transform: scale(1.03); }
 
 .nav__toggle {
   display: none;
@@ -380,6 +422,10 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
    ========================================================================= */
 
 .btn {
+  --mx: 0px;
+  --my: 0px;
+
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: var(--s3);
@@ -391,8 +437,42 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
   border: 1px solid currentColor;
   border-radius: 2px;
   cursor: pointer;
-  transition: background var(--base) var(--ease), color var(--base) var(--ease);
+  overflow: hidden;
+  isolation: isolate;
+
+  /* --mx/--my come from the magnetic handler; the spring gives the release
+     its bounce rather than a dead linear stop. */
+  transform: translate3d(var(--mx), var(--my), 0) scale(var(--press, 1));
+  transition:
+    transform 600ms var(--spring-snap),
+    background var(--base) var(--ease),
+    color var(--base) var(--ease),
+    box-shadow var(--base) var(--ease);
 }
+
+.btn:hover {
+  --press: 1.04;
+  box-shadow: 0 8px 22px rgba(26, 18, 13, 0.18);
+}
+
+/* Press compresses; releasing springs past 1 and settles. */
+.btn:active {
+  --press: 0.96;
+  transition: transform 140ms var(--ease);
+}
+
+/* A wash that sweeps across on hover, behind the label. */
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: currentColor;
+  opacity: 0;
+  transform: translateX(-101%);
+  transition: transform 620ms var(--spring), opacity 200ms var(--ease);
+}
+.btn:hover::before { transform: translateX(0); opacity: 0.1; }
 
 .btn svg { width: 1em; height: 1em; flex: none; }
 
@@ -556,7 +636,11 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
    only: still focusable and readable, but visually replaced by the canvas. */
 .weave[data-gl='ready'] .weave__track { opacity: 0; pointer-events: none; }
 
-.weave__item { scroll-snap-align: center; }
+.weave__item {
+  position: relative;
+  scroll-snap-align: center;
+  border-radius: 2px;
+}
 
 .weave__item figure { margin: 0; }
 
@@ -711,9 +795,13 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   box-shadow: 0 6px 28px rgba(26, 18, 13, 0.26);
-  transition: transform var(--base) var(--ease), background var(--base) var(--ease);
+  --mx: 0px;
+  --my: 0px;
+  transform: translate3d(var(--mx), var(--my), 0) scale(var(--press, 1));
+  transition: transform 600ms var(--spring-bounce), background var(--base) var(--ease);
 }
-.whatsapp:hover { transform: translateY(-3px); background: var(--gold); color: var(--deep); }
+.whatsapp:hover { --press: 1.06; background: var(--gold); color: var(--deep); }
+.whatsapp:active { --press: 0.95; transition: transform 140ms var(--ease); }
 .whatsapp svg { width: 1.15rem; height: 1.15rem; flex: none; }
 
 @media (max-width: 32rem) {
@@ -796,16 +884,106 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
    Entrances are opacity + a small translate, applied by IntersectionObserver.
    ========================================================================= */
 
+/* Fade-in-up. --i is the stagger index, set by motion.js on the children of a
+   [data-stagger] container, so grids arrive one item after another. */
 [data-reveal] {
   opacity: 0;
-  transform: translateY(1.5rem);
-  transition: opacity var(--slow) var(--ease), transform var(--slow) var(--ease);
+  transform: translate3d(0, 2rem, 0);
+  transition:
+    opacity 700ms var(--ease),
+    transform 900ms var(--spring);
+  transition-delay: calc(var(--i, 0) * 65ms);
 }
-[data-reveal].is-visible { opacity: 1; transform: none; }
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
 
-[data-reveal-delay='1'] { transition-delay: 90ms; }
-[data-reveal-delay='2'] { transition-delay: 180ms; }
-[data-reveal-delay='3'] { transition-delay: 270ms; }
+[data-reveal-delay='1'] { --i: 1.4; }
+[data-reveal-delay='2'] { --i: 2.8; }
+[data-reveal-delay='3'] { --i: 4.2; }
+
+/* ============================================================================
+   3D TILT
+   The transform is composed here; motion.js only writes --rx/--ry/--sx/--sy.
+   ========================================================================= */
+
+/* --rx/--ry arrive from motion.js already in degrees, e.g. "-4.5deg".
+   Deliberately a plain var() substitution rather than
+   calc(var(--px) * var(--tilt-max)): multiplying two unregistered custom
+   properties inside calc() relies on type resolution that is a grey area
+   across engines, and when it fails the rotation silently evaluates to zero
+   rather than erroring. Passing a finished dimension sidesteps that. */
+[data-tilt] {
+  --rx: 0deg;
+  --ry: 0deg;
+  --sx: 50%;
+  --sy: 50%;
+  --lift: 0px;
+  --scale: 1;
+
+  transform:
+    perspective(var(--tilt-perspective))
+    translate3d(0, var(--lift), 0)
+    rotateX(var(--rx))
+    rotateY(var(--ry))
+    scale(var(--scale));
+  transform-style: preserve-3d;
+  /* The spring is what makes releasing a card feel physical rather than dead. */
+  transition:
+    transform 700ms var(--spring),
+    box-shadow 500ms var(--ease);
+  will-change: transform;
+}
+
+/* While tracking the cursor the transition must be near-instant, or the card
+   lags behind the pointer. The spring is only for settling back. */
+[data-tilt][data-tilting='true'] {
+  --lift: calc(var(--tilt-lift) * -1);
+  --scale: var(--tilt-scale);
+  transition: transform 110ms linear, box-shadow 500ms var(--ease);
+  box-shadow:
+    0 2px 6px rgba(26, 18, 13, 0.06),
+    0 12px 24px rgba(26, 18, 13, 0.12),
+    0 28px 60px rgba(26, 18, 13, 0.16);
+  z-index: 2;
+}
+
+/* Keyboard focus gets the lift and shadow, but no cursor-driven rotation. */
+[data-tilt][data-tilting='focus'] {
+  --lift: calc(var(--tilt-lift) * -1);
+  --scale: var(--tilt-scale);
+  box-shadow:
+    0 12px 24px rgba(26, 18, 13, 0.12),
+    0 28px 60px rgba(26, 18, 13, 0.16);
+}
+
+/* Moving sheen — a soft highlight that tracks the cursor across the surface.
+   Pure decoration, so it is hidden from assistive tech by being a pseudo. */
+[data-tilt]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 400ms var(--ease);
+  background: radial-gradient(
+    36rem circle at var(--sx) var(--sy),
+    rgba(255, 255, 255, 0.22),
+    rgba(255, 255, 255, 0.06) 28%,
+    transparent 58%
+  );
+  mix-blend-mode: soft-light;
+  z-index: 3;
+}
+[data-tilt][data-tilting='true']::before { opacity: 1; }
+
+/* Children can be pushed forward in Z for real parallax within the card. */
+[data-tilt] [data-tilt-layer] {
+  transform: translateZ(38px);
+  transition: transform 700ms var(--spring);
+}
 
 /* ============================================================================
    RESPONSIVE
@@ -845,11 +1023,26 @@ a { color: var(--gold); text-underline-offset: 0.22em; }
   }
 
   /* Reveals must not leave content invisible when their transition is killed. */
-  [data-reveal] { opacity: 1; transform: none; }
+  [data-reveal] { opacity: 1; transform: none; transition-delay: 0s; }
 
   .marquee__track { animation: none; }
   .feed__item:hover img { transform: none; }
   .whatsapp:hover { transform: none; }
+
+  /* Kill tilt, magnetism and press entirely — motion.js also declines to bind
+     the handlers, so these are belt and braces. */
+  [data-tilt],
+  [data-tilt][data-tilting='true'],
+  [data-tilt][data-tilting='focus'] {
+    transform: none;
+    box-shadow: none;
+  }
+  [data-tilt]::before { display: none; }
+  [data-tilt] [data-tilt-layer] { transform: none; }
+
+  .btn, .btn:hover, .btn:active { transform: none; }
+  .btn::before { display: none; }
+  .nav__links a:hover, .nav__logo:hover { transform: none; }
 }
 
 /* Honour forced-colors / high-contrast mode. */

@@ -120,8 +120,8 @@
       <p class="hero__tagline">Forty-five years of dressing Aligarh in its own tradition.</p>
 
       <div class="hero__actions">
-        <a class="btn btn--primary" href="#weave">See the cloth</a>
-        <a class="btn btn--ghost" href="#visit">Visit the shop</a>
+        <a class="btn btn--primary" data-magnetic href="#weave">See the cloth</a>
+        <a class="btn btn--ghost" data-magnetic href="#visit">Visit the shop</a>
       </div>
     </div>
 
@@ -147,7 +147,7 @@
             something rooted in your own culture.</p>
         </div>
 
-        <dl class="stats">
+        <dl class="stats" data-stagger="1">
           <div>
             <dt>1980</dt>
             <dd>Established</dd>
@@ -163,13 +163,13 @@
         </dl>
       </div>
 
-      <div class="frame frame--wide" data-reveal data-reveal-delay="2">
+      <div class="frame frame--wide" data-tilt data-reveal data-reveal-delay="2">
         <img src="assets/img/storepic-960.webp"
              srcset="assets/img/storepic-480.webp 480w, assets/img/storepic-960.webp 960w"
              sizes="(max-width: 62rem) 100vw, 40rem"
              width="1183" height="912" loading="lazy" decoding="async"
              alt="The Hers Cottons shopfront, its sign reading Hers Cottons Est. 1980, with garments on rails inside">
-        <p class="frame__tag">Est. 1980</p>
+        <p class="frame__tag" data-tilt-layer>Est. 1980</p>
       </div>
     </div>
   </section>
@@ -189,9 +189,9 @@
 
     <canvas class="weave__canvas" aria-hidden="true"></canvas>
 
-    <ul class="weave__track" role="list" tabindex="0"
+    <ul class="weave__track" role="list" tabindex="0" data-stagger="1"
         aria-label="Fabrics currently in the shop. Scroll horizontally to browse.">
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo1-960.webp"
                srcset="assets/img/photo1-480.webp 480w, assets/img/photo1-960.webp 960w"
@@ -201,7 +201,7 @@
           <figcaption>White cotton, cutwork and embroidery</figcaption>
         </figure>
       </li>
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo13-crop-960.webp"
                srcset="assets/img/photo13-crop-480.webp 480w, assets/img/photo13-crop-960.webp 960w"
@@ -211,7 +211,7 @@
           <figcaption>Tie-dye, green and maroon</figcaption>
         </figure>
       </li>
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo5-crop-960.webp"
                srcset="assets/img/photo5-crop-480.webp 480w, assets/img/photo5-crop-960.webp 960w"
@@ -221,7 +221,7 @@
           <figcaption>Plain handloom, gold borders</figcaption>
         </figure>
       </li>
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo14-crop-960.webp"
                srcset="assets/img/photo14-crop-480.webp 480w, assets/img/photo14-crop-960.webp 960w"
@@ -231,7 +231,7 @@
           <figcaption>Wax-resist print, four colourways</figcaption>
         </figure>
       </li>
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo18-960.webp"
                srcset="assets/img/photo18-480.webp 480w, assets/img/photo18-960.webp 960w"
@@ -241,7 +241,7 @@
           <figcaption>Navy and gold motif</figcaption>
         </figure>
       </li>
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo17-crop-960.webp"
                srcset="assets/img/photo17-crop-480.webp 480w, assets/img/photo17-crop-960.webp 960w"
@@ -251,7 +251,7 @@
           <figcaption>Floral prints, mixed</figcaption>
         </figure>
       </li>
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo10-crop-960.webp"
                srcset="assets/img/photo10-crop-480.webp 480w, assets/img/photo10-crop-960.webp 960w"
@@ -261,7 +261,7 @@
           <figcaption>Indigo, medallion print</figcaption>
         </figure>
       </li>
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo9-crop-960.webp"
                srcset="assets/img/photo9-crop-480.webp 480w, assets/img/photo9-crop-960.webp 960w"
@@ -271,7 +271,7 @@
           <figcaption>Bronze, ornamental border</figcaption>
         </figure>
       </li>
-      <li class="weave__item">
+      <li class="weave__item" data-tilt>
         <figure>
           <img src="assets/img/photo12-crop-960.webp"
                srcset="assets/img/photo12-crop-480.webp 480w, assets/img/photo12-crop-960.webp 960w"
@@ -291,7 +291,7 @@
        =================================================================== -->
   <section class="section section--deep" id="story">
     <div class="shell split">
-      <div class="frame frame--portrait" data-reveal>
+      <div class="frame frame--portrait" data-tilt data-reveal>
         <img src="assets/img/owner-960.webp"
              srcset="assets/img/owner-480.webp 480w, assets/img/owner-960.webp 960w"
              sizes="(max-width: 62rem) 100vw, 32rem"
@@ -362,37 +362,37 @@
           <a href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">@herscottons</a>.</p>
       </div>
 
-      <div class="feed" data-feed data-reveal>
+      <div class="feed" data-feed data-stagger="1">
         <p class="feed__status" data-feed-status>Loading the latest posts&hellip;</p>
 
-        <a class="feed__item" href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
+        <a class="feed__item" data-tilt href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
           <img src="assets/img/photo16-480.webp" width="1721" height="1753" loading="lazy" decoding="async"
                alt="Mustard and green printed cotton with a fine embroidered panel">
         </a>
-        <a class="feed__item" href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
+        <a class="feed__item" data-tilt href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
           <img src="assets/img/photo11-480.webp" width="1247" height="1537" loading="lazy" decoding="async"
                alt="Marigold-yellow checked cotton with a green printed border piece">
         </a>
-        <a class="feed__item" href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
+        <a class="feed__item" data-tilt href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
           <img src="assets/img/photo3-crop-480.webp" width="980" height="1226" loading="lazy" decoding="async"
                alt="Sea-green and white cotton with a fine floral print and woven border">
         </a>
-        <a class="feed__item" href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
+        <a class="feed__item" data-tilt href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
           <img src="assets/img/photo4-crop-480.webp" width="1056" height="1322" loading="lazy" decoding="async"
                alt="Rose-pink and ivory cotton printed with small floral sprigs">
         </a>
-        <a class="feed__item" href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
+        <a class="feed__item" data-tilt href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
           <img src="assets/img/photo6-crop-480.webp" width="928" height="1157" loading="lazy" decoding="async"
                alt="Black and cream cotton in a dense paisley print with a coral border">
         </a>
-        <a class="feed__item" href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
+        <a class="feed__item" data-tilt href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
           <img src="assets/img/photo8-crop-480.webp" width="897" height="1122" loading="lazy" decoding="async"
                alt="Sand and cream cotton with a delicate sprigged print and blue border">
         </a>
       </div>
 
       <p style="margin-top: var(--s12); text-align: center;">
-        <a class="btn btn--ink" href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
+        <a class="btn btn--ink" data-magnetic href="https://www.instagram.com/herscottons/" target="_blank" rel="noopener">
           Follow @herscottons
         </a>
       </p>
@@ -480,7 +480,7 @@
   </div>
 </footer>
 
-<a class="whatsapp" href="https://wa.me/919267012751" target="_blank" rel="noopener">
+<a class="whatsapp" data-magnetic href="https://wa.me/919267012751" target="_blank" rel="noopener">
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
     <path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/>
     <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23z"/>

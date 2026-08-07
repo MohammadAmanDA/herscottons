@@ -6,6 +6,7 @@
    ========================================================================= */
 
 import { clothHero, weaveGallery, shouldEnhance, prefersReducedMotion } from './gl.js';
+import { initReveals, revealNew, initTilt, initMagnetic } from './motion.js';
 
 const select = (sel, root = document) => root.querySelector(sel);
 const selectAll = (sel, root = document) => [...root.querySelectorAll(sel)];
@@ -56,34 +57,6 @@ function initNav() {
       toggle.focus();
     }
   });
-}
-
-/* ---------------------------------------------------------------------------
-   Reveal on scroll
-   ------------------------------------------------------------------------ */
-
-function initReveals() {
-  const targets = selectAll('[data-reveal]');
-  if (!targets.length) return;
-
-  // With reduced motion the CSS already shows everything; skip the observer.
-  if (prefersReducedMotion()) {
-    targets.forEach((el) => el.classList.add('is-visible'));
-    return;
-  }
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      for (const entry of entries) {
-        if (!entry.isIntersecting) continue;
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    },
-    { threshold: 0.15, rootMargin: '0px 0px -8% 0px' }
-  );
-
-  targets.forEach((el) => observer.observe(el));
 }
 
 /* ---------------------------------------------------------------------------
@@ -191,6 +164,10 @@ async function initFeed() {
     posts.forEach((post) => fragment.append(feedItemMarkup(post)));
 
     grid.replaceChildren(fragment);
+
+    // These tiles did not exist when the motion layer bound its handlers.
+    revealNew(grid);
+    initTilt('.feed__item');
   } catch (err) {
     // The fallback shop photos are already in the HTML — leave them in place
     // and simply drop the "loading" note.
@@ -329,6 +306,8 @@ async function initWeave() {
 function boot() {
   initNav();
   initReveals();
+  initTilt();
+  initMagnetic();
   initOpeningStatus();
   initFeed();
   initHero();
