@@ -1,5 +1,137 @@
 {
-  "_comment": "Placeholder. The daily GitHub Action overwrites this with real posts once INSTAGRAM_ACCESS_TOKEN is configured — see docs/INSTAGRAM_SETUP.md. While posts is empty the page shows curated shop photos instead.",
-  "fetchedAt": null,
-  "posts": []
+  "fetchedAt": "2026-08-07T11:22:00.251Z",
+  "posts": [
+    {
+      "id": "18024608786893031",
+      "permalink": "https://www.instagram.com/p/DbuqImcOJjo/",
+      "type": "IMAGE",
+      "timestamp": "2026-08-07T06:36:10+0000",
+      "caption": "Celebrate handloom day with Hers Cotton",
+      "alt": "Celebrate handloom day with Hers Cotton",
+      "width": 1000,
+      "height": 625,
+      "aspect": 1.6,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18024608786893031-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18024608786893031-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQBACdASoUAAwAPu1kqU2ppaQiMAgBMB2JaACxGwABYoZT75H3CXwsAAD+3ufAYp/d4B3g1dqgMz56JAHQ/fzdkuw1AaQQF/kblu2K4JCHhma55EB188zwvoDyewWp5BhuAAAA"
+    },
+    {
+      "id": "17957218860185016",
+      "permalink": "https://www.instagram.com/p/DbqPsogGg8T/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-05T13:27:36+0000",
+      "caption": "Sahiba top - primium cotton vintage embroidery with digital print and embroidery daman and sleeve with cotton lace bottom - heavy cotton dyed with emb. Plazzo dupatta - cotton…",
+      "alt": "Sahiba top - primium cotton vintage embroidery with digital print and embroidery daman and sleeve with cotton lace bottom - heavy cotton dyed with emb",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17957218860185016-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17957218860185016-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBACdASoUABsAPuleo02pJSMiMAwBIB0JQAAL1q7buFE37W3RKPBj1dyXLDVAAAD+8dK5m8maVu7ZYE+ovO2NnxE6tA7TwzTA9h/9SzargE/k1agm93/ecIF7vRTkpmqiyr4NmqVOPPd9ch+XkYl9xm5gViWM3KoIpE/013O6GJE1pGl1EsiaF6WFAuZiUQa2WyWJB0kgjoDAAAA="
+    },
+    {
+      "id": "18136171378610054",
+      "permalink": "https://www.instagram.com/p/DbqORqLGlpy/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-05T13:15:11+0000",
+      "caption": "Top - pure cotton digital print with hand work and heavy embroidery in daman and neck bottom - heavy cotton with digital printed plazzo and threadal work dupatta - pure cotton…",
+      "alt": "Top - pure cotton digital print with hand work and heavy embroidery in daman and neck bottom - heavy cotton with digital printed plazzo and threadal work…",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18136171378610054-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18136171378610054-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAADQBQCdASoUABsAPu1srVCppaQiqAqpMB2JQBOmcj9AaROd6bWJm7EIYI1n7rwyjN8zycPoqhTAAP7t5qdJmC1ctZys6SJxKktusXfEYxHQBWNPa2G6tX3febUzBunZXFHFavQJm1KDrz/HwTkqAkoq+ZVO8v3mTgwya6vB8ctYfcaLaF8xvdAcAWdLffwVsgY/sLpMUZ9iRHFCH/tlW6lY9/HAc2aOVYyqJ3KYfZPzZreQF17dpBleKDk6kJTg/p8JkxCKN/MVgKFPYDN5SSQnBR0e3kQReMAAAA=="
+    },
+    {
+      "id": "18126428128661852",
+      "permalink": "https://www.instagram.com/p/Dbnw6W1mvNn/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-04T14:20:07+0000",
+      "caption": "Batik print garhwal silk suits",
+      "alt": "Batik print garhwal silk suits",
+      "width": 905,
+      "height": 1000,
+      "aspect": 0.905,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18126428128661852-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18126428128661852-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACQBQCdASoUABYAPu1gqE6ppSOiMBgMATAdiUAWnQIH+Aj9zx4v8P9mOtweCHhtH0NK665IAAD+zr0aYiyYAGnfAmrL80Xb3LSJsvgP/DboVuAewGAx+D5t/DMNbWkV/qdukAHCoSv2mTppF87AgSxzEutTfqrk224QS8WLJD3RTWg5gAA="
+    },
+    {
+      "id": "18161338657470234",
+      "permalink": "https://www.instagram.com/p/DblDfQnmsG4/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-03T13:04:43+0000",
+      "caption": "Shirt Digital printed muslin with sequence & knot handwork. Dupatta Digital printed soft silk with organza embroidery lace. Pallazo Dyed rayon",
+      "alt": "Shirt Digital printed muslin with sequence & knot handwork",
+      "width": 1000,
+      "height": 730,
+      "aspect": 1.3699,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18161338657470234-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18161338657470234-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JYgCdMoA9gArBKCsml2qjPk6AAP7WeHKMUoPSHW+mZpPKVUQo5qlc0W2E3mDIEKSFR8ExcmozWNcJbjMiXAvk7onkznW0KBOELgaGqMBTPCeVc0LWr3fn5gSigcVHTOzoXoteCCW2Iyd5+dTkEkhricjEr6FLoFfD+14PHCsmaAAA"
+    },
+    {
+      "id": "17936187084342320",
+      "permalink": "https://www.instagram.com/p/DbklEItGhFX/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-03T08:38:52+0000",
+      "caption": "Top - pure cotton digital print with embroideri work and crochet lace daman and sleeve · bottom · cotton solid colour · dupatta · pure banarasi mul chanderi digital print",
+      "alt": "Top - pure cotton digital print with embroideri work and crochet lace daman and sleeve · bottom · cotton solid colour · dupatta · pure banarasi mul chanderi…",
+      "width": 750,
+      "height": 999,
+      "aspect": 0.7508,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17936187084342320-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17936187084342320-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAwBQCdASoUABsAPu1sqlEppaOiqAqpMB2JQBfNK5AwkT+g4yn9YZUqKO9Nm0rA3zlAAAD9pye0uw35BXxzB1Y6QIXn7RqP5DtM61LNG5/lVzR6ICCUJNFUqEtlLWnV3x6jT1wP/qkLlETB1iCiZMDwAUSxxUwU1t/tAAjz9TGRyPLlP9a31NuWtqls2+wrh1YUbJHHOjU0l1KNJhVemjc6D0fOyfxAAAA="
+    }
+  ]
 }

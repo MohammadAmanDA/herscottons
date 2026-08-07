@@ -48,22 +48,52 @@ async function loadConfig() {
    Sources — each returns a normalised array of posts
    ------------------------------------------------------------------------ */
 
-/** Strip hashtags and mentions, collapse whitespace. */
+/**
+ * Instagram captions here are written as shop listings: SHOUTED IN CAPS, padded
+ * with tildes, and tailed by a colour disclaimer and a phone number. That reads
+ * fine in the app and badly on a restrained page, so normalise it.
+ */
 function cleanCaption(raw) {
   if (!raw) return '';
-  return raw
+
+  let text = raw
     .replace(/#[\p{L}\p{N}_]+/gu, '')
     .replace(/@[\p{L}\p{N}_.]+/gu, '')
+    // Boilerplate the shop appends to most posts — not caption content.
+    .replace(/disclaimer\s*:.*$/is, '')
+    .replace(/to book[, ].*?(call|whatsapp).*$/is, '')
+    // Tilde and dash separators used as bullets.
+    .replace(/\s*[~]+\s*/g, ' · ')
     .replace(/\s+/g, ' ')
     .trim();
+
+  // If it is mostly uppercase, recase it. Preserve genuine acronyms of 2-3
+  // letters so things like "XL" survive.
+  const letters = text.replace(/[^\p{L}]/gu, '');
+  const upper = text.replace(/[^\p{Lu}]/gu, '');
+  if (letters.length > 20 && upper.length / letters.length > 0.7) {
+    text = text
+      .toLowerCase()
+      .replace(/(^\s*\p{L})|([.!?]\s+\p{L})/gu, (m) => m.toUpperCase());
+  }
+
+  return text.replace(/\s*[·\-,;:]\s*$/, '').trim();
+}
+
+/** Cut to a length without slicing a word in half. */
+function truncate(text, max) {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  const lastSpace = cut.lastIndexOf(' ');
+  return (lastSpace > max * 0.6 ? cut.slice(0, lastSpace) : cut).replace(/[·,;:\-\s]+$/, '') + '…';
 }
 
 function altFrom(post, caption, index) {
   // Instagram's own alt text is the best source when the shop has set it.
-  if (post.altText) return String(post.altText).slice(0, 160);
+  if (post.altText) return truncate(String(post.altText), 160);
   if (!caption) return `Recent Hers Cottons Instagram post ${index + 1}`;
   const firstSentence = caption.split(/[.!?\n]/)[0].trim();
-  return (firstSentence.length > 8 ? firstSentence : caption).slice(0, 160);
+  return truncate(firstSentence.length > 8 ? firstSentence : caption, 160);
 }
 
 async function fromBehold(feedId) {
@@ -79,7 +109,7 @@ async function fromBehold(feedId) {
     .filter((p) => RENDERABLE.has(p.mediaType))
     .slice(0, POST_COUNT)
     .map((p, i) => {
-      const caption = cleanCaption(p.prunedCaption ?? p.caption);
+      const caption = cleanCaption(p.caption ?? p.prunedCaption);
       // sizes.large is 1000px max, ample for a 480/960 render.
       const source = p.sizes?.large?.mediaUrl ?? p.sizes?.full?.mediaUrl ?? p.thumbnailUrl ?? p.mediaUrl;
       return {
@@ -87,7 +117,7 @@ async function fromBehold(feedId) {
         permalink: p.permalink,
         type: p.mediaType,
         timestamp: p.timestamp,
-        caption: caption.slice(0, 200),
+        caption: truncate(caption, 180),
         alt: altFrom(p, caption, i),
         source,
       };
@@ -142,7 +172,7 @@ async function fromMeta(token) {
         permalink: p.permalink,
         type: p.media_type,
         timestamp: p.timestamp,
-        caption: caption.slice(0, 200),
+        caption: truncate(caption, 180),
         alt: altFrom(p, caption, i),
         source: p.media_type === 'VIDEO' ? p.thumbnail_url : p.media_url,
       };
