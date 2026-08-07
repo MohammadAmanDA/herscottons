@@ -61,6 +61,10 @@ jobs:
           if git diff --staged --quiet; then
             echo "No change to the feed."
           else
-            git commit -m "chore: refresh Instagram feed [skip ci]"
+            # Do NOT add [skip ci] here. Cloudflare Pages honours that marker
+            # and would skip the deploy, so the feed would update in the repo
+            # but never reach the live site. Nothing in this repo triggers on
+            # push, so there is no CI loop to guard against anyway.
+            git commit -m "chore: refresh Instagram feed"
             git push
           fi
