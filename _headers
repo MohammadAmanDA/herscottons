@@ -12,7 +12,12 @@
 /assets/img/*
   Cache-Control: public, max-age=31536000, immutable
 
-/assets/instagram/*
+# Scoped to *.webp, NOT the whole directory. Cloudflare applies EVERY matching
+# rule and concatenates the results rather than letting the most specific win,
+# so a bare /assets/instagram/* would also catch feed.json below and emit
+# "max-age=31536000, immutable, max-age=0, must-revalidate". Browsers take the
+# first directive, so the feed would pin for a year and never update.
+/assets/instagram/*.webp
   Cache-Control: public, max-age=31536000, immutable
 
 # feed.json is rewritten in place by the daily job, so it must revalidate.
