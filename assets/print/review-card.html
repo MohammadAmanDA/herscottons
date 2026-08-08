@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hers Cottons — review cards to print</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap">
+<style>
+  /* Physical sizing: 8 cards per A4 sheet, 90x55mm — standard business card,
+     so they fit a card holder and any local printer can cut them. */
+  @page { size: A4; margin: 8mm; }
+
+  :root {
+    --cream: #FDF8F3;
+    --ink:   #2E211A;
+    --soft:  #6B5344;
+    --gold:  #855D2D;
+    --leaf:  #C49A6C;
+  }
+
+  * { box-sizing: border-box; margin: 0; }
+
+  body {
+    font-family: ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+    background: #e8e2da;
+    padding: 8mm;
+  }
+
+  .sheet {
+    display: grid;
+    grid-template-columns: repeat(2, 90mm);
+    grid-auto-rows: 55mm;
+    gap: 4mm;
+    justify-content: center;
+  }
+
+  .card {
+    background: var(--cream);
+    border: 0.3mm dashed var(--leaf); /* cut guide */
+    padding: 3mm;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 3.5mm;
+    align-items: center;
+    text-align: left;
+  }
+
+  .qr {
+    grid-row: 1 / 4;
+    width: 34mm;
+    height: 34mm;
+  }
+  .qr svg { width: 100%; height: 100%; display: block; }
+
+  .brand {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 400;
+    font-size: 5.2mm;
+    letter-spacing: 0.7mm;
+    text-transform: uppercase;
+    color: var(--ink);
+    align-self: end;
+  }
+
+  .stars { display: none; }
+
+  .ask {
+    font-size: 3.1mm;
+    line-height: 1.35;
+    color: var(--soft);
+  }
+  .ask--hi { font-size: 3.4mm; color: var(--ink); margin-top: 0.6mm; }
+
+  .url {
+    font-size: 2.7mm;
+    letter-spacing: 0.15mm;
+    color: var(--gold);
+    align-self: start;
+    margin-top: 1mm;
+  }
+
+  /* Screen-only helper so the file is understandable when opened normally. */
+  .note {
+    max-width: 180mm;
+    margin: 0 auto 6mm;
+    padding: 4mm 5mm;
+    background: #fff;
+    border-left: 1mm solid var(--gold);
+    font-size: 3.6mm;
+    line-height: 1.5;
+    color: var(--ink);
+  }
+  .note strong { color: var(--gold); }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .note { display: none; }
+    .card { border-color: #d8cdbd; }
+  }
+</style>
+</head>
+<body>
+
+<div class="note">
+  <p><strong>To print:</strong> press Ctrl&nbsp;+&nbsp;P, choose A4, and set Margins
+  to <strong>Default</strong> and Scale to <strong>100%</strong> — not "Fit to page",
+  which shrinks the QR. Tick "Background graphics" so the cream colour prints.
+  Cut along the dashed lines. Eight cards per sheet.</p>
+  <p style="margin-top:2mm">Every card points at
+  <strong>herscottons.pages.dev/r</strong>, which forwards to your Google review page. If that
+  Google link ever changes, the cards keep working.</p>
+</div>
+
+<div class="sheet">
+      <article class="card">
+        <p class="brand">Hers Cottons</p>
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#FDF8F3" d="M0 0h37v37H0z"/><path stroke="#1A120D" d="M0 0.5h7m1 0h1m1 0h1m4 0h1m2 0h2m1 0h2m1 0h1m2 0h1m2 0h7M0 1.5h1m5 0h1m1 0h2m4 0h2m2 0h1m3 0h2m1 0h4m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m6 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h5m2 0h2m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h9m1 0h2m1 0h2m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 7.5h1m1 0h1m2 0h2m3 0h3m1 0h3M3 8.5h1m2 0h1m2 0h1m4 0h1m1 0h4m2 0h2m2 0h2m3 0h3m1 0h2M1 9.5h1m6 0h1m1 0h3m5 0h1m3 0h1m4 0h1m1 0h1m2 0h5M2 10.5h2m1 0h2m5 0h2m3 0h1m3 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h2M0 11.5h2m2 0h2m1 0h3m1 0h2m2 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m7 0h1M1 12.5h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h1m1 0h2m5 0h1m3 0h2m5 0h1M0 13.5h6m1 0h3m1 0h8m1 0h1m1 0h2m6 0h1m2 0h1m2 0h1M3 14.5h5m1 0h4m1 0h1m1 0h1m3 0h2m1 0h3m4 0h3m1 0h1m1 0h1M0 15.5h1m2 0h2m2 0h1m4 0h2m1 0h4m2 0h2m2 0h5m1 0h1m3 0h2M3 16.5h2m1 0h4m1 0h1m2 0h6m1 0h3m2 0h1m2 0h2m2 0h2m1 0h1M1 17.5h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h3m1 0h2m2 0h1M0 18.5h1m2 0h2m1 0h3m1 0h1m3 0h2m1 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1m1 0h2M0 19.5h1m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h4m1 0h2M0 20.5h2m3 0h3m4 0h2m1 0h2m5 0h2m1 0h4m1 0h3m3 0h1M0 21.5h1m1 0h1m4 0h2m4 0h1m8 0h1m2 0h2m2 0h2m4 0h2M0 22.5h2m3 0h2m1 0h1m1 0h2m3 0h1m1 0h1m1 0h3m3 0h2m3 0h7M1 23.5h3m1 0h1m6 0h1m1 0h4m1 0h4m2 0h1m3 0h1m2 0h1m3 0h1M0 24.5h1m3 0h1m1 0h1m4 0h1m1 0h2m6 0h1m4 0h3m1 0h1m1 0h1m2 0h2M3 25.5h1m3 0h1m1 0h7m1 0h2m4 0h1m1 0h3m6 0h3M0 26.5h1m1 0h3m1 0h5m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m3 0h8m1 0h1M1 27.5h1m5 0h4m3 0h2m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m4 0h1M0 28.5h3m2 0h3m2 0h3m1 0h2m1 0h5m5 0h8m1 0h1M8 29.5h2m1 0h1m1 0h4m1 0h3m2 0h2m1 0h3m3 0h1m2 0h2M0 30.5h7m2 0h3m2 0h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m5 0h2m2 0h4m2 0h3m3 0h1m3 0h1m1 0h1M0 32.5h1m1 0h3m1 0h1m2 0h8m1 0h1m4 0h4m1 0h6m2 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m7 0h4m1 0h5m1 0h1m2 0h2m1 0h2M0 34.5h1m1 0h3m1 0h1m2 0h1m3 0h2m1 0h1m3 0h5m1 0h2m1 0h1m2 0h3m1 0h1M0 35.5h1m5 0h1m2 0h2m2 0h2m1 0h6m1 0h7m2 0h1M0 36.5h7m4 0h2m5 0h8m1 0h2m1 0h3m2 0h2"/></svg></div>
+        <p class="ask">Scan to rate us on Google</p>
+        <p class="ask ask--hi" lang="hi">गूगल पर रिव्यू दें</p>
+        <p class="url">herscottons.pages.dev/r</p>
+      </article>
+      <article class="card">
+        <p class="brand">Hers Cottons</p>
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#FDF8F3" d="M0 0h37v37H0z"/><path stroke="#1A120D" d="M0 0.5h7m1 0h1m1 0h1m4 0h1m2 0h2m1 0h2m1 0h1m2 0h1m2 0h7M0 1.5h1m5 0h1m1 0h2m4 0h2m2 0h1m3 0h2m1 0h4m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m6 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h5m2 0h2m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h9m1 0h2m1 0h2m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 7.5h1m1 0h1m2 0h2m3 0h3m1 0h3M3 8.5h1m2 0h1m2 0h1m4 0h1m1 0h4m2 0h2m2 0h2m3 0h3m1 0h2M1 9.5h1m6 0h1m1 0h3m5 0h1m3 0h1m4 0h1m1 0h1m2 0h5M2 10.5h2m1 0h2m5 0h2m3 0h1m3 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h2M0 11.5h2m2 0h2m1 0h3m1 0h2m2 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m7 0h1M1 12.5h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h1m1 0h2m5 0h1m3 0h2m5 0h1M0 13.5h6m1 0h3m1 0h8m1 0h1m1 0h2m6 0h1m2 0h1m2 0h1M3 14.5h5m1 0h4m1 0h1m1 0h1m3 0h2m1 0h3m4 0h3m1 0h1m1 0h1M0 15.5h1m2 0h2m2 0h1m4 0h2m1 0h4m2 0h2m2 0h5m1 0h1m3 0h2M3 16.5h2m1 0h4m1 0h1m2 0h6m1 0h3m2 0h1m2 0h2m2 0h2m1 0h1M1 17.5h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h3m1 0h2m2 0h1M0 18.5h1m2 0h2m1 0h3m1 0h1m3 0h2m1 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1m1 0h2M0 19.5h1m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h4m1 0h2M0 20.5h2m3 0h3m4 0h2m1 0h2m5 0h2m1 0h4m1 0h3m3 0h1M0 21.5h1m1 0h1m4 0h2m4 0h1m8 0h1m2 0h2m2 0h2m4 0h2M0 22.5h2m3 0h2m1 0h1m1 0h2m3 0h1m1 0h1m1 0h3m3 0h2m3 0h7M1 23.5h3m1 0h1m6 0h1m1 0h4m1 0h4m2 0h1m3 0h1m2 0h1m3 0h1M0 24.5h1m3 0h1m1 0h1m4 0h1m1 0h2m6 0h1m4 0h3m1 0h1m1 0h1m2 0h2M3 25.5h1m3 0h1m1 0h7m1 0h2m4 0h1m1 0h3m6 0h3M0 26.5h1m1 0h3m1 0h5m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m3 0h8m1 0h1M1 27.5h1m5 0h4m3 0h2m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m4 0h1M0 28.5h3m2 0h3m2 0h3m1 0h2m1 0h5m5 0h8m1 0h1M8 29.5h2m1 0h1m1 0h4m1 0h3m2 0h2m1 0h3m3 0h1m2 0h2M0 30.5h7m2 0h3m2 0h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m5 0h2m2 0h4m2 0h3m3 0h1m3 0h1m1 0h1M0 32.5h1m1 0h3m1 0h1m2 0h8m1 0h1m4 0h4m1 0h6m2 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m7 0h4m1 0h5m1 0h1m2 0h2m1 0h2M0 34.5h1m1 0h3m1 0h1m2 0h1m3 0h2m1 0h1m3 0h5m1 0h2m1 0h1m2 0h3m1 0h1M0 35.5h1m5 0h1m2 0h2m2 0h2m1 0h6m1 0h7m2 0h1M0 36.5h7m4 0h2m5 0h8m1 0h2m1 0h3m2 0h2"/></svg></div>
+        <p class="ask">Scan to rate us on Google</p>
+        <p class="ask ask--hi" lang="hi">गूगल पर रिव्यू दें</p>
+        <p class="url">herscottons.pages.dev/r</p>
+      </article>
+      <article class="card">
+        <p class="brand">Hers Cottons</p>
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#FDF8F3" d="M0 0h37v37H0z"/><path stroke="#1A120D" d="M0 0.5h7m1 0h1m1 0h1m4 0h1m2 0h2m1 0h2m1 0h1m2 0h1m2 0h7M0 1.5h1m5 0h1m1 0h2m4 0h2m2 0h1m3 0h2m1 0h4m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m6 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h5m2 0h2m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h9m1 0h2m1 0h2m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 7.5h1m1 0h1m2 0h2m3 0h3m1 0h3M3 8.5h1m2 0h1m2 0h1m4 0h1m1 0h4m2 0h2m2 0h2m3 0h3m1 0h2M1 9.5h1m6 0h1m1 0h3m5 0h1m3 0h1m4 0h1m1 0h1m2 0h5M2 10.5h2m1 0h2m5 0h2m3 0h1m3 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h2M0 11.5h2m2 0h2m1 0h3m1 0h2m2 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m7 0h1M1 12.5h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h1m1 0h2m5 0h1m3 0h2m5 0h1M0 13.5h6m1 0h3m1 0h8m1 0h1m1 0h2m6 0h1m2 0h1m2 0h1M3 14.5h5m1 0h4m1 0h1m1 0h1m3 0h2m1 0h3m4 0h3m1 0h1m1 0h1M0 15.5h1m2 0h2m2 0h1m4 0h2m1 0h4m2 0h2m2 0h5m1 0h1m3 0h2M3 16.5h2m1 0h4m1 0h1m2 0h6m1 0h3m2 0h1m2 0h2m2 0h2m1 0h1M1 17.5h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h3m1 0h2m2 0h1M0 18.5h1m2 0h2m1 0h3m1 0h1m3 0h2m1 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1m1 0h2M0 19.5h1m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h4m1 0h2M0 20.5h2m3 0h3m4 0h2m1 0h2m5 0h2m1 0h4m1 0h3m3 0h1M0 21.5h1m1 0h1m4 0h2m4 0h1m8 0h1m2 0h2m2 0h2m4 0h2M0 22.5h2m3 0h2m1 0h1m1 0h2m3 0h1m1 0h1m1 0h3m3 0h2m3 0h7M1 23.5h3m1 0h1m6 0h1m1 0h4m1 0h4m2 0h1m3 0h1m2 0h1m3 0h1M0 24.5h1m3 0h1m1 0h1m4 0h1m1 0h2m6 0h1m4 0h3m1 0h1m1 0h1m2 0h2M3 25.5h1m3 0h1m1 0h7m1 0h2m4 0h1m1 0h3m6 0h3M0 26.5h1m1 0h3m1 0h5m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m3 0h8m1 0h1M1 27.5h1m5 0h4m3 0h2m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m4 0h1M0 28.5h3m2 0h3m2 0h3m1 0h2m1 0h5m5 0h8m1 0h1M8 29.5h2m1 0h1m1 0h4m1 0h3m2 0h2m1 0h3m3 0h1m2 0h2M0 30.5h7m2 0h3m2 0h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m5 0h2m2 0h4m2 0h3m3 0h1m3 0h1m1 0h1M0 32.5h1m1 0h3m1 0h1m2 0h8m1 0h1m4 0h4m1 0h6m2 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m7 0h4m1 0h5m1 0h1m2 0h2m1 0h2M0 34.5h1m1 0h3m1 0h1m2 0h1m3 0h2m1 0h1m3 0h5m1 0h2m1 0h1m2 0h3m1 0h1M0 35.5h1m5 0h1m2 0h2m2 0h2m1 0h6m1 0h7m2 0h1M0 36.5h7m4 0h2m5 0h8m1 0h2m1 0h3m2 0h2"/></svg></div>
+        <p class="ask">Scan to rate us on Google</p>
+        <p class="ask ask--hi" lang="hi">गूगल पर रिव्यू दें</p>
+        <p class="url">herscottons.pages.dev/r</p>
+      </article>
+      <article class="card">
+        <p class="brand">Hers Cottons</p>
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#FDF8F3" d="M0 0h37v37H0z"/><path stroke="#1A120D" d="M0 0.5h7m1 0h1m1 0h1m4 0h1m2 0h2m1 0h2m1 0h1m2 0h1m2 0h7M0 1.5h1m5 0h1m1 0h2m4 0h2m2 0h1m3 0h2m1 0h4m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m6 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h5m2 0h2m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h9m1 0h2m1 0h2m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 7.5h1m1 0h1m2 0h2m3 0h3m1 0h3M3 8.5h1m2 0h1m2 0h1m4 0h1m1 0h4m2 0h2m2 0h2m3 0h3m1 0h2M1 9.5h1m6 0h1m1 0h3m5 0h1m3 0h1m4 0h1m1 0h1m2 0h5M2 10.5h2m1 0h2m5 0h2m3 0h1m3 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h2M0 11.5h2m2 0h2m1 0h3m1 0h2m2 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m7 0h1M1 12.5h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h1m1 0h2m5 0h1m3 0h2m5 0h1M0 13.5h6m1 0h3m1 0h8m1 0h1m1 0h2m6 0h1m2 0h1m2 0h1M3 14.5h5m1 0h4m1 0h1m1 0h1m3 0h2m1 0h3m4 0h3m1 0h1m1 0h1M0 15.5h1m2 0h2m2 0h1m4 0h2m1 0h4m2 0h2m2 0h5m1 0h1m3 0h2M3 16.5h2m1 0h4m1 0h1m2 0h6m1 0h3m2 0h1m2 0h2m2 0h2m1 0h1M1 17.5h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h3m1 0h2m2 0h1M0 18.5h1m2 0h2m1 0h3m1 0h1m3 0h2m1 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1m1 0h2M0 19.5h1m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h4m1 0h2M0 20.5h2m3 0h3m4 0h2m1 0h2m5 0h2m1 0h4m1 0h3m3 0h1M0 21.5h1m1 0h1m4 0h2m4 0h1m8 0h1m2 0h2m2 0h2m4 0h2M0 22.5h2m3 0h2m1 0h1m1 0h2m3 0h1m1 0h1m1 0h3m3 0h2m3 0h7M1 23.5h3m1 0h1m6 0h1m1 0h4m1 0h4m2 0h1m3 0h1m2 0h1m3 0h1M0 24.5h1m3 0h1m1 0h1m4 0h1m1 0h2m6 0h1m4 0h3m1 0h1m1 0h1m2 0h2M3 25.5h1m3 0h1m1 0h7m1 0h2m4 0h1m1 0h3m6 0h3M0 26.5h1m1 0h3m1 0h5m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m3 0h8m1 0h1M1 27.5h1m5 0h4m3 0h2m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m4 0h1M0 28.5h3m2 0h3m2 0h3m1 0h2m1 0h5m5 0h8m1 0h1M8 29.5h2m1 0h1m1 0h4m1 0h3m2 0h2m1 0h3m3 0h1m2 0h2M0 30.5h7m2 0h3m2 0h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m5 0h2m2 0h4m2 0h3m3 0h1m3 0h1m1 0h1M0 32.5h1m1 0h3m1 0h1m2 0h8m1 0h1m4 0h4m1 0h6m2 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m7 0h4m1 0h5m1 0h1m2 0h2m1 0h2M0 34.5h1m1 0h3m1 0h1m2 0h1m3 0h2m1 0h1m3 0h5m1 0h2m1 0h1m2 0h3m1 0h1M0 35.5h1m5 0h1m2 0h2m2 0h2m1 0h6m1 0h7m2 0h1M0 36.5h7m4 0h2m5 0h8m1 0h2m1 0h3m2 0h2"/></svg></div>
+        <p class="ask">Scan to rate us on Google</p>
+        <p class="ask ask--hi" lang="hi">गूगल पर रिव्यू दें</p>
+        <p class="url">herscottons.pages.dev/r</p>
+      </article>
+      <article class="card">
+        <p class="brand">Hers Cottons</p>
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#FDF8F3" d="M0 0h37v37H0z"/><path stroke="#1A120D" d="M0 0.5h7m1 0h1m1 0h1m4 0h1m2 0h2m1 0h2m1 0h1m2 0h1m2 0h7M0 1.5h1m5 0h1m1 0h2m4 0h2m2 0h1m3 0h2m1 0h4m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m6 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h5m2 0h2m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h9m1 0h2m1 0h2m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 7.5h1m1 0h1m2 0h2m3 0h3m1 0h3M3 8.5h1m2 0h1m2 0h1m4 0h1m1 0h4m2 0h2m2 0h2m3 0h3m1 0h2M1 9.5h1m6 0h1m1 0h3m5 0h1m3 0h1m4 0h1m1 0h1m2 0h5M2 10.5h2m1 0h2m5 0h2m3 0h1m3 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h2M0 11.5h2m2 0h2m1 0h3m1 0h2m2 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m7 0h1M1 12.5h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h1m1 0h2m5 0h1m3 0h2m5 0h1M0 13.5h6m1 0h3m1 0h8m1 0h1m1 0h2m6 0h1m2 0h1m2 0h1M3 14.5h5m1 0h4m1 0h1m1 0h1m3 0h2m1 0h3m4 0h3m1 0h1m1 0h1M0 15.5h1m2 0h2m2 0h1m4 0h2m1 0h4m2 0h2m2 0h5m1 0h1m3 0h2M3 16.5h2m1 0h4m1 0h1m2 0h6m1 0h3m2 0h1m2 0h2m2 0h2m1 0h1M1 17.5h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h3m1 0h2m2 0h1M0 18.5h1m2 0h2m1 0h3m1 0h1m3 0h2m1 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1m1 0h2M0 19.5h1m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h4m1 0h2M0 20.5h2m3 0h3m4 0h2m1 0h2m5 0h2m1 0h4m1 0h3m3 0h1M0 21.5h1m1 0h1m4 0h2m4 0h1m8 0h1m2 0h2m2 0h2m4 0h2M0 22.5h2m3 0h2m1 0h1m1 0h2m3 0h1m1 0h1m1 0h3m3 0h2m3 0h7M1 23.5h3m1 0h1m6 0h1m1 0h4m1 0h4m2 0h1m3 0h1m2 0h1m3 0h1M0 24.5h1m3 0h1m1 0h1m4 0h1m1 0h2m6 0h1m4 0h3m1 0h1m1 0h1m2 0h2M3 25.5h1m3 0h1m1 0h7m1 0h2m4 0h1m1 0h3m6 0h3M0 26.5h1m1 0h3m1 0h5m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m3 0h8m1 0h1M1 27.5h1m5 0h4m3 0h2m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m4 0h1M0 28.5h3m2 0h3m2 0h3m1 0h2m1 0h5m5 0h8m1 0h1M8 29.5h2m1 0h1m1 0h4m1 0h3m2 0h2m1 0h3m3 0h1m2 0h2M0 30.5h7m2 0h3m2 0h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m5 0h2m2 0h4m2 0h3m3 0h1m3 0h1m1 0h1M0 32.5h1m1 0h3m1 0h1m2 0h8m1 0h1m4 0h4m1 0h6m2 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m7 0h4m1 0h5m1 0h1m2 0h2m1 0h2M0 34.5h1m1 0h3m1 0h1m2 0h1m3 0h2m1 0h1m3 0h5m1 0h2m1 0h1m2 0h3m1 0h1M0 35.5h1m5 0h1m2 0h2m2 0h2m1 0h6m1 0h7m2 0h1M0 36.5h7m4 0h2m5 0h8m1 0h2m1 0h3m2 0h2"/></svg></div>
+        <p class="ask">Scan to rate us on Google</p>
+        <p class="ask ask--hi" lang="hi">गूगल पर रिव्यू दें</p>
+        <p class="url">herscottons.pages.dev/r</p>
+      </article>
+      <article class="card">
+        <p class="brand">Hers Cottons</p>
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#FDF8F3" d="M0 0h37v37H0z"/><path stroke="#1A120D" d="M0 0.5h7m1 0h1m1 0h1m4 0h1m2 0h2m1 0h2m1 0h1m2 0h1m2 0h7M0 1.5h1m5 0h1m1 0h2m4 0h2m2 0h1m3 0h2m1 0h4m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m6 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h5m2 0h2m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h9m1 0h2m1 0h2m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 7.5h1m1 0h1m2 0h2m3 0h3m1 0h3M3 8.5h1m2 0h1m2 0h1m4 0h1m1 0h4m2 0h2m2 0h2m3 0h3m1 0h2M1 9.5h1m6 0h1m1 0h3m5 0h1m3 0h1m4 0h1m1 0h1m2 0h5M2 10.5h2m1 0h2m5 0h2m3 0h1m3 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h2M0 11.5h2m2 0h2m1 0h3m1 0h2m2 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m7 0h1M1 12.5h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h1m1 0h2m5 0h1m3 0h2m5 0h1M0 13.5h6m1 0h3m1 0h8m1 0h1m1 0h2m6 0h1m2 0h1m2 0h1M3 14.5h5m1 0h4m1 0h1m1 0h1m3 0h2m1 0h3m4 0h3m1 0h1m1 0h1M0 15.5h1m2 0h2m2 0h1m4 0h2m1 0h4m2 0h2m2 0h5m1 0h1m3 0h2M3 16.5h2m1 0h4m1 0h1m2 0h6m1 0h3m2 0h1m2 0h2m2 0h2m1 0h1M1 17.5h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h3m1 0h2m2 0h1M0 18.5h1m2 0h2m1 0h3m1 0h1m3 0h2m1 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1m1 0h2M0 19.5h1m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h4m1 0h2M0 20.5h2m3 0h3m4 0h2m1 0h2m5 0h2m1 0h4m1 0h3m3 0h1M0 21.5h1m1 0h1m4 0h2m4 0h1m8 0h1m2 0h2m2 0h2m4 0h2M0 22.5h2m3 0h2m1 0h1m1 0h2m3 0h1m1 0h1m1 0h3m3 0h2m3 0h7M1 23.5h3m1 0h1m6 0h1m1 0h4m1 0h4m2 0h1m3 0h1m2 0h1m3 0h1M0 24.5h1m3 0h1m1 0h1m4 0h1m1 0h2m6 0h1m4 0h3m1 0h1m1 0h1m2 0h2M3 25.5h1m3 0h1m1 0h7m1 0h2m4 0h1m1 0h3m6 0h3M0 26.5h1m1 0h3m1 0h5m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m3 0h8m1 0h1M1 27.5h1m5 0h4m3 0h2m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m4 0h1M0 28.5h3m2 0h3m2 0h3m1 0h2m1 0h5m5 0h8m1 0h1M8 29.5h2m1 0h1m1 0h4m1 0h3m2 0h2m1 0h3m3 0h1m2 0h2M0 30.5h7m2 0h3m2 0h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m5 0h2m2 0h4m2 0h3m3 0h1m3 0h1m1 0h1M0 32.5h1m1 0h3m1 0h1m2 0h8m1 0h1m4 0h4m1 0h6m2 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m7 0h4m1 0h5m1 0h1m2 0h2m1 0h2M0 34.5h1m1 0h3m1 0h1m2 0h1m3 0h2m1 0h1m3 0h5m1 0h2m1 0h1m2 0h3m1 0h1M0 35.5h1m5 0h1m2 0h2m2 0h2m1 0h6m1 0h7m2 0h1M0 36.5h7m4 0h2m5 0h8m1 0h2m1 0h3m2 0h2"/></svg></div>
+        <p class="ask">Scan to rate us on Google</p>
+        <p class="ask ask--hi" lang="hi">गूगल पर रिव्यू दें</p>
+        <p class="url">herscottons.pages.dev/r</p>
+      </article>
+      <article class="card">
+        <p class="brand">Hers Cottons</p>
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#FDF8F3" d="M0 0h37v37H0z"/><path stroke="#1A120D" d="M0 0.5h7m1 0h1m1 0h1m4 0h1m2 0h2m1 0h2m1 0h1m2 0h1m2 0h7M0 1.5h1m5 0h1m1 0h2m4 0h2m2 0h1m3 0h2m1 0h4m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m6 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h5m2 0h2m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h9m1 0h2m1 0h2m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 7.5h1m1 0h1m2 0h2m3 0h3m1 0h3M3 8.5h1m2 0h1m2 0h1m4 0h1m1 0h4m2 0h2m2 0h2m3 0h3m1 0h2M1 9.5h1m6 0h1m1 0h3m5 0h1m3 0h1m4 0h1m1 0h1m2 0h5M2 10.5h2m1 0h2m5 0h2m3 0h1m3 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h2M0 11.5h2m2 0h2m1 0h3m1 0h2m2 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m7 0h1M1 12.5h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h1m1 0h2m5 0h1m3 0h2m5 0h1M0 13.5h6m1 0h3m1 0h8m1 0h1m1 0h2m6 0h1m2 0h1m2 0h1M3 14.5h5m1 0h4m1 0h1m1 0h1m3 0h2m1 0h3m4 0h3m1 0h1m1 0h1M0 15.5h1m2 0h2m2 0h1m4 0h2m1 0h4m2 0h2m2 0h5m1 0h1m3 0h2M3 16.5h2m1 0h4m1 0h1m2 0h6m1 0h3m2 0h1m2 0h2m2 0h2m1 0h1M1 17.5h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h3m1 0h2m2 0h1M0 18.5h1m2 0h2m1 0h3m1 0h1m3 0h2m1 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1m1 0h2M0 19.5h1m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h4m1 0h2M0 20.5h2m3 0h3m4 0h2m1 0h2m5 0h2m1 0h4m1 0h3m3 0h1M0 21.5h1m1 0h1m4 0h2m4 0h1m8 0h1m2 0h2m2 0h2m4 0h2M0 22.5h2m3 0h2m1 0h1m1 0h2m3 0h1m1 0h1m1 0h3m3 0h2m3 0h7M1 23.5h3m1 0h1m6 0h1m1 0h4m1 0h4m2 0h1m3 0h1m2 0h1m3 0h1M0 24.5h1m3 0h1m1 0h1m4 0h1m1 0h2m6 0h1m4 0h3m1 0h1m1 0h1m2 0h2M3 25.5h1m3 0h1m1 0h7m1 0h2m4 0h1m1 0h3m6 0h3M0 26.5h1m1 0h3m1 0h5m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m3 0h8m1 0h1M1 27.5h1m5 0h4m3 0h2m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m4 0h1M0 28.5h3m2 0h3m2 0h3m1 0h2m1 0h5m5 0h8m1 0h1M8 29.5h2m1 0h1m1 0h4m1 0h3m2 0h2m1 0h3m3 0h1m2 0h2M0 30.5h7m2 0h3m2 0h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m5 0h2m2 0h4m2 0h3m3 0h1m3 0h1m1 0h1M0 32.5h1m1 0h3m1 0h1m2 0h8m1 0h1m4 0h4m1 0h6m2 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m7 0h4m1 0h5m1 0h1m2 0h2m1 0h2M0 34.5h1m1 0h3m1 0h1m2 0h1m3 0h2m1 0h1m3 0h5m1 0h2m1 0h1m2 0h3m1 0h1M0 35.5h1m5 0h1m2 0h2m2 0h2m1 0h6m1 0h7m2 0h1M0 36.5h7m4 0h2m5 0h8m1 0h2m1 0h3m2 0h2"/></svg></div>
+        <p class="ask">Scan to rate us on Google</p>
+        <p class="ask ask--hi" lang="hi">गूगल पर रिव्यू दें</p>
+        <p class="url">herscottons.pages.dev/r</p>
+      </article>
+      <article class="card">
+        <p class="brand">Hers Cottons</p>
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" shape-rendering="crispEdges"><path fill="#FDF8F3" d="M0 0h37v37H0z"/><path stroke="#1A120D" d="M0 0.5h7m1 0h1m1 0h1m4 0h1m2 0h2m1 0h2m1 0h1m2 0h1m2 0h7M0 1.5h1m5 0h1m1 0h2m4 0h2m2 0h1m3 0h2m1 0h4m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h2m1 0h1m2 0h1m2 0h1m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m6 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h4m1 0h1m1 0h1m3 0h5m2 0h2m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h9m1 0h2m1 0h2m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M9 7.5h1m1 0h1m2 0h2m3 0h3m1 0h3M3 8.5h1m2 0h1m2 0h1m4 0h1m1 0h4m2 0h2m2 0h2m3 0h3m1 0h2M1 9.5h1m6 0h1m1 0h3m5 0h1m3 0h1m4 0h1m1 0h1m2 0h5M2 10.5h2m1 0h2m5 0h2m3 0h1m3 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h2M0 11.5h2m2 0h2m1 0h3m1 0h2m2 0h2m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m7 0h1M1 12.5h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h1m1 0h2m5 0h1m3 0h2m5 0h1M0 13.5h6m1 0h3m1 0h8m1 0h1m1 0h2m6 0h1m2 0h1m2 0h1M3 14.5h5m1 0h4m1 0h1m1 0h1m3 0h2m1 0h3m4 0h3m1 0h1m1 0h1M0 15.5h1m2 0h2m2 0h1m4 0h2m1 0h4m2 0h2m2 0h5m1 0h1m3 0h2M3 16.5h2m1 0h4m1 0h1m2 0h6m1 0h3m2 0h1m2 0h2m2 0h2m1 0h1M1 17.5h1m1 0h1m1 0h1m2 0h5m1 0h1m1 0h1m2 0h1m2 0h2m2 0h1m1 0h3m1 0h2m2 0h1M0 18.5h1m2 0h2m1 0h3m1 0h1m3 0h2m1 0h1m1 0h3m3 0h1m3 0h1m1 0h1m1 0h1m1 0h2M0 19.5h1m1 0h3m2 0h1m1 0h1m1 0h1m1 0h1m2 0h3m2 0h4m1 0h1m2 0h4m1 0h2M0 20.5h2m3 0h3m4 0h2m1 0h2m5 0h2m1 0h4m1 0h3m3 0h1M0 21.5h1m1 0h1m4 0h2m4 0h1m8 0h1m2 0h2m2 0h2m4 0h2M0 22.5h2m3 0h2m1 0h1m1 0h2m3 0h1m1 0h1m1 0h3m3 0h2m3 0h7M1 23.5h3m1 0h1m6 0h1m1 0h4m1 0h4m2 0h1m3 0h1m2 0h1m3 0h1M0 24.5h1m3 0h1m1 0h1m4 0h1m1 0h2m6 0h1m4 0h3m1 0h1m1 0h1m2 0h2M3 25.5h1m3 0h1m1 0h7m1 0h2m4 0h1m1 0h3m6 0h3M0 26.5h1m1 0h3m1 0h5m2 0h1m1 0h2m1 0h1m1 0h1m1 0h2m3 0h8m1 0h1M1 27.5h1m5 0h4m3 0h2m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m4 0h1M0 28.5h3m2 0h3m2 0h3m1 0h2m1 0h5m5 0h8m1 0h1M8 29.5h2m1 0h1m1 0h4m1 0h3m2 0h2m1 0h3m3 0h1m2 0h2M0 30.5h7m2 0h3m2 0h1m1 0h2m3 0h1m3 0h1m1 0h2m1 0h1m1 0h1m1 0h3M0 31.5h1m5 0h1m5 0h2m2 0h4m2 0h3m3 0h1m3 0h1m1 0h1M0 32.5h1m1 0h3m1 0h1m2 0h8m1 0h1m4 0h4m1 0h6m2 0h1M0 33.5h1m1 0h3m1 0h1m1 0h3m7 0h4m1 0h5m1 0h1m2 0h2m1 0h2M0 34.5h1m1 0h3m1 0h1m2 0h1m3 0h2m1 0h1m3 0h5m1 0h2m1 0h1m2 0h3m1 0h1M0 35.5h1m5 0h1m2 0h2m2 0h2m1 0h6m1 0h7m2 0h1M0 36.5h7m4 0h2m5 0h8m1 0h2m1 0h3m2 0h2"/></svg></div>
+        <p class="ask">Scan to rate us on Google</p>
+        <p class="ask ask--hi" lang="hi">गूगल पर रिव्यू दें</p>
+        <p class="url">herscottons.pages.dev/r</p>
+      </article>
+</div>
+
+</body>
+</html>
