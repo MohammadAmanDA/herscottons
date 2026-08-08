@@ -1,0 +1,19 @@
+# Cloudflare Pages redirects.
+# Format: <from> <to> <status>
+
+# Short link for asking customers to review the shop.
+#
+# Everything printed — counter card, bill footer, WhatsApp messages, the QR
+# code in assets/print/ — points at THIS url, never at Google's directly.
+# Google's review URL changes when the profile is claimed, and again if the
+# listing is ever merged or moved. Pointing the printed material here means
+# only this one line ever has to change, and nothing already printed dies.
+#
+# TODO: after claiming the Google Business Profile, replace the target below
+# with the official short link from the dashboard ("Ask for reviews" ->
+# https://g.page/r/XXXXXXXX/review). That one opens the star dialog directly;
+# the CID link below opens the listing and needs one extra tap.
+/review   https://maps.google.com/?cid=7027461558156216130   302
+
+# Same destination, easier to say out loud in the shop.
+/r        /review                                            302
