@@ -12,7 +12,13 @@ name: Update Instagram feed and deploy
 
 on:
   schedule:
-    - cron: '30 2 * * *' # 08:00 IST
+    # Every 4 hours rather than once a day. Behold's free tier only refreshes
+    # its own copy once every 24h, and we cannot see a post before it does —
+    # but polling once a day meant a post could wait for Behold's refresh AND
+    # then a further day for ours, up to ~48h. Checking more often removes our
+    # half of that delay entirely. Public repositories get unlimited Actions
+    # minutes, so the extra runs cost nothing.
+    - cron: '30 */4 * * *'
   workflow_dispatch:
   push:
     branches: [main]
