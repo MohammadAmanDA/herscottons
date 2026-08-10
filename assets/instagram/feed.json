@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-08-10T05:52:15.530Z",
+  "fetchedAt": "2026-08-10T09:55:00.066Z",
   "posts": [
+    {
+      "id": "18075175658359466",
+      "permalink": "https://www.instagram.com/p/Db0oaTTmmcX/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-09T14:15:58+0000",
+      "caption": "Kurta: Pure cotton lawn digital print with crochet detailing on the panel, neckline and sleeves; scalloped embroidery border along the hemline and sleeves. Dupatta: Pure Bemberg…",
+      "alt": "Kurta: Pure cotton lawn digital print with crochet detailing on the panel, neckline and sleeves; scalloped embroidery border along the hemline and sleeves",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18075175658359466-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18075175658359466-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAAAQBQCdASoUABsAPu1krFAppSQisBgIATAdiWMArhwNz7WVASzUPpuc1gKbc3JtPvGAAP7rFjwuwj2UUbbrMtCT4M2t3wqJur4U3OCZLVMo79PXKKZe6bQseHkxUwQGo56uPutg+eLGsnkTfs83IJDrxDDwkvpsKShkKewyfjLkv8K91I/8lcvGqQOwMc7OKfTiepU4p8jaM0C5wQwTlFZ8ThHgxBijRbTmvVZ9CJy1ahoMwiPV9tq9YfboN6mGe3DQw2pYugJIcnKLgJ2gAA=="
+    },
     {
       "id": "17865007968647440",
       "permalink": "https://www.instagram.com/p/Db0D9mzmpJ0/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JQAAL03+3DwfAQu4zB3jtAAD+s7EpBS6jOLIdlZaxadE9QV3gfMDFPH9DUikf7YvmBPcg8/qwJ8W5K+jWxayxv2fQ2/IA1f0n9Iq8piEFbtN8Xk3oKT5ZhzicMxF/r9QZKSXeVpwAAA=="
-    },
-    {
-      "id": "18368953708235595",
-      "permalink": "https://www.instagram.com/p/DbxdqtpiO2_/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-08T08:44:22+0000",
-      "caption": "Shirt Digital printed muslin with organza embroidery lace patti. Dupatta Digital printed soft silk with tassels. Pallazo Dyed rayon with applique embroidery.",
-      "alt": "Shirt Digital printed muslin with organza embroidery lace patti",
-      "width": 1000,
-      "height": 730,
-      "aspect": 1.3699,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18368953708235595-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18368953708235595-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JagCdACMDc3aRd7rcPn+ABAD+yXW9Nm6/IcGDSgIuiBO50n9FgwCBku6l2gOiYGDja+hZ/Vg4WaE6N3vUO3hdo1XA+tpGqQdkWOlaJ9iU6ujsfmycmt4Sj2n5Fe5LY7c9UJywozINzSUAAAA="
     }
   ]
 }
