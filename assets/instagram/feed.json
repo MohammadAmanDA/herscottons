@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-08-11T05:32:57.618Z",
+  "fetchedAt": "2026-08-11T09:27:34.274Z",
   "posts": [
+    {
+      "id": "18454263622141362",
+      "permalink": "https://www.instagram.com/p/Db3V96_Gnrw/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-10T15:32:31+0000",
+      "caption": "Jay vijay top · premium cotton jacquard with placement embroidery and elegant lace work. · bottom · pure cotton (solid colour ) with lace work · dupatta · premium kota checks with…",
+      "alt": "Jay vijay top · premium cotton jacquard with placement embroidery and elegant lace work",
+      "width": 1000,
+      "height": 705,
+      "aspect": 1.4184,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18454263622141362-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18454263622141362-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoUAA4APu1iqU2ppaOiMAgBMB2JQBOmUABqn+m6mQRNynETUVCAAP7R9J60lF2taoIayjoO5AiOfuMppF9/ZsHe2Ds+95IZZV2VNgs/fZp00NfOSBhWVc06tbroa5y9X60xDbWnm0ddP9gelKb+4I6Lq2q3hZV1yH8YZRKqhcrzAKlvY5KY2jQAcQAAAA=="
+    },
     {
       "id": "18075175658359466",
       "permalink": "https://www.instagram.com/p/Db0oaTTmmcX/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdMoAvXg5GsRrH4JDuoADeKr+gnwUf864yKrKA+qH4/1alkBK1h9gfk/gbqiFTNT0cA6GWKLjBEgPdJ+s2kqmdWCNr23q4Q5U8ehM1b5/cM2aEV91Yasg5nL3NiUV+4ASdX54AAA=="
-    },
-    {
-      "id": "17879724390618638",
-      "permalink": "https://www.instagram.com/p/Dbxmh8tml0R/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-08T10:01:48+0000",
-      "caption": "Top: Digital Printed Muslin With Organza Embroidery Lace Patti Bottom: Dyed Rayon Dupatta: Digital Printed Soft Silk With Organza Embroidery Lace",
-      "alt": "Top: Digital Printed Muslin With Organza Embroidery Lace Patti Bottom: Dyed Rayon Dupatta: Digital Printed Soft Silk With Organza Embroidery Lace",
-      "width": 1000,
-      "height": 730,
-      "aspect": 1.3699,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17879724390618638-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17879724390618638-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JQAAL03+3DwfAQu4zB3jtAAD+s7EpBS6jOLIdlZaxadE9QV3gfMDFPH9DUikf7YvmBPcg8/qwJ8W5K+jWxayxv2fQ2/IA1f0n9Iq8piEFbtN8Xk3oKT5ZhzicMxF/r9QZKSXeVpwAAA=="
     }
   ]
 }
