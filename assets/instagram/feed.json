@@ -1,137 +1,137 @@
 {
-  "fetchedAt": "2026-08-16T20:44:38.813Z",
+  "fetchedAt": "2026-08-17T01:59:41.588Z",
   "posts": [
     {
-      "id": "18055370957563487",
-      "permalink": "https://www.instagram.com/p/DcD9wFUGnXM/",
+      "id": "18404435161094080",
+      "permalink": "https://www.instagram.com/p/DcGqaDTmnMw/",
       "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-15T13:11:03+0000",
-      "caption": "Handloom suits",
-      "alt": "Handloom suits",
-      "width": 843,
-      "height": 1000,
-      "aspect": 0.843,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18055370957563487-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18055370957563487-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACwBQCdASoUABgAPu1kpk2ppaMiMBgMATAdiWoAnTLrpHwkW+ozmqOZs9QpL+OOKGYQUgE2tgAA/hSfBZkEbIYAuOV9rbdJ9aU24X+DOo8y3LkwJHMNNhyYENxjzAp0ddGwGRrJJkrQReVs6xhp0OSSpdgz5QlpVCvF02uTrzcLcLkRfJynXl+11IsHjmm6E2yJpSCmPQAAAA=="
-    },
-    {
-      "id": "18101194067616598",
-      "permalink": "https://www.instagram.com/p/DcDWjm1mpLZ/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-15T07:28:33+0000",
-      "caption": "Premium Dola Silk with Ajrakh Hand Block Print 3 Pice Suit Elegant Neck Design Zari Pallu & Zari Border Dupatta for a festive touch",
-      "alt": "Premium Dola Silk with Ajrakh Hand Block Print 3 Pice Suit Elegant Neck Design Zari Pallu & Zari Border Dupatta for a festive touch",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18101194067616598-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18101194067616598-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACwBQCdASoUABsAPulmqU2pJiQiMBgMASAdCWYArDMvxPhdyQv7dJRmaquU50nWN06sF8SUUAAA/ttZKYbW7GtLGXMWUM0X1GcW8yjG7Pnfjp5S55iW94InhrDjMO2TUq8yl2xg5kS3dVqPAH1DR89tf3XgaR/0nakqM4tYHtoOF2fnz0rHerAIETWujENLgAA="
-    },
-    {
-      "id": "18101014823214818",
-      "permalink": "https://www.instagram.com/p/Db-GwAHmpm8/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-13T06:34:14+0000",
-      "caption": "Embroidered cotton top with embroidered dupatta",
-      "alt": "Embroidered cotton top with embroidered dupatta",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18101014823214818-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18101014823214818-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAwBQCdASoUABsAPu1mqk+ppSOiMBgIATAdiWwAnTKAAIdtExkXZP8tr5D0FVoWKXG0AAB96qDFJdBha0rABI8/tsWSopFCMPz0o8J3JUZqa8c7xVph6YONypGTq2ASdccGH6X7wnjwKieOER5zsbZajAmnAJ9Qo+412RC1DSmG7Rg0fECEI22FYkgAAA=="
-    },
-    {
-      "id": "18105996332331760",
-      "permalink": "https://www.instagram.com/p/Db54dFvmrd2/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-11T15:12:21+0000",
-      "caption": "Ganga · top · premium pure bemberg silk jacquard printed with hand embroidery, hand work, embroidery & jacquard lace on daman. · bottom · premium viscose silk solid color.…",
-      "alt": "Ganga · top · premium pure bemberg silk jacquard printed with hand embroidery, hand work, embroidery & jacquard lace on daman",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18105996332331760-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18105996332331760-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABwBQCdASoUABsAPu1mqk8ppaOiKA1RMB2JZQC2zbAAsVzALy8dWr7NfSyZiwdywCnyeffYAP7bg925vHiOsZuwWjG963rrTXWNoaWx352SQ1ONogVGz7stbwynta67pw/OXOmpeY7UzPqd9dkFA1BoeU6O/pUUMrrYfgEm691vA2Glxqx3o/Ok3n1EszCfl/JSqz/p26o03Ka684YiczdIiNpw/q0Yr9gqaSxlS9w+YZwAr4AVfIAA"
-    },
-    {
-      "id": "18124891480761224",
-      "permalink": "https://www.instagram.com/p/Db5JpxTGuel/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-11T08:23:24+0000",
-      "caption": "Floral printed Cambric cotton suits with cotton dupatta",
-      "alt": "Floral printed Cambric cotton suits with cotton dupatta",
+      "timestamp": "2026-08-16T14:19:44+0000",
+      "caption": "Top pure muslin digital print, resham embroidery neckline, scalloped applique hemline, sleeve with crochet detailing front dupatta pure bamber muslin digital print and scalloped…",
+      "alt": "Top pure muslin digital print, resham embroidery neckline, scalloped applique hemline, sleeve with crochet detailing front dupatta pure bamber muslin digital…",
       "width": 1000,
       "height": 1000,
       "aspect": 1,
       "variants": [
         {
           "width": 480,
-          "file": "18124891480761224-480.webp"
+          "file": "18404435161094080-480.webp"
         },
         {
           "width": 960,
-          "file": "18124891480761224-960.webp"
+          "file": "18404435161094080-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAQBQCdASoUABQAPu1ur1IppiQiqAgBMB2JYwC7AA0Ati8GWJjq0PSMASnOFJ9OTFkwAP5V+wZ9/jZJZU7Zq2cFHZOaw4AhEOVL2OFjYOnDh+avDeXI5a5qE8Fsg/ZVfrMFMK5q4DebkLn/hXYwambB0Qo51JtVxJIa/UjJZXSBb+EETv4MF2cKsp/Jo8vJnlG2DwZhng5jwuKJiE+gAAAA"
+      "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoUABQAPu1qq1EppaOuqAqp0B2JYgC1G2QBotUByeS7ItrSSAAA/tMsQh/7eHGxPKgTLpgwmvGVq3qADstdtvpJ376CvXf8lxZZi8N2pyeo1/N7bpJZ/82z8nxTq/nmptY1Sne1UiSETPBNvSCbcAAA"
     },
     {
-      "id": "18090030164645176",
-      "permalink": "https://www.instagram.com/p/Db5HhDbGhA7/",
+      "id": "18162078859466608",
+      "permalink": "https://www.instagram.com/p/DcGoLXEucml/",
+      "type": "IMAGE",
+      "timestamp": "2026-08-16T14:00:38+0000",
+      "caption": "Top ajrakh printed with mirror work Bottom printed Dupatta cotton printed",
+      "alt": "Top ajrakh printed with mirror work Bottom printed Dupatta cotton printed",
+      "width": 1000,
+      "height": 775,
+      "aspect": 1.2903,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18162078859466608-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18162078859466608-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdMoAvXg5GsRrH4JDuoADeKr+gnwUf864yKrKA+qH4/1alkBK1h9gfk/gbqiFTNT0cA6GWKLjBEgPdJ+s2kqmdWCNr23q4Q5U8ehM1b5/cM2aEV91Yasg5nL3NiUV+4ASdX54AAA=="
+    },
+    {
+      "id": "17858512227694704",
+      "permalink": "https://www.instagram.com/p/DcF2EPZGpMV/",
       "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-11T08:04:44+0000",
-      "caption": "This is a Ajrakh print cotton unstitched suit material featuring traditional geometric and floral block prints accompanied by a matching cotton dupatta.",
-      "alt": "This is a Ajrakh print cotton unstitched suit material featuring traditional geometric and floral block prints accompanied by a matching cotton dupatta",
+      "timestamp": "2026-08-16T06:42:22+0000",
+      "caption": "Handloom suits",
+      "alt": "Handloom suits",
+      "width": 822,
+      "height": 1000,
+      "aspect": 0.822,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17858512227694704-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17858512227694704-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBQCdASoUABkAPu1kqk+ppSOiMBgIATAdiWUAxNgR/+iI7jY9Z2X/iwrs8lyFF1t/gAD+0YKvNH84D9UCia0i0B6LtuMcAvVPLUaxuGStc1NaDM9xrgheGZHKFrhkU/0hdOoeX39/vktLoxd8GidziQKFQPcR02tH1NdPO/8MsUah8zRLcFMcas4CaOIOEqYiNTXJ1wAAAA=="
+    },
+    {
+      "id": "18111639322789784",
+      "permalink": "https://www.instagram.com/p/DcF0zlKGg2a/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-16T06:31:21+0000",
+      "caption": "Top Cambric cotton with embroidery Bottom printed Dupatta printed",
+      "alt": "Top Cambric cotton with embroidery Bottom printed Dupatta printed",
+      "width": 799,
+      "height": 1000,
+      "aspect": 0.799,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18111639322789784-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18111639322789784-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBQCdASoUABkAPu1mqk+ppSOiMBgIATAdiWQApxQQ8CdzMb8ekbgg4JVyN00rZyi/zKAA/k1YqncYw5yKQHxfiQzcIbr0SGiUpSJ48b/CC+Ri+w4v/rosYgeLqygtaY2SVjMUSxUziV54WlEvLBWG4GqdkFDDUe6aM67Cb08COvOUuRNX9ZgAAAA="
+    },
+    {
+      "id": "18064126058730498",
+      "permalink": "https://www.instagram.com/p/DcFptmcmh6u/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-16T04:54:25+0000",
+      "caption": "Maheshwari silk suits",
+      "alt": "Maheshwari silk suits",
+      "width": 750,
+      "height": 999,
+      "aspect": 0.7508,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18064126058730498-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18064126058730498-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAAAQBQCdASoUABsAPu1qrlCppaQiqAqpMB2JQBahLay2q0GBBeUnfequKua93kAieM6IAPXNux9VwLemMRCQgI4Nabl/vzjgbvLcdT6H2CMXkvJE7RSEjlxcCNGKzRotKQCT7I/CdGj82/uQBt3H17CTmcsYzczgAhPYHY/NN/HPaQsP5cZB2stNKQIYYf+housYk1tRr+mfgkQnsRAN2dzMxqYE11u5zA1MM50Xn06zII9GzGqyJ9xD2kAxvWoGcTUxAcnXdAA="
+    },
+    {
+      "id": "18053513333573424",
+      "permalink": "https://www.instagram.com/p/DcFi_RDmuXA/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-16T03:55:40+0000",
+      "caption": "Ganga · top · premium cotton printed with embroidery neck, button work, solid color with crochet lace border on daman & sleeves. · bottom · premium cotton solid color · dupatta…",
+      "alt": "Ganga · top · premium cotton printed with embroidery neck, button work, solid color with crochet lace border on daman & sleeves",
       "width": 750,
       "height": 1000,
       "aspect": 0.75,
       "variants": [
         {
           "width": 480,
-          "file": "18090030164645176-480.webp"
+          "file": "18053513333573424-480.webp"
         },
         {
           "width": 960,
-          "file": "18090030164645176-960.webp"
+          "file": "18053513333573424-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASoUABsAPu1urFEppiQiqAqpMB2JbACxG68AyA9YKv3G8QEbNUwKalmtl0RAAP6ok3EtEpnE0mzPRdqKJbViq5xZNb9IeP2btYDzeAHkIJzEzyb/E53sP3eWb4MCIm/eLzcHsJ0TC0wrb0FDVe2dQZXceaz9wEtfRPpnO1EiEtNNEKXfbuBI3o8ruGVDNir7Xr6M7dicD3OlkIX4BIQmXZTbUNdohAlwAAA="
+      "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACwBQCdASoUABsAPu1oq0+ppiOiMBgIATAdiWMAyF3ePmaI2iJMUJ/dmDTj5EAgkUM0ea7qLIgAyW4SPtg+0VOrML9/ol/5F+Zj2OSgRcnjshl6KsKLNXPPz603brkfXTebeVSgLhc9EZq2sGVcV2eWe0vFuDmboKUO8DKPXZH2WBloIufvJCe7+1r83HDytZswGK23ebtpaQNwh29kwzFSK6K+tmZsUEVnUu6pWszCZNgAAAA="
     }
   ]
 }
