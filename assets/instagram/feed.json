@@ -1,137 +1,137 @@
 {
-  "fetchedAt": "2026-08-17T20:50:13.439Z",
+  "fetchedAt": "2026-08-18T01:56:11.840Z",
   "posts": [
     {
-      "id": "18404435161094080",
-      "permalink": "https://www.instagram.com/p/DcGqaDTmnMw/",
+      "id": "18118330498932191",
+      "permalink": "https://www.instagram.com/p/DcJYDobGjBZ/",
       "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-16T14:19:44+0000",
-      "caption": "Top pure muslin digital print, resham embroidery neckline, scalloped applique hemline, sleeve with crochet detailing front dupatta pure bamber muslin digital print and scalloped…",
-      "alt": "Top pure muslin digital print, resham embroidery neckline, scalloped applique hemline, sleeve with crochet detailing front dupatta pure bamber muslin digital…",
+      "timestamp": "2026-08-17T15:37:06+0000",
+      "caption": "Top kota check embroidered with block print Bottom plain Dupatta kota chą embroidered",
+      "alt": "Top kota check embroidered with block print Bottom plain Dupatta kota chą embroidered",
+      "width": 1000,
+      "height": 986,
+      "aspect": 1.0142,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18118330498932191-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18118330498932191-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBACdASoUABQAPu1kqE2ppaOiMAgBMB2JQBOgAj2bSDS0g0fwjy025WUwAAD2Zbmst2YewJP+84tqVVvTQSIcUCUrqZ7tH9zZ47l4XPnT/N29TAcR80TrjaEfZy+pmePjlvmk6vgzoZRxc3pVIzEn2gh5wwAA"
+    },
+    {
+      "id": "18102921494236874",
+      "permalink": "https://www.instagram.com/p/DcJXnYQmmjb/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-17T15:33:15+0000",
+      "caption": "Top eweealuan rectalerngareshay iemline and sleeven dupatta pure chinnon with digital print and hand crafted tassels bottom pure muslin heavy",
+      "alt": "Top eweealuan rectalerngareshay iemline and sleeven dupatta pure chinnon with digital print and hand crafted tassels bottom pure muslin heavy",
       "width": 1000,
       "height": 1000,
       "aspect": 1,
       "variants": [
         {
           "width": 480,
-          "file": "18404435161094080-480.webp"
+          "file": "18102921494236874-480.webp"
         },
         {
           "width": 960,
-          "file": "18404435161094080-960.webp"
+          "file": "18102921494236874-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoUABQAPu1qq1EppaOuqAqp0B2JYgC1G2QBotUByeS7ItrSSAAA/tMsQh/7eHGxPKgTLpgwmvGVq3qADstdtvpJ376CvXf8lxZZi8N2pyeo1/N7bpJZ/82z8nxTq/nmptY1Sne1UiSETPBNvSCbcAAA"
+      "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBACdASoUABQAPu1qrlCppaQiqAqpMB2JZACxHy/Bot+qN7kIArzRgjwGPAAA/rO1eyIN5Ns5wQKn09L8Q8m4nY6RQKD/RG9qkMOoXejO7w2TXqogu2o3dp2u/XxoQ2mymUrFO2TOb942FgbtYiasi2fi8aQDO+T8TqjYQIT3coyGnrVDmAAA"
     },
     {
-      "id": "18162078859466608",
-      "permalink": "https://www.instagram.com/p/DcGoLXEucml/",
+      "id": "18145579054552161",
+      "permalink": "https://www.instagram.com/p/DcJHAcbmuwL/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-17T13:08:07+0000",
+      "caption": "Top pure muslin digital print. Resham embroidery hemline, sleeves and tiny floral appliqué on neckline dupatta pure chinnon digital print and scalloped resham embroidery border…",
+      "alt": "Top pure muslin digital print",
+      "width": 902,
+      "height": 636,
+      "aspect": 1.4182,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18145579054552161-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18145579054552161-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoUAA4APu1iqU2ppaQiMAgBMB2JZgCdMoACTt0ipy6bigNNXAD+m5029w55XG+6wRuzojTLmWmksvJb6ZHGtI42I0CM8npyg4OswNnsQTT3cDdspNay+N27aEmyTaBysWpM7My4j7/m0WqmlzuQ5kBOAAA="
+    },
+    {
+      "id": "18099084368256688",
+      "permalink": "https://www.instagram.com/p/DcImQV6OFrh/",
       "type": "IMAGE",
-      "timestamp": "2026-08-16T14:00:38+0000",
-      "caption": "Top ajrakh printed with mirror work Bottom printed Dupatta cotton printed",
-      "alt": "Top ajrakh printed with mirror work Bottom printed Dupatta cotton printed",
-      "width": 1000,
-      "height": 775,
-      "aspect": 1.2903,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18162078859466608-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18162078859466608-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdMoAvXg5GsRrH4JDuoADeKr+gnwUf864yKrKA+qH4/1alkBK1h9gfk/gbqiFTNT0cA6GWKLjBEgPdJ+s2kqmdWCNr23q4Q5U8ehM1b5/cM2aEV91Yasg5nL3NiUV+4ASdX54AAA=="
-    },
-    {
-      "id": "17858512227694704",
-      "permalink": "https://www.instagram.com/p/DcF2EPZGpMV/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-16T06:42:22+0000",
-      "caption": "Handloom suits",
-      "alt": "Handloom suits",
-      "width": 822,
-      "height": 1000,
-      "aspect": 0.822,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17858512227694704-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17858512227694704-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBQCdASoUABkAPu1kqk+ppSOiMBgIATAdiWUAxNgR/+iI7jY9Z2X/iwrs8lyFF1t/gAD+0YKvNH84D9UCia0i0B6LtuMcAvVPLUaxuGStc1NaDM9xrgheGZHKFrhkU/0hdOoeX39/vktLoxd8GidziQKFQPcR02tH1NdPO/8MsUah8zRLcFMcas4CaOIOEqYiNTXJ1wAAAA=="
-    },
-    {
-      "id": "18111639322789784",
-      "permalink": "https://www.instagram.com/p/DcF0zlKGg2a/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-16T06:31:21+0000",
-      "caption": "Top Cambric cotton with embroidery Bottom printed Dupatta printed",
-      "alt": "Top Cambric cotton with embroidery Bottom printed Dupatta printed",
-      "width": 799,
-      "height": 1000,
-      "aspect": 0.799,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18111639322789784-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18111639322789784-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBQCdASoUABkAPu1mqk+ppSOiMBgIATAdiWQApxQQ8CdzMb8ekbgg4JVyN00rZyi/zKAA/k1YqncYw5yKQHxfiQzcIbr0SGiUpSJ48b/CC+Ri+w4v/rosYgeLqygtaY2SVjMUSxUziV54WlEvLBWG4GqdkFDDUe6aM67Cb08COvOUuRNX9ZgAAAA="
-    },
-    {
-      "id": "18064126058730498",
-      "permalink": "https://www.instagram.com/p/DcFptmcmh6u/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-16T04:54:25+0000",
-      "caption": "Maheshwari silk suits",
-      "alt": "Maheshwari silk suits",
-      "width": 750,
-      "height": 999,
-      "aspect": 0.7508,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18064126058730498-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18064126058730498-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAAAQBQCdASoUABsAPu1qrlCppaQiqAqpMB2JQBahLay2q0GBBeUnfequKua93kAieM6IAPXNux9VwLemMRCQgI4Nabl/vzjgbvLcdT6H2CMXkvJE7RSEjlxcCNGKzRotKQCT7I/CdGj82/uQBt3H17CTmcsYzczgAhPYHY/NN/HPaQsP5cZB2stNKQIYYf+housYk1tRr+mfgkQnsRAN2dzMxqYE11u5zA1MM50Xn06zII9GzGqyJ9xD2kAxvWoGcTUxAcnXdAA="
-    },
-    {
-      "id": "18053513333573424",
-      "permalink": "https://www.instagram.com/p/DcFi_RDmuXA/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-16T03:55:40+0000",
-      "caption": "Ganga · top · premium cotton printed with embroidery neck, button work, solid color with crochet lace border on daman & sleeves. · bottom · premium cotton solid color · dupatta…",
-      "alt": "Ganga · top · premium cotton printed with embroidery neck, button work, solid color with crochet lace border on daman & sleeves",
-      "width": 750,
-      "height": 1000,
+      "timestamp": "2026-08-17T08:22:20+0000",
+      "caption": "Top block printed with chickenkari work Bottom cotton printed Dupatta chiffon",
+      "alt": "Top block printed with chickenkari work Bottom cotton printed Dupatta chiffon",
+      "width": 720,
+      "height": 960,
       "aspect": 0.75,
       "variants": [
         {
           "width": 480,
-          "file": "18053513333573424-480.webp"
+          "file": "18099084368256688-480.webp"
         },
         {
           "width": 960,
-          "file": "18053513333573424-960.webp"
+          "file": "18099084368256688-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACwBQCdASoUABsAPu1oq0+ppiOiMBgIATAdiWMAyF3ePmaI2iJMUJ/dmDTj5EAgkUM0ea7qLIgAyW4SPtg+0VOrML9/ol/5F+Zj2OSgRcnjshl6KsKLNXPPz603brkfXTebeVSgLhc9EZq2sGVcV2eWe0vFuDmboKUO8DKPXZH2WBloIufvJCe7+1r83HDytZswGK23ebtpaQNwh29kwzFSK6K+tmZsUEVnUu6pWszCZNgAAAA="
+      "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADwBACdASoUABsAPu1mp02ppaOiMBgMATAdiWUAw3AK5aCgtOuDI2JIJvPEaktcJYAA/KFMEE3W+qITIJ0vkd/Wf+sAcviPcIb9eGtZijtfmv9YncDYR6G29rHJFS0cGG6l9wsjahpwEyp73KfjgyCIckze/ixxt7lo+PcBxt3QYKjrK92WjF/E6KmJq7InmH1DpSiAmFPlm39gFfAQSI7haSDkHAh9iP3S8AAA"
+    },
+    {
+      "id": "18277819120289581",
+      "permalink": "https://www.instagram.com/p/DcIh7PXmvWb/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-17T07:44:06+0000",
+      "caption": "Cambric cotton suits with cotton dupatta",
+      "alt": "Cambric cotton suits with cotton dupatta",
+      "width": 905,
+      "height": 1000,
+      "aspect": 0.905,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18277819120289581-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18277819120289581-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADQBACdASoUABYAPu1osFAppaSiqAqpMB2JYgC/ZoAAKDCL4fSmhvShh+W+NeDcgAD+XysTLXe4CiGunrz+GfwjS/9t+yxuP9x4oKqQYVMoS0nQhNuYF3uICIlapS2KxF7OicmdTKFz4Z/m3wAIxPE6JfqijDxIWTpT40aWKQh9X3EKHfKMgROalrFQrtWKVJQ8wvyv16xJRjmLDDxQAA=="
+    },
+    {
+      "id": "17867893668638825",
+      "permalink": "https://www.instagram.com/p/DcIaoJJGhpK/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-17T06:40:20+0000",
+      "caption": "Trending Maheshwari silk suits with traditional designs",
+      "alt": "Trending Maheshwari silk suits with traditional designs",
+      "width": 862,
+      "height": 1000,
+      "aspect": 0.862,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17867893668638825-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17867893668638825-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASoUABcAPu1qr1CppaQiqAqpMB2JQBUk5JeBEz5/8AcizGWwK405YUjQ2ogAAP6NPyyJgYHmEvnpgzvw5ZYDvPN1yiR+gpmhlQbYx8H+T1MAUH8FNOrUMz7zV5zeOmvcQCgFI8qZWBE8ij+EcQYW1wVwpI6fNyQvTNpeUtylhL5kdjMoJWYFUL2xUlb1+pni2fbVMYm2DFwxgjw7ejREN7bwUNLFlBEAAAA="
     }
   ]
 }
