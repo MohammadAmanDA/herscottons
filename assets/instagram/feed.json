@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-08-20T16:59:04.193Z",
+  "fetchedAt": "2026-08-20T20:53:16.953Z",
   "posts": [
+    {
+      "id": "18116420119938677",
+      "permalink": "https://www.instagram.com/p/DcQM0s0mlhm/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-20T07:13:38+0000",
+      "caption": "TOP Pure Viscose Muslin Digital Print With Embroidery Work DUPATTA Pure Viscose Muslin Digital Print BOTTOM Pure Viscose Muslin Solid Dyed",
+      "alt": "TOP Pure Viscose Muslin Digital Print With Embroidery Work DUPATTA Pure Viscose Muslin Digital Print BOTTOM Pure Viscose Muslin Solid Dyed",
+      "width": 901,
+      "height": 634,
+      "aspect": 1.4211,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18116420119938677-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18116420119938677-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBACdASoUAA4APu1iqU2ppaOiMAgBMB2JaACdMoADPZYaQxdkzi61wWAA4nxAARUYtV3e2wAo7duJz2YOccCsc4ThqcR68EeRdiLKwyqCgH+/aymFD6mz4QIljOeAGIVO1UYTNuyS7kfgY3YtQ6vsqZC15o62ZuM43Y6BkOfgOFLFFpMiTbqvxOgPCkieXnMAAA=="
+    },
     {
       "id": "18118330498932191",
       "permalink": "https://www.instagram.com/p/DcJYDobGjBZ/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADQBACdASoUABYAPu1osFAppaSiqAqpMB2JYgC/ZoAAKDCL4fSmhvShh+W+NeDcgAD+XysTLXe4CiGunrz+GfwjS/9t+yxuP9x4oKqQYVMoS0nQhNuYF3uICIlapS2KxF7OicmdTKFz4Z/m3wAIxPE6JfqijDxIWTpT40aWKQh9X3EKHfKMgROalrFQrtWKVJQ8wvyv16xJRjmLDDxQAA=="
-    },
-    {
-      "id": "17867893668638825",
-      "permalink": "https://www.instagram.com/p/DcIaoJJGhpK/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-17T06:40:20+0000",
-      "caption": "Trending Maheshwari silk suits with traditional designs",
-      "alt": "Trending Maheshwari silk suits with traditional designs",
-      "width": 862,
-      "height": 1000,
-      "aspect": 0.862,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17867893668638825-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17867893668638825-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASoUABcAPu1qr1CppaQiqAqpMB2JQBUk5JeBEz5/8AcizGWwK405YUjQ2ogAAP6NPyyJgYHmEvnpgzvw5ZYDvPN1yiR+gpmhlQbYx8H+T1MAUH8FNOrUMz7zV5zeOmvcQCgFI8qZWBE8ij+EcQYW1wVwpI6fNyQvTNpeUtylhL5kdjMoJWYFUL2xUlb1+pni2fbVMYm2DFwxgjw7ejREN7bwUNLFlBEAAAA="
     }
   ]
 }
