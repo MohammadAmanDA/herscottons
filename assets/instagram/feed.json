@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-08-24T13:28:29.053Z",
+  "fetchedAt": "2026-08-24T17:02:50.486Z",
   "posts": [
+    {
+      "id": "18454524991184118",
+      "permalink": "https://www.instagram.com/p/DcbO3fNmuPx/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-24T14:03:08+0000",
+      "caption": "Kurta pure muslin digital print with applique embroidery on the yoke and hemline; crochet 3d florals at the hemline, finished with scalloped crochet borders along the sleeves.…",
+      "alt": "Kurta pure muslin digital print with applique embroidery on the yoke and hemline; crochet 3d florals at the hemline, finished with scalloped crochet borders…",
+      "width": 1000,
+      "height": 1000,
+      "aspect": 1,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18454524991184118-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18454524991184118-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADQBACdASoUABQAPu1qrlCppaQiqAqpMB2JYgAALs0fsrPoCtzAhMtkALn1lUY0MAD+6nt3D5q4ccayspcJdzDHTxWQ+4HDaguzIU6vtl0h6KH07bKx++P73LQZpqGGjSAL600g1ntxl7Vy44LG9w13R9pKkuX452tF0Z/8jg8gViZltdPAn+/Gz449MK5sPjjcbAAA"
+    },
     {
       "id": "18107520749122379",
       "permalink": "https://www.instagram.com/p/DcY0Mgfmi46/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBACdASoUAA4APu1iqU2ppaOiMAgBMB2JZgCdMoACEKklPr+iF6+PAAD+6pnRjEhYuURQ8Fg31TsjoSjF3y1Cf/vusYRGP1S8F8PEVfPOHqKrFNxm4AGOMt/uAPbn8xZ1eASDSu+w6/YTuVYLoJtgTff2TvewpIh0UcoA"
-    },
-    {
-      "id": "18103348253349553",
-      "permalink": "https://www.instagram.com/p/DcWFTo4mipt/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-22T14:03:24+0000",
-      "caption": "Top:- muslin shimmer digital printed (heavy ghatt work+ handwork designer works.... Bottom:- heavy viscose muslin dyieng..... Dupatta:- viscose muslin dupata kari print shower…",
-      "alt": "Top:- muslin shimmer digital printed (heavy ghatt work+ handwork designer works",
-      "width": 1000,
-      "height": 705,
-      "aspect": 1.4184,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18103348253349553-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18103348253349553-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JQBWAMYdKsvX7HEh7y6AA/q9rkdolUHqpTzLydOq83vQ0PJodY+tqC48aUoraXbP73JI2gmWh3U7BqPGd14arSIQVV/pG771iSeVtdHPGAfIfOq50NFo2Q/VaBzW03uFKD5l3oiNc0AIEAAA="
     }
   ]
 }
