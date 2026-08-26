@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-08-26T13:31:28.951Z",
+  "fetchedAt": "2026-08-26T18:10:56.944Z",
   "posts": [
+    {
+      "id": "18127518667744239",
+      "permalink": "https://www.instagram.com/p/DcfqaMhGlQi/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-26T07:20:46+0000",
+      "caption": "Premium soft south cotton suits",
+      "alt": "Premium soft south cotton suits",
+      "width": 912,
+      "height": 1000,
+      "aspect": 0.912,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18127518667744239-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18127518667744239-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwBACdASoUABYAPu1kq1AppSOisBgIATAdiWwAnTKEdNAB6lBgcSUJUW/u308AAPnWp212/h7iYVztdQJn8cKBoN69gGDPxUZLZpNJcuN//6bYyCIsjBqCKg4eYXsLlAW9IM4uUUsO7ICH97vGZFa0KxxuzVpzVKBj0cXh0/YdjO2XxMr7TPfStwwXZAAA"
+    },
     {
       "id": "18080321744324760",
       "permalink": "https://www.instagram.com/p/DcdsZ7YmsCj/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAACQBQCdASoUABsAPu1qrlCppaQiqAqpMB2JZgCdM2QlsQsicaGdkP29kOij+z/UjML4KJlHAAD+r3PpYTEb7O4P0JYPmzH/QZVE31RJqOfGIUhuLh3ae2EOBVxy4p/ha/GqxBMBtNqh9dGqDaZGXT1qerYltU22QEWowgpl6hpaHN3z2GPqy/uBiEKjh83djLHz+o/NVIQuOGOuXNK3pHLwQfK2gurK3ALPcCOkw0Y89VnpTzsYinpSszYqsA1ZEcEVKLTU/gAAAA=="
-    },
-    {
-      "id": "18150626845522384",
-      "permalink": "https://www.instagram.com/p/DcYgaFLmqYP/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-23T12:38:41+0000",
-      "caption": "Top cotton printed with embroidery Bottom plain Dupatta chiffon printed",
-      "alt": "Top cotton printed with embroidery Bottom plain Dupatta chiffon printed",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18150626845522384-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18150626845522384-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBQCdASoUABsAPu1urlIppiQiqAgBMB2JZwDOAbWA1YypPXH9sbZXsIDxOzrmVhnR5MAAzjslSVapPjahhebX0Of9B/iOHmXEUyAwuViO56yxwcZXswi058J25Aa9FQiCrYTuInZa7Ce/RP10+hSArV3s0ZR4+U9toC4TnRlNSPuKEVPl7ta8HJWA5AAA"
     }
   ]
 }
