@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-08-28T11:34:33.466Z",
+  "fetchedAt": "2026-08-28T22:29:45.485Z",
   "posts": [
+    {
+      "id": "17920186767428057",
+      "permalink": "https://www.instagram.com/p/DclhZfvmg8P/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-08-28T13:57:28+0000",
+      "caption": "Beautiful Bagru print suit adorned with delicate Chikankari work, paired with a graceful Chiffon Dupatta. Elegant • Comfortable • Timeless Perfect for your everyday & festive…",
+      "alt": "Beautiful Bagru print suit adorned with delicate Chikankari work, paired with a graceful Chiffon Dupatta",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17920186767428057-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17920186767428057-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAwBQCdASoUABsAPu1qrlCppaQiqAqpMB2JYwDE2A90W4TvthoLEF90nfVf85kdgTL6AAD+voQULpakEMzrhF2wgtMvDwcvMSJVLCYZl7FQXIKL/XAK3/uXQlatjlUFiHQoxUyE8lSl4Ca2+mtZ3pvasHRekHjSLVQhzZ8BeJ/+QXrGjOL87IEE5gRyR6FWkaFyEVDzy14TmNrA99tZcasWxJjG1A3UyXI5IA7JSxfstckf/XlyF7NP7YUOGHRjxvAAAA=="
+    },
     {
       "id": "17966500683146559",
       "permalink": "https://www.instagram.com/p/DciYAXkGhW9/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADQBACdASoUABsAPu1usFIppiSiqAgBMB2JQAECtDRISg5K3oUZELQnNX3Z1jWdiAD7BOzhYr/+KWnpqn4mVFF1ZmBj0nvX3BaPcqpFBi/+9Vofc8AyWOYCm6b1gJtqCPgy8RxhEJyfskPf1W4rmXt1bXNXd4Wxgm+Tex1Vh8zrAEEckMBXTW1lMXv+jNKVtZxAhRpGCVbBCtbTKJSy/Z5Us73QXJTx0rtiAAAA"
-    },
-    {
-      "id": "18454524991184118",
-      "permalink": "https://www.instagram.com/p/DcbO3fNmuPx/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-24T14:03:08+0000",
-      "caption": "Kurta pure muslin digital print with applique embroidery on the yoke and hemline; crochet 3d florals at the hemline, finished with scalloped crochet borders along the sleeves.…",
-      "alt": "Kurta pure muslin digital print with applique embroidery on the yoke and hemline; crochet 3d florals at the hemline, finished with scalloped crochet borders…",
-      "width": 1000,
-      "height": 1000,
-      "aspect": 1,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18454524991184118-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18454524991184118-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADQBACdASoUABQAPu1qrlCppaQiqAqpMB2JYgAALs0fsrPoCtzAhMtkALn1lUY0MAD+6nt3D5q4ccayspcJdzDHTxWQ+4HDaguzIU6vtl0h6KH07bKx++P73LQZpqGGjSAL600g1ntxl7Vy44LG9w13R9pKkuX452tF0Z/8jg8gViZltdPAn+/Gz449MK5sPjjcbAAA"
     }
   ]
 }
