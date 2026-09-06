@@ -1,6 +1,72 @@
 {
-  "fetchedAt": "2026-09-05T22:07:53.401Z",
+  "fetchedAt": "2026-09-06T04:53:42.530Z",
   "posts": [
+    {
+      "id": "18045819242805568",
+      "permalink": "https://www.instagram.com/p/Dc6HlHRCAz4/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-05T13:55:55+0000",
+      "caption": "Ganga top · premium cotton printed with embroidery, schiffli embroidery lace on neck. · bottom · premium cotton printed. · dupatta · premium cotton mul printed.",
+      "alt": "Ganga top · premium cotton printed with embroidery, schiffli embroidery lace on neck",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18045819242805568-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18045819242805568-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADQBACdASoUABsAPu1ur1IppiQiqAgBMB2JYgC/7BDSZz9rubhX9OMbNQipBoIOMAD+6nYtzdIiVfR+p13ySOe0SjznJncU982ZfWV00YnMKF1Y6QFbeGdjZwW059H9Q2PsEUq96morW0bDZgajz4kB+K8/pwa97eqaduXVNbfURwBCo47+MJBvtKqnL3TlMUwGwhIWK4p7GbsWJGRvFDeTkjAAAA=="
+    },
+    {
+      "id": "18111740084019747",
+      "permalink": "https://www.instagram.com/p/Dc5ienJGvoE/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-05T08:31:43+0000",
+      "caption": "Top cotton printed Bottom printed Dupatta kota check with embroidery",
+      "alt": "Top cotton printed Bottom printed Dupatta kota check with embroidery",
+      "width": 943,
+      "height": 1000,
+      "aspect": 0.943,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18111740084019747-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18111740084019747-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoUABUAPu1mqk8ppaOiKA1RMB2JYgCo9BOw9xmdR4Bdj1FJcKuYkAD+wgbhOQtcLEQS7BMmLkJadfSUT56rTRx31you8WzXz+bP6h/6IVcgt/nJ3jRRsXTGR0szmiefHXKS3kOecpt1lwcvesby4bbAYQgy0cwAAAA="
+    },
+    {
+      "id": "18030923114896872",
+      "permalink": "https://www.instagram.com/p/Dc5KOBaGsc9/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-05T04:59:44+0000",
+      "caption": "Mal chanderi embroidered suit with embroidered dupatta",
+      "alt": "Mal chanderi embroidered suit with embroidered dupatta",
+      "width": 881,
+      "height": 1000,
+      "aspect": 0.881,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18030923114896872-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18030923114896872-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQBACdASoUABcAPu1kqk4ppaQiMAgBMB2JZQAAN3EC3VWeuHf9C4/Z5bX2vBTlgADbw5H8UXyk3OifG3qvc8H7d+0TNqx4Q1AhS4eDlJks20sjLiG+eG1veDbgWfn9PQksmQqC0MhKBLNUwu4hZZjQPayKSIAA"
+    },
     {
       "id": "18092787185439408",
       "permalink": "https://www.instagram.com/p/Dc0Yl92GuO4/",
@@ -66,72 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBACdASoUABQAPu1ur1KppiQrqAgBcB2JQBUkwYAI2yyGU4OF54Ool2IAAP7Dpsu4uW0Y4dj+gWpO6GIQawerlz3OBjm4Nf6Y1EF4RxAU25yCc304RRGVy3E2LBBRuc6RSQH7/JsmUWRYAHw3665u8RgZTlYv0oBt+UAA"
-    },
-    {
-      "id": "18153097852518951",
-      "permalink": "https://www.instagram.com/p/DcvA4EhmkR0/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-01T06:25:41+0000",
-      "caption": "Top handloom cotton with thread work Bottom plain Dupatta block printed with zari border",
-      "alt": "Top handloom cotton with thread work Bottom plain Dupatta block printed with zari border",
-      "width": 923,
-      "height": 1000,
-      "aspect": 0.923,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18153097852518951-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18153097852518951-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACwBQCdASoUABYAPt1YpE2opSOiN/qoARAbiWgAv2qEgsi8gmnEw8IZul3ktJX+tFK/bqvVQAAA/tI4Pmt5JC57JBiJzAYNI5/H2gGso9LoGAkek0aj2l1LjcgPp8ZU31LQc8tp1ggmbPQK82QM9W6Asu/bUzOxcackuRuTjjzdYM32x9ds1tDmjgYAAA=="
-    },
-    {
-      "id": "17954338872237739",
-      "permalink": "https://www.instagram.com/p/Dcu5SZLmhyi/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-01T05:19:23+0000",
-      "caption": "Mal chanderi embroidered suit with embroidered dupatta",
-      "alt": "Mal chanderi embroidered suit with embroidered dupatta",
-      "width": 845,
-      "height": 1000,
-      "aspect": 0.845,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17954338872237739-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17954338872237739-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQBACdASoUABgAPu1mq02ppaQiMAgBMB2JQBOjXAALGPLd4GiI3MC8ymCCXS/14ADJFUHEx2oHaVR4+ybgMvIQFhJaHe1KfPdrlo3GeCseSybcrV5Y5ImCwFLaJCKtTipCdd8fBNJ6QtHfhhveuFh5MAZt5U5kAAA="
-    },
-    {
-      "id": "17989010349011892",
-      "permalink": "https://www.instagram.com/p/DctTOjGmoyR/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-08-31T14:27:34+0000",
-      "caption": "Pure Cambric Cotton Printed with Embroidery Work",
-      "alt": "Pure Cambric Cotton Printed with Embroidery Work",
-      "width": 1000,
-      "height": 775,
-      "aspect": 1.2903,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17989010349011892-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17989010349011892-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JYgCsABVYdL59ToWybGuiAAD+71RRZLtyOlWiwqGJrR8NmlK2eVf47WWrOnAUwcOjQvVkCnxuvRpJNgf4CYZVo/y4e9m0uVjwWvalZnBN1C8HtA1dOG0u7Xee0eLCbBlJ79lY9YF6AAAA"
     }
   ]
 }
