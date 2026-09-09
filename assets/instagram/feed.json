@@ -1,6 +1,50 @@
 {
-  "fetchedAt": "2026-09-09T13:02:34.198Z",
+  "fetchedAt": "2026-09-09T19:20:47.671Z",
   "posts": [
+    {
+      "id": "18122523923308862",
+      "permalink": "https://www.instagram.com/p/DdEb3KbGosU/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-09T14:05:33+0000",
+      "caption": "Semi tusser silk suits",
+      "alt": "Semi tusser silk suits",
+      "width": 877,
+      "height": 1000,
+      "aspect": 0.877,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18122523923308862-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18122523923308862-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADwBACdASoUABcAPu1qqVAppiOiqA1RMB2JYwCdM5Hrin/AEwoza7s8YKn+3LVE0mAA/oQ6IZhKRTOLtav4GyS6kbY8Y1AQd/8OE+lMtAawR5PZu1X23jSQrIC2Z1xdPvmGBlTrA7iwBFowVmzaOVMXhFef/KJPlCu2PVvG4vq9FZ/+6TnyhUypZI9HQbroVAwAAA=="
+    },
+    {
+      "id": "18351995206172704",
+      "permalink": "https://www.instagram.com/p/DdDvfyumvzE/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-09T07:37:53+0000",
+      "caption": "Banarsi suits",
+      "alt": "Banarsi suits",
+      "width": 771,
+      "height": 999,
+      "aspect": 0.7718,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18351995206172704-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18351995206172704-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAACQBQCdASoUABoAPu1qsFAppaSiqAqpMB2JYwCdAA6zCa/QLoQfBDkFcRuVeLnltiqyWC0f+ADMCWCTBI0zooNIBiD0KtB66p1kOmOanh++pPR494JUs98369KVjQb4uMvHSkDktynSEdCdKhhbCD0DVHmWa/CgObg6nNY2nG1u/LcoWZnvv/OMMgC8FqbliP8j9afIkB6RxGMjc1pE+i9JvCCSg9ToVdXcWXo+Ifd8AAAA"
+    },
     {
       "id": "18170400010458757",
       "permalink": "https://www.instagram.com/p/DdBrk4UGtcN/",
@@ -88,50 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAACwBQCdASoUABsAPu1qqk8ppiOiMBgIATAdiWwAnTMy5YwetIXSqEEflVIPowlVYUaWlIbjBWAA9u2GzB6m/pxlkOUkCiZB2+rKmPNCyg4FlDVE/jH08Y/c1irMV+liA2jgcTb/Sv5EXQMAyJ0PAxT7Cy8OAIN1AavQXI3xUAtPevvO9mW8RGsOCt2DmKOhyyFIFf7TuYDK9OAiR5ePfTQVQ0yxi8+KOVw7rSd22kNv4x2kVqoCp1YIbkZ57LPRPPBNHE1AbGKFd9R9CgA="
-    },
-    {
-      "id": "18115300862048426",
-      "permalink": "https://www.instagram.com/p/Dc_EdsimvyT/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-07T12:04:53+0000",
-      "caption": "TOP : Pure Viscose Muslin Digital Print with Embroidrey Work : ВОТТ: Pure Viscose Muslin Solid Dyed : DUPATTA: Pure Viscose Muslin Digital Print",
-      "alt": "TOP : Pure Viscose Muslin Digital Print with Embroidrey Work : ВОТТ: Pure Viscose Muslin Solid Dyed : DUPATTA: Pure Viscose Muslin Digital Print",
-      "width": 886,
-      "height": 613,
-      "aspect": 1.4454,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18115300862048426-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18115300862048426-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoUAA4APu1iqU2ppaQiMAgBMB2JQBOgBCmwk9Be+4UPhpYAAP7wQKaKmS34XfMP4XhvmR+EfHIEz8D8JzQqB6XHZZA4U+eBMzS67e9uOhauxwtvgAA="
-    },
-    {
-      "id": "18413050057080619",
-      "permalink": "https://www.instagram.com/p/Dc-wn8COhyI/",
-      "type": "IMAGE",
-      "timestamp": "2026-09-07T09:11:51+0000",
-      "caption": "Mal chanderi embroidered suits",
-      "alt": "Mal chanderi embroidered suits",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18413050057080619-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18413050057080619-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABwBQCdASoUABsAPu1kqU2ppaQiMBgMATAdiWwAnTKAAXpNexa9TFyIFxxb0cwFoiS792RAAP5UUN0uAHA9zKc1ua0thfe1xf6wpevvVCGmLRqIWGMp9aTVWU1mvo8ob4/FvuB3vP0MWB0CVYFClQb5z3Sop7eB9wOhBt+Up1bJiIvADufe6JA2F36412dm7+2JT7yYgT7XhTqy/mReHwPplFX8shP5JdGGOYzcwz5dEzU962X/kfIAAAA="
     }
   ]
 }
