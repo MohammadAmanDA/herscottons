@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-09-16T19:36:56.067Z",
+  "fetchedAt": "2026-09-16T23:04:26.438Z",
   "posts": [
+    {
+      "id": "18121497457903184",
+      "permalink": "https://www.instagram.com/p/DdV0LbSOk3C/",
+      "type": "IMAGE",
+      "timestamp": "2026-09-16T08:05:31+0000",
+      "caption": "Phulkari work chanderi silk suits",
+      "alt": "Phulkari work chanderi silk suits",
+      "width": 753,
+      "height": 1000,
+      "aspect": 0.753,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18121497457903184-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18121497457903184-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRgABAABXRUJQVlA4IPQAAACQBQCdASoUABsAPu1sq1EppaOiqAqpMB2JYgAIEC6MTav3gDde3+ZFudgOceFJKhbOkHYPQAD+bGqKlyaRQYowPwSc+ceipMSEeSadfoj5+tiWkF0on1F1i7CkTLE17tLdWGHiRO50yTZEgjYmxQb0Q2+o7SFK9Ejnm1Zmmydp586QBX+r0O6vPVK3crzF1zezcPRjNMYrq1EfSXkxWp4tK2o4vdU3UVAaLMmmuqC8pbL0QTpgIvvPz2GDyev1pnOl1pT+heHS3xJXcVVp+s50VsIvKrj+oxy/LGrmNjaRkPEOsUyoCCgkHWpG9Iq+QgManAAA"
+    },
     {
       "id": "17893759701417566",
       "permalink": "https://www.instagram.com/p/DdT_NlzmgeL/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAACwBQCdASoUABsAPu1qrlCppaQiqAqpMB2JQBUgv/xbPhoDjxmUrZqpevTs15EgQNy5CURotAAA/u1gHlHAIIMm094/WHzqkGqChY5kYpFxqaB/Ok0ZYixScfjKwWHaLX+898DlmpAPGZdIYuXP7PTA/A+eurDPQo/ZtPXpF4Lh6CymiIGs6aLL/ZrUAgHGpUFoXSjtM0ydaSNnh39l8KSUpzqQRpYcsF0sBwy/l1qtI7LBke+e9PtZRP++82/PNRYE8cFxQIGoJYAA"
-    },
-    {
-      "id": "18185324578409842",
-      "permalink": "https://www.instagram.com/p/DdOIMuXGqS8/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-13T08:26:08+0000",
-      "caption": ":top: tissue silk simmer exclusively woven n with elegant handwork :dupatta: tissue silk simmer four side border exclusively woven with tassels bottom: cotton silk (solid)dyed",
-      "alt": ":top: tissue silk simmer exclusively woven n with elegant handwork :dupatta: tissue silk simmer four side border exclusively woven with tassels bottom: cotton…",
-      "width": 1000,
-      "height": 705,
-      "aspect": 1.4184,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18185324578409842-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18185324578409842-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JQBYeNQAx9U5WYct50AD+eLuWTv5QCI9CxHECrgpLG/eqba7WIw1KXVkul95LmrasGWrdV7r3MnlskSVDHPbsa50+hAmgTVZSAX+6BvZBdeIGpAA="
     }
   ]
 }
