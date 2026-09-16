@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-09-15T22:59:26.535Z",
+  "fetchedAt": "2026-09-16T05:00:34.846Z",
   "posts": [
+    {
+      "id": "17893759701417566",
+      "permalink": "https://www.instagram.com/p/DdT_NlzmgeL/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-15T15:03:03+0000",
+      "caption": "Ganga · top · premium cotton satin printed with embroidery on neck, button work, crochet lace border daman & sleeves. · bottom · premium cotton satin solid color. · dupatta…",
+      "alt": "Ganga · top · premium cotton satin printed with embroidery on neck, button work, crochet lace border daman & sleeves",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17893759701417566-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17893759701417566-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAACwBQCdASoUABsAPu1ur1KppiQiqAgBMB2JaACzsvIBiN8CSteQE9xSpdYc9BI9odHCoX9TdgAA8PbsrOPBaHFHML7RzFhsnsXFI5aOLXLjtB8IRw264EmbGkHS9KDJxKZO/tYaQpuMx52bU4AjAbA3pzLz0XOG+NNklwWU7z6vB7bg6k4cYxAmJxbqcTNdiTxFpGqpxnKC6kyYFB0+FNUyRD1+hqHdLyeZHN+iXFmQ7sUBf7+X0YRoajaWrd0FvTklWsBtlOBqqkB0s7lbUKMZioUAAA=="
+    },
     {
       "id": "17880988395625155",
       "permalink": "https://www.instagram.com/p/DdRcGZ9GqOR/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JQBYeNQAx9U5WYct50AD+eLuWTv5QCI9CxHECrgpLG/eqba7WIw1KXVkul95LmrasGWrdV7r3MnlskSVDHPbsa50+hAmgTVZSAX+6BvZBdeIGpAA="
-    },
-    {
-      "id": "18076894166455271",
-      "permalink": "https://www.instagram.com/p/DdMMYK0mgZP/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-12T14:24:10+0000",
-      "caption": "Top : muslin silk exclusively kashmiri woven with sarvoski : dupatta : pure viscose chinon four side woven with sarvoskin tassels : bottom: cotton silk solid dyed",
-      "alt": "Top : muslin silk exclusively kashmiri woven with sarvoski : dupatta : pure viscose chinon four side woven with sarvoskin tassels : bottom: cotton silk solid…",
-      "width": 1000,
-      "height": 710,
-      "aspect": 1.4085,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18076894166455271-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18076894166455271-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAABQBACdASoUAA4APu1iqU2ppaOiMAgBMB2JbACdMoAlvhLyAR3RH66EO8UAAP5sX/XPw0jL2UISrJIjrAQIyyhKPKTkquvvIuhfqy8v7AePuNNiYuz7eXmzdmulyDYolmdqydKeZlTdpJ7Ccy+OVEwxtHzwYgc1+ftI/tAalspFSP/6CL3vIL8r8xmH7sd1YDznW0eES5UimzYvfa13cvqVZLhfU4AA"
     }
   ]
 }
