@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-09-17T22:56:58.918Z",
+  "fetchedAt": "2026-09-18T04:55:57.381Z",
   "posts": [
+    {
+      "id": "18124883620871723",
+      "permalink": "https://www.instagram.com/p/DdYxERUmlg6/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-17T11:35:39+0000",
+      "caption": "Kurta pure cotton lawn with boring eyelet embroidery on the front, resham embroidered organza borders with motifs on the front and sleeves: adorned with scalloped crochet…",
+      "alt": "Kurta pure cotton lawn with boring eyelet embroidery on the front, resham embroidered organza borders with motifs on the front and sleeves: adorned with…",
+      "width": 902,
+      "height": 636,
+      "aspect": 1.4182,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18124883620871723-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18124883620871723-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JYwCdABTdzeJo6JjwAAD+66vupC44efXV5bl5WPkQzwVf92XLprvosSd1fq5q5AjnHoUTgKT3+B993T6wTVsw4DzeRm/3rPNismvhgJLFxyAA"
+    },
     {
       "id": "18121497457903184",
       "permalink": "https://www.instagram.com/p/DdV0LbSOk3C/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAABwBQCdASoUABsAPu1urlIppiQiqAgBMB2JagC/WSABFTgT00NILJ4tF9DEQS6nyhy4puhwAP3hg8mfZKKNrZ61bjBRZqMy7gDJdG+sdkfZ0ojuEIaY0eQtd95kO79uA4s48X6dC4TKcy3bpNIghwD0NLa7gQRy9o3e1iqlcklSwXn2Zf2lbFPrYJLGnTLlwF5trv8JnutmPv2AQqr4NbcezF829hLDdfZjv/KL6frOt/kv4zPOAwXaOpe8dpWs3wSBJYAAAAA="
-    },
-    {
-      "id": "18015169088930609",
-      "permalink": "https://www.instagram.com/p/DdOtbshmpjD/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-13T13:51:29+0000",
-      "caption": "Kurta: Pure cotton lawn digital print with crochet detailing on the panel, neckline and sleeves; scalloped embroidery border along the hemline and sleeves. Dupatta: Pure Bemberg…",
-      "alt": "Kurta: Pure cotton lawn digital print with crochet detailing on the panel, neckline and sleeves; scalloped embroidery border along the hemline and sleeves",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18015169088930609-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18015169088930609-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAACwBQCdASoUABsAPu1qrlCppaQiqAqpMB2JQBUgv/xbPhoDjxmUrZqpevTs15EgQNy5CURotAAA/u1gHlHAIIMm094/WHzqkGqChY5kYpFxqaB/Ok0ZYixScfjKwWHaLX+898DlmpAPGZdIYuXP7PTA/A+eurDPQo/ZtPXpF4Lh6CymiIGs6aLL/ZrUAgHGpUFoXSjtM0ydaSNnh39l8KSUpzqQRpYcsF0sBwy/l1qtI7LBke+e9PtZRP++82/PNRYE8cFxQIGoJYAA"
     }
   ]
 }
