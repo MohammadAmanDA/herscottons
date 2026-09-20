@@ -1,6 +1,72 @@
 {
-  "fetchedAt": "2026-09-19T18:40:09.141Z",
+  "fetchedAt": "2026-09-20T05:05:36.140Z",
   "posts": [
+    {
+      "id": "17928969564164750",
+      "permalink": "https://www.instagram.com/p/DdeNej7mg_z/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-19T14:20:07+0000",
+      "caption": "*top:-jam satin discharge print with foil & heavy fancy hand work* *bottom:-reyon deying solid* *dupatta:-bembeng discharge print with box duptta*.",
+      "alt": "*top:-jam satin discharge print with foil & heavy fancy hand work* *bottom:-reyon deying solid* *dupatta:-bembeng discharge print with box duptta*",
+      "width": 1000,
+      "height": 711,
+      "aspect": 1.4065,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17928969564164750-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17928969564164750-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACQBACdASoUAA4APu1iqU2ppaOiMAgBMB2JZACdMoBOACBVn8FpGor/vPMvZoYA/rPtWZiG7FpUOMD2N/8O1Frx10tW5rbvfG/1Iq0fdVbUKkjx5Yv58mbazlqc+GLr1rYDLKk9MOzRNsT0LzQuZc9sIuULDUEu3Q9wXl5iCKSIdFYOb97R489gAAA="
+    },
+    {
+      "id": "18074718014535030",
+      "permalink": "https://www.instagram.com/reel/Dddp0erOUTC/",
+      "type": "VIDEO",
+      "timestamp": "2026-09-19T09:09:44+0000",
+      "caption": "Bagru handblock printed suits made with soft cotton and mulmul dupatta",
+      "alt": "Bagru handblock printed suits made with soft cotton and mulmul dupatta",
+      "width": 562,
+      "height": 999,
+      "aspect": 0.5626,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18074718014535030-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18074718014535030-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRkYBAABXRUJQVlA4IDoBAADwBgCdASoUACMAPu1oq1CppaOiqqgBMB2JaAC2+wN6BTASqnvJJa6zJ2hFHlJWJRgyX92GqRJ5QrOhvVfN/T6AAP6YKJKNKJri4Yl0hw8XOb1FPRlxyptlEtGZnPzrBsUlKdnQymEb8rapxFTzAWkRPgo76Y0O2C0fYR1oFnaAM61Y4i36xSd6cGgbfW7+A9Warq+tXhTBJCl2woRaEJs+FPt9u3HJZ8mYx92Twu6JfE7KK3uKrcVqQsgrhkFc/A/8qhZDeE7TGy0RXG5M/sG5ylzGneyeCohZ8dalqfmquB9K5BmFvsquelTRPBfJkFmVye9l9Y0/XRuQRls/kcaY7AAdzlGDAAUsjF+mgWxN210W1Q+bcSDhJdeNM/+SzLnNHpA/uFPiOJyJQQD9NOuG+++IAwrBPWAAAA=="
+    },
+    {
+      "id": "17888662080458630",
+      "permalink": "https://www.instagram.com/p/Dddd5-hGiZC/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-19T07:24:25+0000",
+      "caption": "Bagru handblock printed suits made with soft cotton and mulmul dupatta",
+      "alt": "Bagru handblock printed suits made with soft cotton and mulmul dupatta",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17888662080458630-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17888662080458630-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAADwBACdASoUABsAPu1mqk2ppaQiMAgBMB2JQBZZgkI9OnSv6Sj3jUVespYqoyvGFGAA/oFQRLrqbcg0W7XWsz5EV9dILSVgAwg5wroIJV8vxr046L4s9YNxy2NRRh1fCd3PggwknNOvTSiAPHtuQI5ZIhWr1pEGGJtAwfKctgRgsJxK4DF6ikCL07QPnxI+TEPccjwGI4sDX1zjVrQhZFD17gs8o0et8QUZhj4bHuGF2zotMkIbibgAAAA="
+    },
     {
       "id": "18124883620871723",
       "permalink": "https://www.instagram.com/p/DdYxERUmlg6/",
@@ -66,72 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAACwBQCdASoUABsAPu1ur1KppiQiqAgBMB2JaACzsvIBiN8CSteQE9xSpdYc9BI9odHCoX9TdgAA8PbsrOPBaHFHML7RzFhsnsXFI5aOLXLjtB8IRw264EmbGkHS9KDJxKZO/tYaQpuMx52bU4AjAbA3pzLz0XOG+NNklwWU7z6vB7bg6k4cYxAmJxbqcTNdiTxFpGqpxnKC6kyYFB0+FNUyRD1+hqHdLyeZHN+iXFmQ7sUBf7+X0YRoajaWrd0FvTklWsBtlOBqqkB0s7lbUKMZioUAAA=="
-    },
-    {
-      "id": "17880988395625155",
-      "permalink": "https://www.instagram.com/p/DdRcGZ9GqOR/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-14T15:17:45+0000",
-      "caption": "Kurta pure cotton lawn digital print with scalloped crochet detailing along the neckline, sleeves and hemline dupatta pure cotton chiffon digital print with scalloped crochet…",
-      "alt": "Kurta pure cotton lawn digital print with scalloped crochet detailing along the neckline, sleeves and hemline dupatta pure cotton chiffon digital print with…",
-      "width": 1000,
-      "height": 1000,
-      "aspect": 1,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17880988395625155-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17880988395625155-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQBACdASoUABQAPu1krE4ppaSiKA1RMB2JYwC/OA9k2Z8aYBARXoRuAZSkkAAA/urJCFaiPrJP5kR+sClYXa9PrCfrijEtJvuDZVHPaPVF5NYyMQFt+LOzN+QqWHw/3FW4CFDXJtf3Vet+AdUSgKYUXgA="
-    },
-    {
-      "id": "18210237331361975",
-      "permalink": "https://www.instagram.com/p/DdRE2XkmiX2/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-14T11:54:35+0000",
-      "caption": "Ganga top premium cotton satin printed with hand embroidery, hand work, button work,embroidery lace on daman. Bottom premium cotton satin solidcolor. Dupatta premium pure bemberg…",
-      "alt": "Ganga top premium cotton satin printed with hand embroidery, hand work, button work,embroidery lace on daman",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18210237331361975-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18210237331361975-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBQCdASoUABsAPu1oq08ppiOiMBgIATAdiWUAv/AIAHjVqc8xvVdKpkUaIK097X93pcbgAP4o+0rmrN1ylc83i5YOCqP5/Bp8G2nlU6dRUezk1jjkB7siRRiP51vOPvOIGTYYmJddRbPRxU8Gylcz75KvHC+jxVAQt4nJ48O60lRL2OdFEGjGp7YrQ8Qs+82UnWB/fNr2mUbVIh52ee5Qa+Ri8ROAVf6gAA=="
-    },
-    {
-      "id": "18148337215535785",
-      "permalink": "https://www.instagram.com/p/DdO-moyn62T/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-13T16:21:32+0000",
-      "caption": "Ganga · top · premium pure viscose woven silk jacquard with hand embroidery, swarovski work, jari lace on dáman & sleeves. · bottom · premium silk satin solid color. · dupatta…",
-      "alt": "Ganga · top · premium pure viscose woven silk jacquard with hand embroidery, swarovski work, jari lace on dáman & sleeves",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18148337215535785-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18148337215535785-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAABwBQCdASoUABsAPu1urlIppiQiqAgBMB2JagC/WSABFTgT00NILJ4tF9DEQS6nyhy4puhwAP3hg8mfZKKNrZ61bjBRZqMy7gDJdG+sdkfZ0ojuEIaY0eQtd95kO79uA4s48X6dC4TKcy3bpNIghwD0NLa7gQRy9o3e1iqlcklSwXn2Zf2lbFPrYJLGnTLlwF5trv8JnutmPv2AQqr4NbcezF829hLDdfZjv/KL6frOt/kv4zPOAwXaOpe8dpWs3wSBJYAAAAA="
     }
   ]
 }
