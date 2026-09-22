@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-09-22T13:31:01.188Z",
+  "fetchedAt": "2026-09-22T19:47:42.100Z",
   "posts": [
+    {
+      "id": "18136287301632854",
+      "permalink": "https://www.instagram.com/p/DdlYCEnmhdD/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-22T09:07:01+0000",
+      "caption": "Kurta pure muslin digital print with scalloped resham embroidery detailing on the neckline, sleeves, and hemline; adorned with embroidered motif applique on the front. Dupatta…",
+      "alt": "Kurta pure muslin digital print with scalloped resham embroidery detailing on the neckline, sleeves, and hemline; adorned with embroidered motif applique on…",
+      "width": 896,
+      "height": 640,
+      "aspect": 1.4,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18136287301632854-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18136287301632854-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoUAA4APu1iqU2ppaOiMAgBMB2JagCdABMZz/x9OkGx3IMKAAD8TvPNqyQlEReN9AfEfIgESmyV3rRCRBvNSqRm6mA6Krim163pJgnrwJOgpIp7P9evhn3fxDxakEYJ85HfeLbSNiDVslceF6PSFx8CZUAAAA=="
+    },
     {
       "id": "17973895926129614",
       "permalink": "https://www.instagram.com/p/DdjgaTxmmiK/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAABQBQCdASoUABsAPuFgp02opaOiMAwBEBwJYgCdBawBc6/nGkCHnNcUMYRlZkQP+tSbmAAA/swIb831hkn5sZdfHXAQPzfYXgLljChnee1kLzgBFXirjDWyGI9SsIdwB9ooQ7uiRyNVzRxbL366rUCAyuAH28+T/bZmQ7MiRH2j3rQCYKoYdXZa4usg5AkNpJE3yfM7+7UrW4eDQGXL4n6Tn9XGfs8ijSlsybIZOhGTePXHMAA="
-    },
-    {
-      "id": "18072536231754033",
-      "permalink": "https://www.instagram.com/p/DdgWIZCGlkF/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-20T10:14:12+0000",
-      "caption": "Top:-banglory silk jacquard with handwork* *dupatta:-banglory silk jacquard* bottom:-santoon*",
-      "alt": "Top:-banglory silk jacquard with handwork* *dupatta:-banglory silk jacquard* bottom:-santoon*",
-      "width": 1000,
-      "height": 708,
-      "aspect": 1.4124,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18072536231754033-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18072536231754033-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBACdASoUAA4APu1iqU2ppaOiMAgBMB2JYwCdABVaxw6Wj0y3wwmuxAD+8rQMc93tHBokZ94+X1GGzEVdaRQx0x12iZ87UYTYfQkixMDz/3LPYC/2bGCW76ww5xCjkD9IvS9uBVC7z6pJp2v8nNRKhcw0zwFMAlX3M2iGCnRR3gAA"
     }
   ]
 }
