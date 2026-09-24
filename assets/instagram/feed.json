@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-09-24T05:06:19.189Z",
+  "fetchedAt": "2026-09-24T13:38:50.196Z",
   "posts": [
+    {
+      "id": "18006799103782904",
+      "permalink": "https://www.instagram.com/p/DdqjuIzmlpo/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-24T09:25:22+0000",
+      "caption": "Shirt Digital printed muslin with sequence, knot & pitta Handwork. Dupatta Digital printed soft silk with tassels. Pallazo Dyed rayon with applique embroidery.",
+      "alt": "Shirt Digital printed muslin with sequence, knot & pitta Handwork",
+      "width": 1000,
+      "height": 730,
+      "aspect": 1.3699,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18006799103782904-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18006799103782904-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JYgCdMoADX4TgSgKNphw3jgD+64687gXQqHBSLgZ73qPzmWlDMkq/B/aykcXMLxrP41KHR0DDae3Dmlb8akr7XJIGTR+WXUUIijSzbBwZIRAZ0+UoAp4ctV5ER03rcXIcPSskyS8AAA=="
+    },
     {
       "id": "18095439026544611",
       "permalink": "https://www.instagram.com/p/Ddn2dkbGjqa/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAQBQCdASoUABsAPu1qrFEppaQiqAqpMB2JQBOmZfgxQdHRrTwtM14pGc0B/vMZ1x8wAP6tT+YCYqTciMTHBi5ApYbcwZhE0HDY8gbCp2ibKamuElbB774AYWjtSZ5hr5/6TwVN0Mv2+VgmHJIiBpz1BVtP6k6CsjAYlgGksYzfnRI74pT8VKad1JCXfdukEWI8NUcgHC1zZlCcIlkoFIZi7evbqOoe6B0deACqQgAAAA=="
-    },
-    {
-      "id": "18130611212504874",
-      "permalink": "https://www.instagram.com/p/DdjFGjfmsNU/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-21T11:43:08+0000",
-      "caption": "Ganga · top · premium pure bemberg silk satin printed with hand embroidery, embroidery neck, swarovski work and cut work · bottom · premium pure viscose silk solid color.…",
-      "alt": "Ganga · top · premium pure bemberg silk satin printed with hand embroidery, embroidery neck, swarovski work and cut work · bottom · premium pure viscose silk…",
-      "width": 753,
-      "height": 1000,
-      "aspect": 0.753,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18130611212504874-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18130611212504874-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAAAwBQCdASoUABsAPu1urlIppiQiqAgBMB2JZADCgAfbVfaRvqGXTd8ZflFCQdzw62lgAADb8wO56VTpcwvhuaj+2fjNVrTl4vy9kefgjE3OuPMFPzeh+0ziWyVY6gaaQrRXCErNSTZV9deFLoptB9vbLSIrZN8M7l8ZhtG1U5CNMRj+Z38oQrL9mz5bhiA5VyNQ0BO/pJ8DkPC/2ndyKJJDlnJ+w1ZY1IzT4FA0dOqw35tfiltQAA=="
     }
   ]
 }
