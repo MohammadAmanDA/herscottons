@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-09-29T20:55:56.414Z",
+  "fetchedAt": "2026-09-30T05:46:11.460Z",
   "posts": [
+    {
+      "id": "18101406977635285",
+      "permalink": "https://www.instagram.com/p/Dd3aSxUGhp-/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-09-29T09:13:06+0000",
+      "caption": "Top:- jaam satin digitally printed with embroidery work & handwork bottom:- heavy viscose rayon dyieng..... Dupatta:- muslin dupatta digitally printed......",
+      "alt": "Top:- jaam satin digitally printed with embroidery work & handwork bottom:- heavy viscose rayon dyieng",
+      "width": 1000,
+      "height": 714,
+      "aspect": 1.4006,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18101406977635285-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18101406977635285-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JQBOgBEPbzMN0TOx2bO1AAOJ+Y/LeG0xK1Q7xfi1sYPE7vhfKQchI3Hp4cCsWcrI8w6FLhXayWILunYxAxqakXv5OfXsvY0+az8ypMFqiO8rgs8foQpN9KrfGkPfMzps+iUiFh3Qm0AAA"
+    },
     {
       "id": "17941547043092556",
       "permalink": "https://www.instagram.com/p/Dd1bvNXmtGg/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAAAQBQCdASoUABsAPu1sq08ppqOiMBgIATAdiWMAzBwQ3Zr0WJHu/q2waziqaS/IRfngAP5K9+sek/e/U9uKZF0++nwwNLgekbFFzVXh3x0cxZIU47Cz4QHSO826QBIcr6W5GyixGF49/ZJyIaM8ChV0D9zwX5yFNaranUdVuqgNuJz1j5IwTIA7CcEzSnguuuuhVMiK9B6r2IsCcfA6NzJn8IwFYxvpKSlZTdYzb/u0O72ROcAAAA=="
-    },
-    {
-      "id": "17949718971329276",
-      "permalink": "https://www.instagram.com/p/Dd01ADZmh4p/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-28T09:08:46+0000",
-      "caption": "The luxurious Chanderi Silk Jamdani suit offers a soft texture, subtle sheen, and graceful drape, making it an ideal choice for elegant ethnic wear.",
-      "alt": "The luxurious Chanderi Silk Jamdani suit offers a soft texture, subtle sheen, and graceful drape, making it an ideal choice for elegant ethnic wear",
-      "width": 987,
-      "height": 1000,
-      "aspect": 0.987,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17949718971329276-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17949718971329276-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQBACdASoUABQAPu1urlIppiQiqAgBMB2JZQDLLBCpbkKtz5yAO4GHzpaAAP3MfSqt2SdtJtoQJEurLJ6vsLJW+G1aqGqwVgD/rGT07YTCHU1AXL5Ue0XkWX+oBsPiF6yst4AAAAA="
     }
   ]
 }
