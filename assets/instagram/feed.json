@@ -1,6 +1,50 @@
 {
-  "fetchedAt": "2026-10-06T01:21:02.963Z",
+  "fetchedAt": "2026-10-06T11:24:05.197Z",
   "posts": [
+    {
+      "id": "17999199738040471",
+      "permalink": "https://www.instagram.com/p/DeHfc0dmjqH/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-05T15:06:01+0000",
+      "caption": "Ikkat Mercerized Cotton suits",
+      "alt": "Ikkat Mercerized Cotton suits",
+      "width": 1000,
+      "height": 864,
+      "aspect": 1.1574,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17999199738040471-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17999199738040471-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBQCdASoUABEAPu1qrlCppaQiqAqpMB2JZAC7M5N0D7TgyPh7skBGL5iSieeuV/vxvMAA/trNcDNRkZKlpXPUF7UtjdZGAkL+aZ7w9ZyfzZu6ZkHQO8m3zZLltjue/IRd92U/93w8LLhvvj4mDR+QOuQl949wesinlSJ9AGNggCuQjkGjQs5eDjVaJeqiRo7pAAAA"
+    },
+    {
+      "id": "18167691973465164",
+      "permalink": "https://www.instagram.com/p/DeGwH3CGjnD/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-05T08:12:28+0000",
+      "caption": "A beautiful blend of traditional Ajrakh prints, Mashru silk, and handcrafted mirrorwork ...",
+      "alt": "A beautiful blend of traditional Ajrakh prints, Mashru silk, and handcrafted mirrorwork",
+      "width": 809,
+      "height": 999,
+      "aspect": 0.8098,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18167691973465164-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18167691973465164-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBQCdASoUABkAPu1kqk2ppaQiMAgBMB2JQBjPhFKUFmTyxNw3vh8J4MJSEIi/LdhCAAD+RGWQQ1weQxxpf4KDYsRGSAYT5/aat1HovHZ+9I1ODzUaQ7sY0CXssrp5MG23be0QNMEntlgwMkOe3lOPH6x4cbrIuVgHYwudKmCeB/rmjtDQZrKrPPPwKGpIJzYlADV4YmAAAA=="
+    },
     {
       "id": "18072398240741269",
       "permalink": "https://www.instagram.com/p/DeEfLNzGnrm/",
@@ -88,50 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JQBOgBEPbzMN0TOx2bO1AAOJ+Y/LeG0xK1Q7xfi1sYPE7vhfKQchI3Hp4cCsWcrI8w6FLhXayWILunYxAxqakXv5OfXsvY0+az8ypMFqiO8rgs8foQpN9KrfGkPfMzps+iUiFh3Qm0AAA"
-    },
-    {
-      "id": "17941547043092556",
-      "permalink": "https://www.instagram.com/p/Dd1bvNXmtGg/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-28T14:47:15+0000",
-      "caption": "Top:- gajji silk discharge printed with heavy hand work bottom:- riyon solid dupatta:- muslin silk digital",
-      "alt": "Top:- gajji silk discharge printed with heavy hand work bottom:- riyon solid dupatta:- muslin silk digital",
-      "width": 999,
-      "height": 710,
-      "aspect": 1.407,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17941547043092556-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17941547043092556-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoUAA4APu1iqU2ppaOiMAgBMB2JZQC7ABL3F0dnRgooXwCkAAD53f64TsU140MudJTROmcuihJoJmkAs4aSQHnIJKXLB/IfzugyPQxSsPJXbUDP5ZXDNsggAAA="
-    },
-    {
-      "id": "17909199450513186",
-      "permalink": "https://www.instagram.com/p/Dd1SNVJGiGV/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-09-28T13:23:59+0000",
-      "caption": "Viscose Muslin Weaved Top And Dupatta Santoon Bottom",
-      "alt": "Viscose Muslin Weaved Top And Dupatta Santoon Bottom",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17909199450513186-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17909199450513186-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABQBQCdASoUABsAPu1osFAppaSiqAqpMB2JYgCdM1XlvgvLdGHyvPXwLXVjAnB4G6xAz4AA/u3SCYE+01FMRBLdwjDpa08q1TuRIsT9Z5xMkCey1GVJcnlYG5kyWg3RJoeNd4HAiyj0uLHYHEhNvDjC/uGzhHtiBntUtP50LTxvqmvKpc9rN4JQGzviEvW0Yo1dcZis5Zq3ISaH0JKMVE/K5/RFZHozu5byy7wMTaNcmkZsEBcZAAAA"
     }
   ]
 }
