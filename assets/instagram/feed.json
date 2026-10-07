@@ -1,6 +1,50 @@
 {
-  "fetchedAt": "2026-10-07T06:13:51.763Z",
+  "fetchedAt": "2026-10-07T15:39:29.258Z",
   "posts": [
+    {
+      "id": "18462327739140025",
+      "permalink": "https://www.instagram.com/p/DeMAg1vmlnt/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-07T09:11:53+0000",
+      "caption": "Semi tussar silk ikkat print suit",
+      "alt": "Semi tussar silk ikkat print suit",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18462327739140025-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18462327739140025-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABQBQCdASoUABsAPt1apU2opSOiN/qoARAbiWQAvkgebofPxGk+zm3I4LFHyA12L9n8AoAA/p0UaQqrmtfUNT4Efx/LNDBNvoofcszP1/34emJ3fz8W4BO0bzBO7WzjDy5C4++xnXmhNALAFmFNhkwTVXxHq6G62swsVnHGnI1tMy7t8KwCLa80pZ/aqeG551qGfirCPwodUFfcYgA="
+    },
+    {
+      "id": "18115911373821776",
+      "permalink": "https://www.instagram.com/p/DeL2QxTmiwX/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-07T07:42:19+0000",
+      "caption": "Maheshwari silk suits",
+      "alt": "Maheshwari silk suits",
+      "width": 899,
+      "height": 1000,
+      "aspect": 0.899,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18115911373821776-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18115911373821776-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoUABYAPu1gp02ppSMiMAgBMB2JZgCdMxgC9xYYuafy0Xt1RCeGMFJx+fyBAAD+dMHuWx4AtC8NC9RVRcegoYgmebfXn+DBM2fLsjwaf0omVvQ3Z+n4L1UQfKulmSCZ+W2IGyZNFatM0dqeRYtDR/z1lDu+IlMSO+2fBA4h3g0kw8VZyLvRB+MK1DWjyoAA"
+    },
     {
       "id": "17901576774377466",
       "permalink": "https://www.instagram.com/p/DeJH1IgGnmP/",
@@ -88,50 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQC7ABorDPbFMGFyDgD+WdgdbtmPaTTKyO4d8Eur8UaQkildz1lcyJGg8YSmp+KMIU22FMwsEIZ6yBeWJyLpahBNo1hqdi1paQJ28tuhy/AGFUqRjcAA"
-    },
-    {
-      "id": "18127538056834053",
-      "permalink": "https://www.instagram.com/p/DeENpiSGr4J/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-04T08:32:45+0000",
-      "caption": "Top premium maslin digital print with emb work dupatta maslin digital print bottom heavy maslin",
-      "alt": "Top premium maslin digital print with emb work dupatta maslin digital print bottom heavy maslin",
-      "width": 1000,
-      "height": 705,
-      "aspect": 1.4184,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18127538056834053-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18127538056834053-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBACdASoUAA4APu1iqU2ppaOiMAgBMB2JQBOmUGdABxEhftmX2BoG75sAAP7AQJqghZjqEtQVddZ70eVmd/8UwuuPRrEV/YNHyWPlyY1wOkwr4fH4LiKxZojX6gAcuPyZ9ysrgDm7vqzmbaE32j4c2FNyuIyIyQMQLwBVcHA6gAAA"
-    },
-    {
-      "id": "17972215488160302",
-      "permalink": "https://www.instagram.com/p/DeEDYgIGudI/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-04T07:03:02+0000",
-      "caption": "Ajrakh print suits, hand block printed with natural dyes",
-      "alt": "Ajrakh print suits, hand block printed with natural dyes",
-      "width": 895,
-      "height": 1000,
-      "aspect": 0.895,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17972215488160302-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17972215488160302-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwBACdASoUABcAPu1or1CppaSiqAqpMB2JZQC9WBGst0y4gKUYtlmoA4Vghxsj4AAA/ZjqeOACQ/cKMb0mpBGdNS01ciweDlOYWmQ1s1Qh1N4Mx4GxT6AVel2etHOVi3BmGlqq+tXiC7CJC9H7OxaJ2HkRUXGonDEWhAq8PEn9DEfNeIe8QiAAAAA="
     }
   ]
 }
