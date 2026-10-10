@@ -1,137 +1,137 @@
 {
-  "fetchedAt": "2026-10-10T20:11:24.045Z",
+  "fetchedAt": "2026-10-10T23:41:15.529Z",
   "posts": [
     {
-      "id": "18462327739140025",
-      "permalink": "https://www.instagram.com/p/DeMAg1vmlnt/",
+      "id": "18132757708675325",
+      "permalink": "https://www.instagram.com/p/DeUZaRfmnBA/",
       "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-07T09:11:53+0000",
-      "caption": "Semi tussar silk ikkat print suit",
-      "alt": "Semi tussar silk ikkat print suit",
+      "timestamp": "2026-10-10T15:23:22+0000",
+      "caption": "Top · premium viscose woven silk jacquard with hand work and ready lace for daman or sleeves · bottom · bemberg muslin solid colour · dupatta · premium viscose woven silk jacquard…",
+      "alt": "Top · premium viscose woven silk jacquard with hand work and ready lace for daman or sleeves · bottom · bemberg muslin solid colour · dupatta · premium viscose…",
+      "width": 750,
+      "height": 999,
+      "aspect": 0.7508,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18132757708675325-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18132757708675325-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBACdASoUABsAPu1mq0+ppSOiMBgIATAdiWMAAC51TsVmD1cO3XAeRLmwAAD+rNLtgcbTpluf8qRppddRhVKNR4felDccVTYoxoxBjMW6pVQsJzdEOGd31VpR0ofwG/TzspwyWJUXtYHEJcXqUvAW4Rsp7nEPBmDyVM1pytHgAA=="
+    },
+    {
+      "id": "17911433967471583",
+      "permalink": "https://www.instagram.com/p/DeUYA8QO_GJ/",
+      "type": "IMAGE",
+      "timestamp": "2026-10-10T15:11:31+0000",
+      "caption": "Top *Mal Chanderi* With Fancy Embroidery Work Bottom Viscose Reyon Dup Mal Chanderi With Work",
+      "alt": "Top *Mal Chanderi* With Fancy Embroidery Work Bottom Viscose Reyon Dup Mal Chanderi With Work",
       "width": 750,
       "height": 1000,
       "aspect": 0.75,
       "variants": [
         {
           "width": 480,
-          "file": "18462327739140025-480.webp"
+          "file": "17911433967471583-480.webp"
         },
         {
           "width": 960,
-          "file": "18462327739140025-960.webp"
+          "file": "17911433967471583-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABQBQCdASoUABsAPt1apU2opSOiN/qoARAbiWQAvkgebofPxGk+zm3I4LFHyA12L9n8AoAA/p0UaQqrmtfUNT4Efx/LNDBNvoofcszP1/34emJ3fz8W4BO0bzBO7WzjDy5C4++xnXmhNALAFmFNhkwTVXxHq6G62swsVnHGnI1tMy7t8KwCLa80pZ/aqeG551qGfirCPwodUFfcYgA="
+      "lqip": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAABQBgCdASoUABsAPu1krFAppSQisBgIATAdiWwAnTKBr6o3gXCAQTMc+Pvr45R/pQr35zs4KIz2LA/eAAD541/jFDJfBozB9hq4YrDu7eZfwtCbdKca535NrqfFInAVsnghq5OwnAcykFqVZeG7zLaFxddGsbtl/G3Oa5CxIg1lXcGNDghfU5y3wPSheKehmjqNWFOwgktCyK8KJz8r6mymVYRrOtx4AV4XaoY/VpjrGb/QOl9tIhjDloMAMBAHCjCss887oDXepLNQptH47aYyyKHHQGAakoItbnZWzUV1aSIZ7KhtlQAA"
     },
     {
-      "id": "18115911373821776",
-      "permalink": "https://www.instagram.com/p/DeL2QxTmiwX/",
+      "id": "18129747076694308",
+      "permalink": "https://www.instagram.com/p/DeULyHemuVx/",
       "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-07T07:42:19+0000",
-      "caption": "Maheshwari silk suits",
-      "alt": "Maheshwari silk suits",
-      "width": 899,
+      "timestamp": "2026-10-10T13:24:17+0000",
+      "caption": "Ganga · top · premium cotton satin printed with embroidery, schiffli embroidery lace on daman & sleeves. · bottom · premium cotton satin solid color. · dupatta · premium pure…",
+      "alt": "Ganga · top · premium cotton satin printed with embroidery, schiffli embroidery lace on daman & sleeves",
+      "width": 750,
       "height": 1000,
-      "aspect": 0.899,
+      "aspect": 0.75,
       "variants": [
         {
           "width": 480,
-          "file": "18115911373821776-480.webp"
+          "file": "18129747076694308-480.webp"
         },
         {
           "width": 960,
-          "file": "18115911373821776-960.webp"
+          "file": "18129747076694308-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoUABYAPu1gp02ppSMiMAgBMB2JZgCdMxgC9xYYuafy0Xt1RCeGMFJx+fyBAAD+dMHuWx4AtC8NC9RVRcegoYgmebfXn+DBM2fLsjwaf0omVvQ3Z+n4L1UQfKulmSCZ+W2IGyZNFatM0dqeRYtDR/z1lDu+IlMSO+2fBA4h3g0kw8VZyLvRB+MK1DWjyoAA"
+      "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAQBQCdASoUABsAPu1qrFEppaQiqAqpMB2JQBfJAZHgwb2fVCe0+hyQ+ylV2Kgs3naAAP7bqtZtl6aUpL8WYk1gZTZxam352yJrDzJr5kOma2eJ5GAPwfZrkAhdRHuWEKTjxXBiUFojxfiJxAV4ZGYfczP/5Rm5H7J+7OO7UodAbMCDAcA/R7wBbMJNWPUUaSwbm1WBXRH0uc6k+jE9Afdir4M+pWKC8XAOyAAA"
     },
     {
-      "id": "17901576774377466",
-      "permalink": "https://www.instagram.com/p/DeJH1IgGnmP/",
+      "id": "18075532610736973",
+      "permalink": "https://www.instagram.com/p/DeUHz24mrrM/",
       "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-06T06:18:06+0000",
-      "caption": "Handwork lenin suit with dupatta work",
-      "alt": "Handwork lenin suit with dupatta work",
-      "width": 1000,
-      "height": 795,
-      "aspect": 1.2579,
+      "timestamp": "2026-10-10T12:49:35+0000",
+      "caption": "Ganga · top · premium cotton satin printed with hand work, hand embroidery, schiffli embroidery lace on daman. · bottom · premium cotton satin solid color. · dupatta · premium…",
+      "alt": "Ganga · top · premium cotton satin printed with hand work, hand embroidery, schiffli embroidery lace on daman",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
       "variants": [
         {
           "width": 480,
-          "file": "17901576774377466-480.webp"
+          "file": "18075532610736973-480.webp"
         },
         {
           "width": 960,
-          "file": "17901576774377466-960.webp"
+          "file": "18075532610736973-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACQAwCdASoUABAAPu1iqU2ppaQiMAgBMB2JYwCdABwVYMDyXIY4APY2lt/bEWEk46seXCfG9wek3C+k7x6y7URFF2OyvaO2uzp9A1HUVhhyJ7sdHEBSzcRcoAAAAA=="
+      "lqip": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAAAwBQCdASoUABsAPu1sq1EppaOiqAqpMB2JaACA3QOoncPchbxnNgc/IbkZLaexaw9cAAD4JAtNIoRHi2zODItdPNTrtiFF3JqiE59FL0M06Gmj4vbal7kQIDJTlf8SKFog/bw8tK11HTwRyiIKruYvT7RaWpleDmTiH7rM6Zxeb1GPfZRTfbEgxK8SPAOTcn/Uc/cW7/3xl2oFLVK2hT5bZ8oWKyqQurEjTNTy0LiNPB2/2V9a9g5fov51j/7FyZERgbLmAxiC0wAA"
     },
     {
-      "id": "17999199738040471",
-      "permalink": "https://www.instagram.com/p/DeHfc0dmjqH/",
+      "id": "18113348378019851",
+      "permalink": "https://www.instagram.com/p/DeT3uOKGlM_/",
       "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-05T15:06:01+0000",
-      "caption": "Ikkat Mercerized Cotton suits",
-      "alt": "Ikkat Mercerized Cotton suits",
-      "width": 1000,
-      "height": 864,
-      "aspect": 1.1574,
+      "timestamp": "2026-10-10T10:29:00+0000",
+      "caption": "Ganga · top · premium pure viscose woven silk jacquard with hand work, jari lace on daman & sleeves. · bottom · premium silk satin solid color. · dupatta · premium pure viscose…",
+      "alt": "Ganga · top · premium pure viscose woven silk jacquard with hand work, jari lace on daman & sleeves",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
       "variants": [
         {
           "width": 480,
-          "file": "17999199738040471-480.webp"
+          "file": "18113348378019851-480.webp"
         },
         {
           "width": 960,
-          "file": "17999199738040471-960.webp"
+          "file": "18113348378019851-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBQCdASoUABEAPu1qrlCppaQiqAqpMB2JZAC7M5N0D7TgyPh7skBGL5iSieeuV/vxvMAA/trNcDNRkZKlpXPUF7UtjdZGAkL+aZ7w9ZyfzZu6ZkHQO8m3zZLltjue/IRd92U/93w8LLhvvj4mDR+QOuQl949wesinlSJ9AGNggCuQjkGjQs5eDjVaJeqiRo7pAAAA"
+      "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACQBACdASoUABsAPu1qrlCppiQiqAqpMB2JQBhmgccKBtTZDiQeIY4Lo0HWpwgA/uUK/cSjJCWwOs44ZirvmjzwPDqGzGl6J9g/sNLrAR0xGMe89p2wPODdYiVcAI2JZc0ZjynX5UY0lvKGYGA6DDG2MZ77A07liiDXKLpOHvEQdUz5JfO5FFSpw31uveJPcJ88Sz6EzFGt9VGe/xt81zceLXoT35WyTg0pVH9QAAA="
     },
     {
-      "id": "18167691973465164",
-      "permalink": "https://www.instagram.com/p/DeGwH3CGjnD/",
+      "id": "17905027593590218",
+      "permalink": "https://www.instagram.com/p/DeTwBhPmls_/",
       "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-05T08:12:28+0000",
-      "caption": "A beautiful blend of traditional Ajrakh prints, Mashru silk, and handcrafted mirrorwork ...",
-      "alt": "A beautiful blend of traditional Ajrakh prints, Mashru silk, and handcrafted mirrorwork",
-      "width": 809,
-      "height": 999,
-      "aspect": 0.8098,
+      "timestamp": "2026-10-10T09:21:44+0000",
+      "caption": "Top:-banglory silk jacquard with handwork* *dupatta:-banglory silk jacquard* bottom:-santoon*",
+      "alt": "Top:-banglory silk jacquard with handwork* *dupatta:-banglory silk jacquard* bottom:-santoon*",
+      "width": 999,
+      "height": 705,
+      "aspect": 1.417,
       "variants": [
         {
           "width": 480,
-          "file": "18167691973465164-480.webp"
+          "file": "17905027593590218-480.webp"
         },
         {
           "width": 960,
-          "file": "18167691973465164-960.webp"
+          "file": "17905027593590218-960.webp"
         }
       ],
-      "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBQCdASoUABkAPu1kqk2ppaQiMAgBMB2JQBjPhFKUFmTyxNw3vh8J4MJSEIi/LdhCAAD+RGWQQ1weQxxpf4KDYsRGSAYT5/aat1HovHZ+9I1ODzUaQ7sY0CXssrp5MG23be0QNMEntlgwMkOe3lOPH6x4cbrIuVgHYwudKmCeB/rmjtDQZrKrPPPwKGpIJzYlADV4YmAAAA=="
-    },
-    {
-      "id": "18072398240741269",
-      "permalink": "https://www.instagram.com/p/DeEfLNzGnrm/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-04T11:05:54+0000",
-      "caption": "Top pure premium bemberg modal digital print with handwork & swarovski cut;3.10 bottom pure viscose modal dyed cut;2.80 dupatta pure chinnon chiffon digital print cut:2.45",
-      "alt": "Top pure premium bemberg modal digital print with handwork & swarovski cut;3",
-      "width": 1000,
-      "height": 666,
-      "aspect": 1.5015,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18072398240741269-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18072398240741269-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACwAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JZQC7ABorDPbFMGFyDgD+WdgdbtmPaTTKyO4d8Eur8UaQkildz1lcyJGg8YSmp+KMIU22FMwsEIZ6yBeWJyLpahBNo1hqdi1paQJ28tuhy/AGFUqRjcAA"
+      "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoUAA4APu1iqU2ppaOiMAgBMB2JZQCdK78AvzPdVLEPeLmSoELbwAD+8rLT2Auub64uPZ9g2KRw+CxzqOZaWr/mLrrHFqXoLGe2z15vEQKn5Em6+T84nrho+nYZOz2UtlkQidF2/+HEZhR1ieZ12ce7El71FLBQAAA="
     }
   ]
 }
