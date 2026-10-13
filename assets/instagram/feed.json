@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-10-13T11:59:13.938Z",
+  "fetchedAt": "2026-10-13T19:23:44.030Z",
   "posts": [
+    {
+      "id": "18465218092136648",
+      "permalink": "https://www.instagram.com/p/DebMETImiih/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-13T06:41:27+0000",
+      "caption": "Introducing our exquisite Ajrakh Modal Silk Dupatta, perfect to elevate any ethnic outfit. Crafted with premium quality modal silk",
+      "alt": "Introducing our exquisite Ajrakh Modal Silk Dupatta, perfect to elevate any ethnic outfit",
+      "width": 952,
+      "height": 1000,
+      "aspect": 0.952,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18465218092136648-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18465218092136648-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAAAwBQCdASoUABUAPu1ur1IppiQiqAgBMB2JZQC4qYyeYSBH0fww10QqHhclFGaav60ggAD6jq3A+tpvmKjZLxbVpU7NzaiU+jomBM0XO2h36SirHKflBwPzQG0J83/zz14d+NYIa0V6RihM97C6bB5/uhSnZYexvAG8GAQwFnjnd19L0JC5qvZ1LVV+LGMD4QTaD9MSe2MDUAZKs6+Cf/63hQmvO8YyfSQmp6N+fzgAOhJ/r4HVmwAA"
+    },
     {
       "id": "18006596708990322",
       "permalink": "https://www.instagram.com/p/DeZlov-Gjaf/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBQCdASoUABYAPu1mqk8ppaOiKA1RMB2JYgCdMoABSm0bQmctEjyewRwq1K5w21wAAP5NWGh8PP0RLtwjTArDrd87W5e1DkmARRbrDV07v8/RtpWz7sYLJbvb8649rabWBwj5V3OTqq0Suhf0q8+mxhF7VSNMft9kh8eVcXNLtVWyzcd/j+iAGaPSiKWyeFn42GQOpPMQevmoKgbFfPKofgAAAA=="
-    },
-    {
-      "id": "17977913258924466",
-      "permalink": "https://www.instagram.com/p/DeXE4LXEzQD/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-11T16:21:40+0000",
-      "caption": "Ganga top premium organza solid with heavy thread embroidery and hand work bottom premium satin solid dupatta premium organza solid with embroidery",
-      "alt": "Ganga top premium organza solid with heavy thread embroidery and hand work bottom premium satin solid dupatta premium organza solid with embroidery",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17977913258924466-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17977913258924466-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAAAQBQCdASoUABsAPu1srFEppaQiqAqpMB2JaACdMtDBZDt+bSdzFsYAXpn8c64FXWVAAO/AK6PNokCs27sQ7fz8/E+s3dQKDW9B2ZAc5xkfs4XEuHh1lag8XrpC9hJl4MMLvWmjbpIXM559dquVRKZ6J0FcEQFOU00NCAOV7rnr5dmuz9J9p6068Kk1b1OlraZ4k+5Ib38bGcEfdwvTJzNjPFSZMe83tgmTZFFUELIv2fpkBkLALjfE1wvCWfMSxfFFAAAA"
     }
   ]
 }
