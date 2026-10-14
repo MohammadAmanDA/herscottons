@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-10-14T05:07:16.257Z",
+  "fetchedAt": "2026-10-14T13:53:03.888Z",
   "posts": [
+    {
+      "id": "17916324615262751",
+      "permalink": "https://www.instagram.com/p/Ded-oSlmqXF/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-14T08:41:46+0000",
+      "caption": "shimmer-fabric Salwar Kameez set with silver hand embroidery and scallop border dupatta",
+      "alt": "shimmer-fabric Salwar Kameez set with silver hand embroidery and scallop border dupatta",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17916324615262751-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17916324615262751-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwBACdASoUABsAPu1qq08ppiOiMBgIATAdiWcAxN2wAkKX+7Y6mnbUcviGn3k2FQAAzhW+lv4QFA+/zFSmjx30krh6AGI8YHCdULnnrtC9vxAQ6q5dHl/FsWQv78EKYCb5iFskKJKhCoep0d+WFTWexYBmdzbGGndKdCE+0sjSmAyEJdiBN3S/lRLNoAAA"
+    },
     {
       "id": "18465218092136648",
       "permalink": "https://www.instagram.com/p/DebMETImiih/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASoUAA4APu1iqU2ppaQiMAgBMB2JQBOmUABHxn11qnldYaSggADztbv2HJSuD5W99jQW5tgecee1O5oPi4v5hB509uFdEnc4WIihBf4CaoLG11u5itBii7xgLj5qYl4FA2Gdf6VgL8vtLwovZpcgAAAA"
-    },
-    {
-      "id": "17913540141286008",
-      "permalink": "https://www.instagram.com/p/DeYlVXdmuFK/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-12T06:24:31+0000",
-      "caption": "Kalamkari print Maheshwari silk suits",
-      "alt": "Kalamkari print Maheshwari silk suits",
-      "width": 923,
-      "height": 1000,
-      "aspect": 0.923,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17913540141286008-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17913540141286008-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBQCdASoUABYAPu1mqk8ppaOiKA1RMB2JYgCdMoABSm0bQmctEjyewRwq1K5w21wAAP5NWGh8PP0RLtwjTArDrd87W5e1DkmARRbrDV07v8/RtpWz7sYLJbvb8649rabWBwj5V3OTqq0Suhf0q8+mxhF7VSNMft9kh8eVcXNLtVWyzcd/j+iAGaPSiKWyeFn42GQOpPMQevmoKgbFfPKofgAAAA=="
     }
   ]
 }
