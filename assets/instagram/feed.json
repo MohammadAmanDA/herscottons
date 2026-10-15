@@ -1,6 +1,94 @@
 {
-  "fetchedAt": "2026-10-15T04:55:36.327Z",
+  "fetchedAt": "2026-10-15T13:34:19.566Z",
   "posts": [
+    {
+      "id": "17887690686686861",
+      "permalink": "https://www.instagram.com/p/Degicw0GvK-/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-15T08:33:14+0000",
+      "caption": "Top: vintage silk discharge foil with embroidery work and hand work bottom: premium silk solid dupatta: vintage silk discharge foil print",
+      "alt": "Top: vintage silk discharge foil with embroidery work and hand work bottom: premium silk solid dupatta: vintage silk discharge foil print",
+      "width": 1000,
+      "height": 713,
+      "aspect": 1.4025,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17887690686686861-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17887690686686861-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABwBACdASoUAA4APu1iqU2ppaOiMAgBMB2JZgCdAdwLhFUmYCdRlpkLRaLOBAD4+48c6XtPgeWk9SKXuXWdE6iV88rQprWZtKSLaP3jY8kQBG8wxqzk4XClmvLHZ+x55hSEKe0shDoH75DYGMxYfcQoKTLFJ9hDyIfLXJIGbD9fcrcbqHuGbKgrKZzobxoqghTYDnMOXG64BeSpAXN0AAAA"
+    },
+    {
+      "id": "17958685302016462",
+      "permalink": "https://www.instagram.com/p/DeegcAtnymd/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-14T13:37:11+0000",
+      "caption": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
+      "alt": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17958685302016462-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17958685302016462-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAACQBQCdASoUABsAPu1ur1KppiQiqAgBMB2JYgCdMw6lxQsiOJjzDF0GK44KGQCxFy3zXGz8AAD9lEPM0heEuPWA+fAFm9kynN5FMUr4W67uC4+CabVT7KF6bHfno8BbTu2BFWIR1WVtZs5oCWlyrz+hJV3Vs7yJSgvr7hRJ6IE7AzhPq1QnS52vqQH9WWfSF6UbpIwtsvFlVLmtsk80EXoRDPIk7Dt2wOKGdzgg/ojTZBGhenVZ863J3ECd/YCuE7z2fDsCVbrXx189uK/7VhdfAstHGPCEX1AAAA=="
+    },
+    {
+      "id": "18449627113123992",
+      "permalink": "https://www.instagram.com/p/DeegBiAH849/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-14T13:33:34+0000",
+      "caption": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
+      "alt": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18449627113123992-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18449627113123992-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAADQBQCdASoUABsAPu1wsFIppiSiqAgBMB2JYgC7Mt8vBAJ2D0We8wTXWPogMQJdQiD5jtmfoXkkAP6q5dnkas6zDzgLZSpXzutaaBt5wcHy86rPDuIfiVy5caoy0KPH10VRO4SCZ90jCJ/wBMpcy8c1cRDrIArZE3c+bq/WgKthSDLQX/YYEjHrv2wPpipzR64EJR9yhh/Dv0g5l35j17fRs1bnWJy+m+CXaRJt6zKzKhhmA3VADb5g+N91udRQXVuSfEn7c2bTyLbGnE02cg0+FdVKSWkAAAA="
+    },
+    {
+      "id": "18122936369314294",
+      "permalink": "https://www.instagram.com/p/DeeaPWsmmyK/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-14T12:43:01+0000",
+      "caption": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
+      "alt": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18122936369314294-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18122936369314294-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAABQBQCdASoUABsAPu1sq1EppaOiqAqpMB2JQBOgtYgTsf64xLEMRKArsmyxoM0lKCY0/2gA/TZzzEnrjzNLqeSgpftoVW+WlTGQgcFsAFFUDZFezV50mnAlisD4s1eMJj+l46e0Ob2Tnrkx/nLMOE0GtHJxvGw5RmT+VEyIONxGIwRPaz1NHRyzcpRsHCkhap6fyjVguYteE9zzbh1gVJVPO/e5ic8mzvtOQ/Am/7weyzL8eKDBOb9B/FYzwu8oHJNY4llZ89+KKAAA"
+    },
     {
       "id": "17916324615262751",
       "permalink": "https://www.instagram.com/p/Ded-oSlmqXF/",
@@ -44,94 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAAAwBQCdASoUABUAPu1ur1IppiQiqAgBMB2JZQC4qYyeYSBH0fww10QqHhclFGaav60ggAD6jq3A+tpvmKjZLxbVpU7NzaiU+jomBM0XO2h36SirHKflBwPzQG0J83/zz14d+NYIa0V6RihM97C6bB5/uhSnZYexvAG8GAQwFnjnd19L0JC5qvZ1LVV+LGMD4QTaD9MSe2MDUAZKs6+Cf/63hQmvO8YyfSQmp6N+fzgAOhJ/r4HVmwAA"
-    },
-    {
-      "id": "18006596708990322",
-      "permalink": "https://www.instagram.com/p/DeZlov-Gjaf/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-12T15:46:24+0000",
-      "caption": "Top : muslin silk exclusively kashmiri woven with sarvoski : dupatta : pure viscose chinon four side woven with sarvoskin tassels : bottom: cotton silk solid dyed",
-      "alt": "Top : muslin silk exclusively kashmiri woven with sarvoski : dupatta : pure viscose chinon four side woven with sarvoskin tassels : bottom: cotton silk solid…",
-      "width": 1000,
-      "height": 710,
-      "aspect": 1.4085,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18006596708990322-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18006596708990322-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAwBACdASoUAA4APu1iqU2ppaOiMAgBMB2JbACdAYwIsSvk2Slkx5hE5gAA/mxf9c9W61NaEW+wCGVm4xBbM/Gt5LGdXaR63mdNTlrzuhrOGdmx1SVnjBMaDGilbXW7KC4tJYJNAnXGQzdFP3En3bWn6BGvEDmvz9pH9oDSjDYZz6PDfrnFSxd0P9D8H69u3ED1gFGI+ox1tW6RPxT6ZUudwiSXrmgA"
-    },
-    {
-      "id": "18116330192017226",
-      "permalink": "https://www.instagram.com/p/DeYzKJjGrlK/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-12T08:25:19+0000",
-      "caption": "Maheshwari silk suits",
-      "alt": "Maheshwari silk suits",
-      "width": 867,
-      "height": 1000,
-      "aspect": 0.867,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18116330192017226-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18116330192017226-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAAAwBQCdASoUABcAPu1kq06ppaQiKA1RMB2JaACdMoR4wBECig9zx99NuT2VsYgw2DpgmAD+qk7DI4HwxHZin4vZWd3ae0l54LvUyUc7vNusK88Xze+59wzIHCMW69bjNmbaJUey+U/m3Yy1sUhwb5gB/qUL7nCMkwksdANypWwLfINre6S5MLXB6V3QX4eg2vos2YZRdoKyIByF2H4NaMKAAAA="
-    },
-    {
-      "id": "18133037359668869",
-      "permalink": "https://www.instagram.com/p/DeYyjyLmo7T/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-12T08:20:05+0000",
-      "caption": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
-      "alt": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18133037359668869-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18133037359668869-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAACwBQCdASoUABsAPu1sqlEppaOiqAqpMB2JQBOmdEjOc8nNCjdBXy714tzKk58luONhiDyqS+AAyWsh3FYahHg1Lkfs8x4GMn2nAg6aidmZA22Q/Lj+uC2pRJgsO5M+m0bI9W/wdUmSksjNic/hMi/4SCS+2+n80Hyxk3dtj9SyPKEoIFMlYegUAf5/MJta9C8xp8nkhb2R7cHrh8ngxGqF4JmZz4Wd/p6Mpcdt/KUNcScILXOg+ufTFNupowo7VmhsPMHJOOQNaSfQiuCYU9iK7qBMw1mDhj8P9CvBHM/JHw7dQcrDS+Trum3SuziYAasyAA=="
-    },
-    {
-      "id": "17949638301300514",
-      "permalink": "https://www.instagram.com/p/DeYx8v5Gs5m/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-12T08:14:45+0000",
-      "caption": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
-      "alt": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
-      "width": 999,
-      "height": 698,
-      "aspect": 1.4312,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17949638301300514-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17949638301300514-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASoUAA4APu1iqU2ppaQiMAgBMB2JQBOmUABHxn11qnldYaSggADztbv2HJSuD5W99jQW5tgecee1O5oPi4v5hB509uFdEnc4WIihBf4CaoLG11u5itBii7xgLj5qYl4FA2Gdf6VgL8vtLwovZpcgAAAA"
     }
   ]
 }
