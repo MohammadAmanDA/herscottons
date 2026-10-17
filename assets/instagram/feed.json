@@ -1,6 +1,50 @@
 {
-  "fetchedAt": "2026-10-17T04:44:24.847Z",
+  "fetchedAt": "2026-10-17T12:17:21.885Z",
   "posts": [
+    {
+      "id": "18079181669711891",
+      "permalink": "https://www.instagram.com/p/Dej6JGgn5y8/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-16T15:57:59+0000",
+      "caption": "Maheshwari silk bandhni print suits",
+      "alt": "Maheshwari silk bandhni print suits",
+      "width": 833,
+      "height": 1000,
+      "aspect": 0.833,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18079181669711891-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18079181669711891-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAABQBQCdASoUABgAPu1or1AppaQiqAqpMB2JbACdMoR096mB2VYpaUvzybHDkedHsEspdYAA/sHlmbU6HhGztV/OFjUZ8LS4Ef/lmYueFkAl/fFsyFFc1rnJOUmhdZIDvYLk3mwTajEeRBpXraJyO3JaoaidOG9ZFdNi2PXX+ARBvyEhIHHdawekoZ031gMNedr7bt7HahMtQ5bRI4M8+eQudJ/eUMAawl0vycw8oYIAAA=="
+    },
+    {
+      "id": "17883326121628902",
+      "permalink": "https://www.instagram.com/p/DejyCdYGpKg/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-16T14:47:11+0000",
+      "caption": "Patola print Maheshwari silk suits",
+      "alt": "Patola print Maheshwari silk suits",
+      "width": 758,
+      "height": 1000,
+      "aspect": 0.758,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17883326121628902-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17883326121628902-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAAAwBQCdASoUABsAPu1ip02ppaMiMAgBMB2JbAAu8ABifmjJjiLH5ED5o1hPZcWQmxY6uAD+vaRD3yqaJhLsL9TGfIyDgr/zyqjIAqelyGSFe60Uh7FUgm+2JFv/F3sIiTs164CKRYP3eNXm+KYnOcINrJn635/UzfMfvw0azEtqRmu/JC67C6AGc2Q8O+tApcBViQ+GurRC4SIn6gRy+D8QKMy43cHxVrm5lqM5JG96HRk2SpeYYIaHtkIPAv1v+qAAAA=="
+    },
     {
       "id": "17887690686686861",
       "permalink": "https://www.instagram.com/p/Degicw0GvK-/",
@@ -88,50 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAABQBQCdASoUABsAPu1sq1EppaOiqAqpMB2JQBOgtYgTsf64xLEMRKArsmyxoM0lKCY0/2gA/TZzzEnrjzNLqeSgpftoVW+WlTGQgcFsAFFUDZFezV50mnAlisD4s1eMJj+l46e0Ob2Tnrkx/nLMOE0GtHJxvGw5RmT+VEyIONxGIwRPaz1NHRyzcpRsHCkhap6fyjVguYteE9zzbh1gVJVPO/e5ic8mzvtOQ/Am/7weyzL8eKDBOb9B/FYzwu8oHJNY4llZ89+KKAAA"
-    },
-    {
-      "id": "17916324615262751",
-      "permalink": "https://www.instagram.com/p/Ded-oSlmqXF/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-14T08:41:46+0000",
-      "caption": "shimmer-fabric Salwar Kameez set with silver hand embroidery and scallop border dupatta",
-      "alt": "shimmer-fabric Salwar Kameez set with silver hand embroidery and scallop border dupatta",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17916324615262751-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17916324615262751-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwBACdASoUABsAPu1qq08ppiOiMBgIATAdiWcAxN2wAkKX+7Y6mnbUcviGn3k2FQAAzhW+lv4QFA+/zFSmjx30krh6AGI8YHCdULnnrtC9vxAQ6q5dHl/FsWQv78EKYCb5iFskKJKhCoep0d+WFTWexYBmdzbGGndKdCE+0sjSmAyEJdiBN3S/lRLNoAAA"
-    },
-    {
-      "id": "18465218092136648",
-      "permalink": "https://www.instagram.com/p/DebMETImiih/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-13T06:41:27+0000",
-      "caption": "Introducing our exquisite Ajrakh Modal Silk Dupatta, perfect to elevate any ethnic outfit. Crafted with premium quality modal silk",
-      "alt": "Introducing our exquisite Ajrakh Modal Silk Dupatta, perfect to elevate any ethnic outfit",
-      "width": 952,
-      "height": 1000,
-      "aspect": 0.952,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18465218092136648-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18465218092136648-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAAAwBQCdASoUABUAPu1ur1IppiQiqAgBMB2JZQC4qYyeYSBH0fww10QqHhclFGaav60ggAD6jq3A+tpvmKjZLxbVpU7NzaiU+jomBM0XO2h36SirHKflBwPzQG0J83/zz14d+NYIa0V6RihM97C6bB5/uhSnZYexvAG8GAQwFnjnd19L0JC5qvZ1LVV+LGMD4QTaD9MSe2MDUAZKs6+Cf/63hQmvO8YyfSQmp6N+fzgAOhJ/r4HVmwAA"
     }
   ]
 }
