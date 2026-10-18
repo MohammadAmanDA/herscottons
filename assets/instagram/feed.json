@@ -1,6 +1,50 @@
 {
-  "fetchedAt": "2026-10-18T04:50:51.213Z",
+  "fetchedAt": "2026-10-18T12:40:58.627Z",
   "posts": [
+    {
+      "id": "17884358196690462",
+      "permalink": "https://www.instagram.com/p/DelszNTmoA4/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-17T08:39:53+0000",
+      "caption": "Ganga (pashmina) · top · premium pure pashmina solid color with embroidery, embroidery lace for neck, daman, sleeves, button work, crochet lace on daman and sleeves. · bottom…",
+      "alt": "Ganga (pashmina) · top · premium pure pashmina solid color with embroidery, embroidery lace for neck, daman, sleeves, button work, crochet lace on daman and…",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17884358196690462-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17884358196690462-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAACwBQCdASoUABsAPu1ur1IppiQiqAgBMB2JYgCdM47BIZFIiyHfeV2E5jvWYLO9PM2TKJ1fZKAA/urIhZH0d/4wNhOPiseaErwjzMgHyiEwLGQjlRP0zs5SRe2fc+wWqbLt80inxK4ZHgdd61qJID8kIVeeE3xIXC55yh+lvEEhMLKoy9RvIUsz22nGSOGHOKaIRd08PpcXgPwzXKOeXymyIEv16MG+HNTBuZtC1bWVmpHTPIuv4l7cRHDktw7we9tSK3KgpfVTbmFOYzK4NAKpcAAAAA=="
+    },
+    {
+      "id": "17885593533505323",
+      "permalink": "https://www.instagram.com/p/Delq6JrmihU/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-17T08:23:22+0000",
+      "caption": "· top · viscose pashmina twill designer embroidery work bottom viscose pashmina twill · dupatta · kashmiri woven shawl",
+      "alt": "· top · viscose pashmina twill designer embroidery work bottom viscose pashmina twill · dupatta · kashmiri woven shawl",
+      "width": 1000,
+      "height": 705,
+      "aspect": 1.4184,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17885593533505323-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17885593533505323-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQAwCdASoUAA4APu1iqU2ppaQiMAgBMB2JZQAAWlVk4ZFT3UnwAP3ExB9O+ouSLo428qneEemyKZCO+nKtjP75cT/vE1QxWNjlfSJ2CVYu3KT7tL3Ch3VNGR6sd7PLHMXvmyvt99sUo+yJgXa2ex7/RxdDIqtrjccAAA=="
+    },
     {
       "id": "18079181669711891",
       "permalink": "https://www.instagram.com/p/Dej6JGgn5y8/",
@@ -88,50 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAACQBQCdASoUABsAPu1ur1KppiQiqAgBMB2JYgCdMw6lxQsiOJjzDF0GK44KGQCxFy3zXGz8AAD9lEPM0heEuPWA+fAFm9kynN5FMUr4W67uC4+CabVT7KF6bHfno8BbTu2BFWIR1WVtZs5oCWlyrz+hJV3Vs7yJSgvr7hRJ6IE7AzhPq1QnS52vqQH9WWfSF6UbpIwtsvFlVLmtsk80EXoRDPIk7Dt2wOKGdzgg/ojTZBGhenVZ863J3ECd/YCuE7z2fDsCVbrXx189uK/7VhdfAstHGPCEX1AAAA=="
-    },
-    {
-      "id": "18449627113123992",
-      "permalink": "https://www.instagram.com/p/DeegBiAH849/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-14T13:33:34+0000",
-      "caption": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
-      "alt": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18449627113123992-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18449627113123992-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAADQBQCdASoUABsAPu1wsFIppiSiqAgBMB2JYgC7Mt8vBAJ2D0We8wTXWPogMQJdQiD5jtmfoXkkAP6q5dnkas6zDzgLZSpXzutaaBt5wcHy86rPDuIfiVy5caoy0KPH10VRO4SCZ90jCJ/wBMpcy8c1cRDrIArZE3c+bq/WgKthSDLQX/YYEjHrv2wPpipzR64EJR9yhh/Dv0g5l35j17fRs1bnWJy+m+CXaRJt6zKzKhhmA3VADb5g+N91udRQXVuSfEn7c2bTyLbGnE02cg0+FdVKSWkAAAA="
-    },
-    {
-      "id": "18122936369314294",
-      "permalink": "https://www.instagram.com/p/DeeaPWsmmyK/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-14T12:43:01+0000",
-      "caption": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
-      "alt": "Top cotton printed with mirror work Bottom cotton printed Dupatta mulmul",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18122936369314294-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18122936369314294-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAABQBQCdASoUABsAPu1sq1EppaOiqAqpMB2JQBOgtYgTsf64xLEMRKArsmyxoM0lKCY0/2gA/TZzzEnrjzNLqeSgpftoVW+WlTGQgcFsAFFUDZFezV50mnAlisD4s1eMJj+l46e0Ob2Tnrkx/nLMOE0GtHJxvGw5RmT+VEyIONxGIwRPaz1NHRyzcpRsHCkhap6fyjVguYteE9zzbh1gVJVPO/e5ic8mzvtOQ/Am/7weyzL8eKDBOb9B/FYzwu8oHJNY4llZ89+KKAAA"
     }
   ]
 }
