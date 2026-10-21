@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-10-20T23:14:59.903Z",
+  "fetchedAt": "2026-10-21T05:04:32.263Z",
   "posts": [
+    {
+      "id": "18131248144825119",
+      "permalink": "https://www.instagram.com/p/Det4IFGGo96/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-20T12:52:47+0000",
+      "caption": "Ganga top premium pure tussar silk solid color with embroidery, embroidery lace for sleeves, jari crochet lace on daman & sleeves. Bottom premium silk satin solid color dupatta…",
+      "alt": "Ganga top premium pure tussar silk solid color with embroidery, embroidery lace for sleeves, jari crochet lace on daman & sleeves",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18131248144825119-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18131248144825119-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAAAQBQCdASoUABsAPu1sq1EppaOiqAqpMB2JZgDE+NiBfe73+4aUrOga20yRBsqXI1tAAP7m6d21QTodEcKR5Y/M6etGSchHJ2YQ6DbsGMnV0kdR+LB9wHLIoGGAjnqK3d5HqRPO+a1al963a8dv9ioenM72YM65KST3K4h2JlMSFeyILCeHZ6DyuZ+iwUNNr1sLkFlqaktAOHfB+Q5BPrTDc1rAmCNsJ+FYqaACvXOgDk+MnOIOcxZQS2biIVpQ6DE1kOzPMgXYAzWYTqTlZZ6DzVp76ktGwAA="
+    },
     {
       "id": "17954324028335867",
       "permalink": "https://www.instagram.com/p/DerfmB7mtch/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBQCdASoUABcAPu1qq1EppaOiqAqpMB2JaACdM5M0KBAWlMCoqdoP2EVnP6pZ2D6TAAD56t3MCzZORnWN6iYmdk0GqXz/ENFSCkt2PINnhbtL/s7IY6YF1c74mhO518DjItv6qu3HhVflxyqDX2d/eAdKrb6pbBZBMfNR79UzHunmVFWfiKtWjr7pztz5LDVqzjXgJ4tgAA=="
-    },
-    {
-      "id": "17971780500150463",
-      "permalink": "https://www.instagram.com/p/DepAB7GGizM/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-18T15:25:39+0000",
-      "caption": "Ganga pashmina · top · premium wool pashmina printed with hand embroidery, hand work, button work and schiffli embroidery lace on daman. · bottom · premium wool pashmina solid…",
-      "alt": "Ganga pashmina · top · premium wool pashmina printed with hand embroidery, hand work, button work and schiffli embroidery lace on daman",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17971780500150463-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17971780500150463-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABQBQCdASoUABsAPu1sq1EppaOiqAqpMB2JZgC/OywA2RObO2ahAKhf0Se66fcArXVwbXgA+wC1CH5TtaFydPu6kw8sVSd6UQFqVSDbKPQFFtj9a9LDdAvW/06PsXdL9X7FZV+WM1BzdOCgCDI8yYcdaWD4+xIT6E67MDbVcIoNz3ua/2WSZfZBQdh0cLzu3hXxA1bS8b2QVG03I3m+iDtBnKJ75NMPtSa8off4HsQ+AyE9lWd1kNtQAAA="
     }
   ]
 }
