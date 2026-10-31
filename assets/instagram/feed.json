@@ -1,6 +1,94 @@
 {
-  "fetchedAt": "2026-10-31T14:37:39.178Z",
+  "fetchedAt": "2026-10-31T20:08:15.191Z",
   "posts": [
+    {
+      "id": "18125740823514338",
+      "permalink": "https://www.instagram.com/p/DfKRxh4GnNf/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-31T13:35:38+0000",
+      "caption": "Ganga wollen · top · premium pure wool pashmina printed with embroidery neck, silk printed lace on daman sleeves. · bottom · premium pure wool pashmina solid color. · dupatta…",
+      "alt": "Ganga wollen · top · premium pure wool pashmina printed with embroidery neck, silk printed lace on daman sleeves",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18125740823514338-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18125740823514338-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAACQBQCdASoUABsAPu1ur1IppiQiqAgBMB2JYgCxHzAOj5A35I8chuaG2S8ur+WhGT1YXeeNkAD+H2hKJjN7/srz1e5rQly7HrbF8IWrsXEBxv6cL4o0n16fAO9487/It/jDXMGLCm86+bRfZNh3yySC1M6j+I1fvClUiRWfdgXRfa3WYS172GTIwQ3E7ww7ZZZK4l4pfhA8scv2JnulezHThcR1oVbpQ7HevLPi/ceyvzOOW4DCNWzraoFNhwwI116rwAAA"
+    },
+    {
+      "id": "18118441007081211",
+      "permalink": "https://www.instagram.com/p/DfKKqDPGhbN/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-31T12:33:26+0000",
+      "caption": "Maheshwari silk suits",
+      "alt": "Maheshwari silk suits",
+      "width": 934,
+      "height": 1000,
+      "aspect": 0.934,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18118441007081211-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18118441007081211-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAADQBQCdASoUABYAPu1qr1AppaSiqAqpMB2JZgCdMuOCmA5mCTQSMHbUDx3a1VBRtM00mrgaMFAAAP6qS9eYG4e0IWMpCn8IkHDoJFmMe00GOdR8mtXkx1nbCwPFQWYfcCekbjtfNhREG7phWVxFCkAA4BC+laVN0Cgx7Ge6sfH9sH86mdf/ubBeBRJNTxA793bho9hEVcPa4BGhC9wPg90wf/lNmYZkj3XAAA=="
+    },
+    {
+      "id": "17997835332045539",
+      "permalink": "https://www.instagram.com/p/DfJv2zJmqWH/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-31T08:39:15+0000",
+      "caption": "Top - premium twill pashmina digital print with handwork. - bottom - premium twill pashmina solid. - dupatta - premium pashmina digital print with tassels.",
+      "alt": "Top - premium twill pashmina digital print with handwork",
+      "width": 1000,
+      "height": 750,
+      "aspect": 1.3333,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17997835332045539-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17997835332045539-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAwBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdMoADVSOKtXMFVtxLyAAA90/c3cqvXKBt9anBt5gdOWS/wXI37r+R3ivWpWdLFkiUR5dJB/ygLJ4TZeFw3Ws3JgQskgnp2TuhpJstemVsb/POMnIocagAkky89b8dhXPbLnEGso/NfDoAAA=="
+    },
+    {
+      "id": "17952585132313796",
+      "permalink": "https://www.instagram.com/p/DfJovIvCHAD/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-10-31T07:37:02+0000",
+      "caption": "Pashmina suits with daman work",
+      "alt": "Pashmina suits with daman work",
+      "width": 870,
+      "height": 1000,
+      "aspect": 0.87,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17952585132313796-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17952585132313796-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAADwBACdASoUABcAPu1ur1IppiQiqAgBMB2JZQC7ABEk3y4gpTDmVm47UasJm9elRgAA/hbGlM+0i4iy39rpW6t6q3Q/1GXdRomo2GuN6aF7m7aoab3non0hqdtZHybuAGcOietzsPtF7GwAqcDnh+IvgLO/KfVSgXFtyXjbzu5HegF10U8wcCMLmH2DAhHTwsNyBtj3dlZRXXcOkrf8YEDx0sseAI3ABZAAAA=="
+    },
     {
       "id": "18042386192839577",
       "permalink": "https://www.instagram.com/p/DfHdzpeGslR/",
@@ -44,94 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JZgCdMoACYaF/N8OEXs9AAP6g/EOuIiXvjoXoXrH3M3i5A3jkH1AS44DGb4q1Uzrxhd5GZo6FvShNa4fy3c3Y7EXLF31z7H8odTtXJFNAM1tusyMpFqMRgAA="
-    },
-    {
-      "id": "18038283473850988",
-      "permalink": "https://www.instagram.com/p/DfCBIyfGn-j/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-28T08:36:20+0000",
-      "caption": "Ganga · top · premium pure viscose woven silk jacquard with hand embroidery, swarovski work, simmer on daman & sleeves. · bottom · premium silk satin solid color. · dupatta…",
-      "alt": "Ganga · top · premium pure viscose woven silk jacquard with hand embroidery, swarovski work, simmer on daman & sleeves",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18038283473850988-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18038283473850988-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAACwBQCdASoUABsAPu1sqk8ppiOiMBgIATAdiWwAnTKAAcPBkreKRHn9dtRwa8gjla921JklMQAA/jD4xTCs97JgtiX+mM/oVgep+WHmrICpJ2kyj2wsKRS0qdA/qN69NEbdwztgPk3mr9MTt5HNs6Z9T7XgCP/ghFaE+vtAfYArQk/HjghGH5nCtMG5l9hHkBfbcfXJXfqpurRG37gP0zpHqd50N7hKcQcTUZuVOIFtOp230xG4ppQfz14uY7Sjsd4q+j0AcpkIOFjr5CpgqFmwQZxxKtlTkJ8WREN/LEBixmnuYAA="
-    },
-    {
-      "id": "17913802194508678",
-      "permalink": "https://www.instagram.com/p/DfCAGOFmv8G/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-28T08:27:15+0000",
-      "caption": "Top · premium pure viscose woven silk jacquard solid colour with hand work and ready lace for daman or sleeve · bottom · pure viscose woven silk solid colour · dupatta · premium…",
-      "alt": "Top · premium pure viscose woven silk jacquard solid colour with hand work and ready lace for daman or sleeve · bottom · pure viscose woven silk solid colour…",
-      "width": 750,
-      "height": 999,
-      "aspect": 0.7508,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17913802194508678-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17913802194508678-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAADwBACdASoUABsAPu1sq1EppaOiqAqpMB2JYwDA3BEJ6ZloByIrfM1LZtyJoNSZvEAA/sIJQ45XfaZe44mpCrED7Qz1trJf+Nrrb1/9OGAvxtC3pKYmataJxZRnFCbBWTATuv0LqbM1vh0wk/C/R3AU494IEFswLLBileAtvHyBPoMPobpy414l1LHtk6d3uyc9pAmptTF3Td2nDuhYdQxQpUlk6dyfPr1EXtRwDnOgIrIAAAA="
-    },
-    {
-      "id": "18116889542169116",
-      "permalink": "https://www.instagram.com/p/De_dy5Kmqdw/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-27T08:49:02+0000",
-      "caption": "Top · premium viscos woven silk jacquard with emboridery & jari lace on daman · bottom · premium cotton solid colour · dupatta · premium viscos woven silk jacquard with fancy…",
-      "alt": "Top · premium viscos woven silk jacquard with emboridery & jari lace on daman · bottom · premium cotton solid colour · dupatta · premium viscos woven silk…",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18116889542169116-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18116889542169116-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABQBQCdASoUABsAPu1iq0+ppSOiMBgIATAdiWMAAC96emEUYoIqtjn1NsYzcXE9XgDBoYAA/uYhxV5J1fr66uIG8v2+CqIeCK/jo+EinFHgIJhZuPjz/t3WJRPFzePB03koLfh7BJhC5nbBhJE1gfc6hJE6FCxF/L2hO0iryNksxq/IY5Y3L4WWFSKij3OXDNFgVUcgYvRELYS0YyUBU2gKoAa4k1RQQHNZ+wh9ANAEeF+QSb/LJ5AA"
-    },
-    {
-      "id": "17899588557396756",
-      "permalink": "https://www.instagram.com/p/De9h2Zpmq_d/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-26T14:45:59+0000",
-      "caption": "Pashmina top dyed with elegant meena work paired with a soft pashmina bottom and inner and a matching pashmina dupatta enhanced with meena work.",
-      "alt": "Pashmina top dyed with elegant meena work paired with a soft pashmina bottom and inner and a matching pashmina dupatta enhanced with meena work",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17899588557396756-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17899588557396756-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAACQBQCdASoUABsAPuFUpE2opCOiN/qoARAcCWwAnTMYAmLsVkxzzci8iL5pJcN82XEzYLNAAAD+w/JMEJBDBhuMPU+OUSdlNS0KTjTx1XqkYTO2okmUC2XrAmkGzLfssaWsMvvIM+Ma5pldaNx/aQKQqqrZGTCYlNqSPEX88Ntm0nRAoEj6mQsUdDWxiYm+AFf/FJTKs6gcxyIfyz+vDFCdAo0R5GdUgGlLQ31/8n9zCA+AFAAfzPkAAAA="
     }
   ]
 }
