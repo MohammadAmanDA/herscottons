@@ -1,6 +1,50 @@
 {
-  "fetchedAt": "2026-11-01T15:20:45.266Z",
+  "fetchedAt": "2026-11-01T20:39:51.484Z",
   "posts": [
+    {
+      "id": "18102471368560948",
+      "permalink": "https://www.instagram.com/p/DfM6ijWmjoL/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-01T14:10:20+0000",
+      "caption": "Ajrakh print muslin suits with mirror or kantha work",
+      "alt": "Ajrakh print muslin suits with mirror or kantha work",
+      "width": 821,
+      "height": 1000,
+      "aspect": 0.821,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18102471368560948-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18102471368560948-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwBACdASoUABkAPu1kq06ppaQiKA1RMB2JQBOgAYgiZ9FinMufJuIZM2VZxE0ZggAA/WmjVTYE74zsMbe7I1EG7GA5g1TSS3vairdWE5tnARP5mTzKbz0KKpfy2S+zG1x6/+tJU8I6I7zR547uWkzQm5gO834KlOjA2oJZFS9VuQIG2gAAAA=="
+    },
+    {
+      "id": "18123344371939290",
+      "permalink": "https://www.instagram.com/p/DfMc9SHGhGD/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-01T09:51:50+0000",
+      "caption": ":top: linen( solid) dyed with beautiful embroidery n with krocia laces :dupatta: cotton chiffon digital printed with krocia lace bottom jaam (solid) dyed cotton",
+      "alt": ":top: linen( solid) dyed with beautiful embroidery n with krocia laces :dupatta: cotton chiffon digital printed with krocia lace bottom jaam (solid) dyed cotton",
+      "width": 1000,
+      "height": 705,
+      "aspect": 1.4184,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18123344371939290-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18123344371939290-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JYwCw7CLJ61x2X2ZOiF0gAPsaWWu4UujXzzdcGyYjn5HL8L591OOTm99e8Ji832fQ+5Y+U8ktLc7hWUw4zZMAFIiNZq9X3hOQgReR4thOt5Y396MR0O3xQJj05Y4xxFMpvOokZw6wIoXhWAA="
+    },
     {
       "id": "18125740823514338",
       "permalink": "https://www.instagram.com/p/DfKRxh4GnNf/",
@@ -88,50 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAADwBACdASoUABcAPu1ur1IppiQiqAgBMB2JZQC7ABEk3y4gpTDmVm47UasJm9elRgAA/hbGlM+0i4iy39rpW6t6q3Q/1GXdRomo2GuN6aF7m7aoab3non0hqdtZHybuAGcOietzsPtF7GwAqcDnh+IvgLO/KfVSgXFtyXjbzu5HegF10U8wcCMLmH2DAhHTwsNyBtj3dlZRXXcOkrf8YEDx0sseAI3ABZAAAA=="
-    },
-    {
-      "id": "18042386192839577",
-      "permalink": "https://www.instagram.com/p/DfHdzpeGslR/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-30T11:23:03+0000",
-      "caption": "Mashru silk ajrakh print suits",
-      "alt": "Mashru silk ajrakh print suits",
-      "width": 805,
-      "height": 1000,
-      "aspect": 0.805,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18042386192839577-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18042386192839577-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAACwBQCdASoUABkAPu1osFAppaSiqAqpMB2JZACw7BEKV6skFvD8umtWoLJzHWe7W5J3U3f2/wAAzi+Cr7PrlnrLFbGCK2Xau6PRHxTcTLv8hg4SDxtgpy9n/XctJbK5GjCXlUE+wUrkYxtGAJyd3Hdf3lZkAHYUBudi2Us8pm9CIS5KDscsYNh7s+WW9CtG3N0jubJMz2TzAICuNDBzgKsBsfovPEm+nvyGmVVvhE7SKbuDvqRKAAAA"
-    },
-    {
-      "id": "18130599103747480",
-      "permalink": "https://www.instagram.com/p/DfCoiXXmuVC/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-28T14:20:37+0000",
-      "caption": "Top viscose pashmina digitally printed with embroidery neck bottom viscose pashmina dupatta viscose pashmina digitally printed",
-      "alt": "Top viscose pashmina digitally printed with embroidery neck bottom viscose pashmina dupatta viscose pashmina digitally printed",
-      "width": 999,
-      "height": 698,
-      "aspect": 1.4312,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18130599103747480-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18130599103747480-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JZgCdMoACYaF/N8OEXs9AAP6g/EOuIiXvjoXoXrH3M3i5A3jkH1AS44DGb4q1Uzrxhd5GZo6FvShNa4fy3c3Y7EXLF31z7H8odTtXJFNAM1tusyMpFqMRgAA="
     }
   ]
 }
