@@ -1,6 +1,72 @@
 {
-  "fetchedAt": "2026-11-09T06:56:53.041Z",
+  "fetchedAt": "2026-11-10T02:49:01.401Z",
   "posts": [
+    {
+      "id": "18109021156968020",
+      "permalink": "https://www.instagram.com/p/DfhkO-4H2t6/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-09T14:39:28+0000",
+      "caption": "Handloom suits",
+      "alt": "Handloom suits",
+      "width": 912,
+      "height": 1000,
+      "aspect": 0.912,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18109021156968020-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18109021156968020-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAADQBQCdASoUABYAPu1qsFAppaSiqAqpMB2JbACdMoPH83JaaSAkb+wkIbVyjYpcc1ZSxxCHi4mgAP5zQjj77NgjiyomOSPb478MvKD7RV2r5ofmq24ZmzLu3WaiNzGOZ4i3fy8vouEBBiy54ThOq6bBCYOlajBN2oc59wE3w/cQZ3ZB+69+eisAO0IXlQrC5RavMnbvTA1pjngqliCGkreNzz3T+z7i0Re8D5KwxOYvVuIMfLbNAPMLbZxTcv7U+LovDReB87pqcnkwks98AAAA"
+    },
+    {
+      "id": "17895828945434706",
+      "permalink": "https://www.instagram.com/p/Dfhha5Yn2sB/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-09T14:14:53+0000",
+      "caption": "*top:* premium pure viscose woven silk jacquard with hand work & ready lace for daman *bottom:* pure bemberg muslin solid colour *dupatta:* premium viscose woven silk jacquard",
+      "alt": "*top:* premium pure viscose woven silk jacquard with hand work & ready lace for daman *bottom:* pure bemberg muslin solid colour *dupatta:* premium viscose…",
+      "width": 750,
+      "height": 999,
+      "aspect": 0.7508,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17895828945434706-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17895828945434706-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADwBACdASoUABsAPu1qrFEppaQiqAqpMB2JQBYdghooBeSV581orGnRifIc7KE5ergA/tJ8+U7hUTemHHzxdyb4LIa/pj11BaxaY5SJrYjRLnGf3Qoa5/nxbPjNre/RVUVPgbifQeEe8zqmS2iD2ESnzHEbQ5W+a5o88PI8AAXgGKpkub8m12c6EzRaFlQJSrs1AmDfrDCg6hnxoxiD7/T/AUAAAA=="
+    },
+    {
+      "id": "18118920275584721",
+      "permalink": "https://www.instagram.com/p/DfgvAI4GvnU/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-09T06:54:19+0000",
+      "caption": "Jamdani suits",
+      "alt": "Jamdani suits",
+      "width": 892,
+      "height": 1000,
+      "aspect": 0.892,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18118920275584721-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18118920275584721-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAACQBQCdASoUABcAPu1qrFEppaQiqAqpMB2JZACdMxhOO4qvaLy5FXMO22TsQcFdnA0OSQo4AAD6IkSHer9GrlKxgehZkTfrEhL33zq+barQVfWFARlrd1ZoMQ4ZHa/ukqBqoO31YtrPf5pkddb+Nle1SemJjlB9pgYt0jI+cicRBInMsDtylCuEqP3bVKreCTxrcDXvY5t7v5+7YTC+2isrOBiRU1UxvDcUTbDHZlYBCAue8BMxXMt8EYUQ8dYVLTOXwAAA"
+    },
     {
       "id": "18036023375669903",
       "permalink": "https://www.instagram.com/p/DfR6Y6dmicI/",
@@ -66,72 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAACQBQCdASoUABsAPu1srFEppiQiqAqpMB2JYwCw8AgAfg/Z42snZ/SZJ40yGnuFf9MgAsqgAAD+11/BNkm8Dl+Re9FnAPAjG29hUAAHFkKel2ddAB0cEmBF1g08C97ErhGfyIgUTrOftFPIEzEgjKGmb9isEumngQAj2iQ+MbkGKzpFA/LxsdXTp1PnfIK9gh/qbqtH18JaInopgLB441jWXyKeya8TfJarea/RhbXAAA=="
-    },
-    {
-      "id": "18102471368560948",
-      "permalink": "https://www.instagram.com/p/DfM6ijWmjoL/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-11-01T14:10:20+0000",
-      "caption": "Ajrakh print muslin suits with mirror or kantha work",
-      "alt": "Ajrakh print muslin suits with mirror or kantha work",
-      "width": 821,
-      "height": 1000,
-      "aspect": 0.821,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18102471368560948-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18102471368560948-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwBACdASoUABkAPu1kq06ppaQiKA1RMB2JQBOgAYgiZ9FinMufJuIZM2VZxE0ZggAA/WmjVTYE74zsMbe7I1EG7GA5g1TSS3vairdWE5tnARP5mTzKbz0KKpfy2S+zG1x6/+tJU8I6I7zR547uWkzQm5gO834KlOjA2oJZFS9VuQIG2gAAAA=="
-    },
-    {
-      "id": "18123344371939290",
-      "permalink": "https://www.instagram.com/p/DfMc9SHGhGD/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-11-01T09:51:50+0000",
-      "caption": ":top: linen( solid) dyed with beautiful embroidery n with krocia laces :dupatta: cotton chiffon digital printed with krocia lace bottom jaam (solid) dyed cotton",
-      "alt": ":top: linen( solid) dyed with beautiful embroidery n with krocia laces :dupatta: cotton chiffon digital printed with krocia lace bottom jaam (solid) dyed cotton",
-      "width": 1000,
-      "height": 705,
-      "aspect": 1.4184,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18123344371939290-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18123344371939290-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwAwCdASoUAA4APu1iqU2ppaOiMAgBMB2JYwCw7CLJ61x2X2ZOiF0gAPsaWWu4UujXzzdcGyYjn5HL8L591OOTm99e8Ji832fQ+5Y+U8ktLc7hWUw4zZMAFIiNZq9X3hOQgReR4thOt5Y396MR0O3xQJj05Y4xxFMpvOokZw6wIoXhWAA="
-    },
-    {
-      "id": "18125740823514338",
-      "permalink": "https://www.instagram.com/p/DfKRxh4GnNf/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-10-31T13:35:38+0000",
-      "caption": "Ganga wollen · top · premium pure wool pashmina printed with embroidery neck, silk printed lace on daman sleeves. · bottom · premium pure wool pashmina solid color. · dupatta…",
-      "alt": "Ganga wollen · top · premium pure wool pashmina printed with embroidery neck, silk printed lace on daman sleeves",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18125740823514338-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18125740823514338-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAACQBQCdASoUABsAPu1ur1IppiQiqAgBMB2JYgCxHzAOj5A35I8chuaG2S8ur+WhGT1YXeeNkAD+H2hKJjN7/srz1e5rQly7HrbF8IWrsXEBxv6cL4o0n16fAO9487/It/jDXMGLCm86+bRfZNh3yySC1M6j+I1fvClUiRWfdgXRfa3WYS172GTIwQ3E7ww7ZZZK4l4pfhA8scv2JnulezHThcR1oVbpQ7HevLPi/ceyvzOOW4DCNWzraoFNhwwI116rwAAA"
     }
   ]
 }
