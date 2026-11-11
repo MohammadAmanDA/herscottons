@@ -1,6 +1,50 @@
 {
-  "fetchedAt": "2026-11-11T16:24:21.547Z",
+  "fetchedAt": "2026-11-11T22:52:28.958Z",
   "posts": [
+    {
+      "id": "17917261989471745",
+      "permalink": "https://www.instagram.com/p/Dfmdg1Xmkrt/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-11T12:16:56+0000",
+      "caption": "Mirror work cotton suits with block print dupatta",
+      "alt": "Mirror work cotton suits with block print dupatta",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17917261989471745-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17917261989471745-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABwBQCdASoUABsAPu1mqk+ppaOiMBgIATAdiWwAnS9rgpJX6xhA0ZmWGqk1KHNV2S6gYHdgAP4WJwffc71P0HyenBWmS+z4RQZXJg0g/OB5/I8Ij2reHcR5axjHCWZExe/K9XqiKKSdXpO3szT+Bu1DVaEBW9WYZFN/SjcOwkWGYzXRgguy1Ny6Tx4hEsEN3VWUiCw0Mz59+8b9L2NPAAAA"
+    },
+    {
+      "id": "18253158775309612",
+      "permalink": "https://www.instagram.com/p/DfmKECKGgCJ/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-11T09:26:59+0000",
+      "caption": "Kurta pure muslin zari digital print with pitta embroidery along the neckline, panel, hemline and sleeves. Dupatta pure chinon digital print with handcrafted tassels. Pant pure…",
+      "alt": "Kurta pure muslin zari digital print with pitta embroidery along the neckline, panel, hemline and sleeves",
+      "width": 1000,
+      "height": 1000,
+      "aspect": 1,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18253158775309612-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18253158775309612-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQBACdASoUABQAPu1krE6ppaQiKA1RMB2JYwC7AA3xju/qYUHLPUEL3/MkOoBcAAD+y9Y2vAuzg08U9eNiKlQs+P5+XXFlpzmzKEWMszQMyYEn49NTQG2IqG9v5mwltW2qIoNGcG5QUBHJrron77hmcTkaAAAA"
+    },
     {
       "id": "18149457277583048",
       "permalink": "https://www.instagram.com/p/Dfjofx3Gv8H/",
@@ -88,50 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADwBACdASoUABsAPu1qrFEppaQiqAqpMB2JQBYdghooBeSV581orGnRifIc7KE5ergA/tJ8+U7hUTemHHzxdyb4LIa/pj11BaxaY5SJrYjRLnGf3Qoa5/nxbPjNre/RVUVPgbifQeEe8zqmS2iD2ESnzHEbQ5W+a5o88PI8AAXgGKpkub8m12c6EzRaFlQJSrs1AmDfrDCg6hnxoxiD7/T/AUAAAA=="
-    },
-    {
-      "id": "18118920275584721",
-      "permalink": "https://www.instagram.com/p/DfgvAI4GvnU/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-11-09T06:54:19+0000",
-      "caption": "Jamdani suits",
-      "alt": "Jamdani suits",
-      "width": 892,
-      "height": 1000,
-      "aspect": 0.892,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18118920275584721-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18118920275584721-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAACQBQCdASoUABcAPu1qrFEppaQiqAqpMB2JZACdMxhOO4qvaLy5FXMO22TsQcFdnA0OSQo4AAD6IkSHer9GrlKxgehZkTfrEhL33zq+barQVfWFARlrd1ZoMQ4ZHa/ukqBqoO31YtrPf5pkddb+Nle1SemJjlB9pgYt0jI+cicRBInMsDtylCuEqP3bVKreCTxrcDXvY5t7v5+7YTC+2isrOBiRU1UxvDcUTbDHZlYBCAue8BMxXMt8EYUQ8dYVLTOXwAAA"
-    },
-    {
-      "id": "18036023375669903",
-      "permalink": "https://www.instagram.com/p/DfR6Y6dmicI/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-11-03T12:45:13+0000",
-      "caption": "Top:-pure tanshvi silk jacquard position print with dalicate handwork & embroidery work* *dupatta:-pure chinon embroidery work* bottom:-pure santoon*",
-      "alt": "Top:-pure tanshvi silk jacquard position print with dalicate handwork & embroidery work* *dupatta:-pure chinon embroidery work* bottom:-pure santoon*",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18036023375669903-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18036023375669903-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAACQBQCdASoUABsAPu1ur1IppiQiqAgBMB2JZACdISAgwgv9psC4s1FX+ghRd2qM/9r88hlwVgD+63lxcXWa5UFZGXbgvSY15/NrGw4OcYKc+06axsDdP9jjoZk5ObemRPwQXmWw5BrleeUxylFfG7xxy3AZjiT4R/wX8H8Wwx6/Lk1yMdBljJomY87s8JgAgWoa+S/tep4NkyJrZ9aG9KVNdPZbUJ9rPj2EB15r+/zU1IrvNf+1cXfRYzsOa5XS4/TBJ8gyBgRe1JFcMhQMWoCY1AAAAA=="
     }
   ]
 }
