@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-11-12T16:55:24.661Z",
+  "fetchedAt": "2026-11-13T01:16:42.528Z",
   "posts": [
+    {
+      "id": "17969460243193338",
+      "permalink": "https://www.instagram.com/p/DfopMd1GgAp/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-12T08:37:30+0000",
+      "caption": "Top banglory silk jaquard handwork dupatta banglory silk jaquard bottom heavy muslin silk dyed",
+      "alt": "Top banglory silk jaquard handwork dupatta banglory silk jaquard bottom heavy muslin silk dyed",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "17969460243193338-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "17969460243193338-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAADQBQCdASoUABsAPu1mrE+ppSQiMBgIATAdiUAVhfHTUBNFBGMZmOWDPrnkmor4CVKONCVh0YtIAP7Tlc5Sn+oTKHNind5YbCU13H34DSDPdcIvfNay+j2F56phvNGmpGFr07NEEi5E0pc4d32giMp6d4JtcGTlybf3ytrOK8jhhZJUPRAf9C2dC+ZYraeJI0H7UCHimn3dHAnH6Ip8T3ub82TlctWBofzbwuQw2B3C5Qvysp3X189+iIYgmTcj4kkDQIurK18I8s1G0AA="
+    },
     {
       "id": "17917261989471745",
       "permalink": "https://www.instagram.com/p/Dfmdg1Xmkrt/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAADQBQCdASoUABYAPu1qsFAppaSiqAqpMB2JbACdMoPH83JaaSAkb+wkIbVyjYpcc1ZSxxCHi4mgAP5zQjj77NgjiyomOSPb478MvKD7RV2r5ofmq24ZmzLu3WaiNzGOZ4i3fy8vouEBBiy54ThOq6bBCYOlajBN2oc59wE3w/cQZ3ZB+69+eisAO0IXlQrC5RavMnbvTA1pjngqliCGkreNzz3T+z7i0Re8D5KwxOYvVuIMfLbNAPMLbZxTcv7U+LovDReB87pqcnkwks98AAAA"
-    },
-    {
-      "id": "17895828945434706",
-      "permalink": "https://www.instagram.com/p/Dfhha5Yn2sB/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-11-09T14:14:53+0000",
-      "caption": "*top:* premium pure viscose woven silk jacquard with hand work & ready lace for daman *bottom:* pure bemberg muslin solid colour *dupatta:* premium viscose woven silk jacquard",
-      "alt": "*top:* premium pure viscose woven silk jacquard with hand work & ready lace for daman *bottom:* pure bemberg muslin solid colour *dupatta:* premium viscose…",
-      "width": 750,
-      "height": 999,
-      "aspect": 0.7508,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17895828945434706-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17895828945434706-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADwBACdASoUABsAPu1qrFEppaQiqAqpMB2JQBYdghooBeSV581orGnRifIc7KE5ergA/tJ8+U7hUTemHHzxdyb4LIa/pj11BaxaY5SJrYjRLnGf3Qoa5/nxbPjNre/RVUVPgbifQeEe8zqmS2iD2ESnzHEbQ5W+a5o88PI8AAXgGKpkub8m12c6EzRaFlQJSrs1AmDfrDCg6hnxoxiD7/T/AUAAAA=="
     }
   ]
 }
