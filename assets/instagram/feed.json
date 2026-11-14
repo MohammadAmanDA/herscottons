@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-11-13T19:55:15.717Z",
+  "fetchedAt": "2026-11-14T00:56:01.221Z",
   "posts": [
+    {
+      "id": "18362158633247266",
+      "permalink": "https://www.instagram.com/p/Dfrik8kGp_0/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-13T11:37:24+0000",
+      "caption": "Jamdani suits",
+      "alt": "Jamdani suits",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18362158633247266-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18362158633247266-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAAAQBQCdASoUABsAPu1qrFEppaQiqAqpMB2JaAC06A8sCeu6vTvl97GCY4WvaydJ4KnQAPyP3OPtbhamYS5rn5ADy2NaZTpCd6d1I4WHCZajDst9g76fJxf6h/lvZ2zEzsk4fZf214hznJCu1GtG/6LYnjvUb/agF9MwijlgOo+YWioTYRXx3P6ZHJI5EHW2pYImGdRehQDqNYGyl2hMYYc+VqSRRL9W+XnGWAIA6AEKvagoxMTn17KIAAA="
+    },
     {
       "id": "17969460243193338",
       "permalink": "https://www.instagram.com/p/DfopMd1GgAp/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAAAwBQCdASoUABsAPu1mrE+ppaQiMBgIATAdiUAX5wId7XWNcOCAUhVzPWlXMSiBjXBogAD+0nGO1RoPPT8NUN4xRV0YApy7kPdTVOZzLsdLzshKtfSWB1v3z9k0sXHOn15VVA2jj+NV+kVpRXnXmwA26xnTTmPzPyb46dKz7q35azxoHsIgVhhVGpbSoyk21qXWkrzkZJebqbLSVZ7H/SVZDqc0Y125X+82fC328XgMXWTNVZbFFWSE+5NF2xZJpleI6eBnlDUeqhiBAAA="
-    },
-    {
-      "id": "18109021156968020",
-      "permalink": "https://www.instagram.com/p/DfhkO-4H2t6/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-11-09T14:39:28+0000",
-      "caption": "Handloom suits",
-      "alt": "Handloom suits",
-      "width": 912,
-      "height": 1000,
-      "aspect": 0.912,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18109021156968020-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18109021156968020-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAADQBQCdASoUABYAPu1qsFAppaSiqAqpMB2JbACdMoPH83JaaSAkb+wkIbVyjYpcc1ZSxxCHi4mgAP5zQjj77NgjiyomOSPb478MvKD7RV2r5ofmq24ZmzLu3WaiNzGOZ4i3fy8vouEBBiy54ThOq6bBCYOlajBN2oc59wE3w/cQZ3ZB+69+eisAO0IXlQrC5RavMnbvTA1pjngqliCGkreNzz3T+z7i0Re8D5KwxOYvVuIMfLbNAPMLbZxTcv7U+LovDReB87pqcnkwks98AAAA"
     }
   ]
 }
