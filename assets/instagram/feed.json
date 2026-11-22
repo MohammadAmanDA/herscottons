@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-11-22T07:10:10.725Z",
+  "fetchedAt": "2026-11-22T16:29:37.978Z",
   "posts": [
+    {
+      "id": "18159436609598902",
+      "permalink": "https://www.instagram.com/p/DgCWBAQGu2T/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-22T08:10:10+0000",
+      "caption": "Ajrakh print Maheshwari silk suits",
+      "alt": "Ajrakh print Maheshwari silk suits",
+      "width": 840,
+      "height": 1000,
+      "aspect": 0.84,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18159436609598902-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18159436609598902-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADwBACdASoUABgAPu1kq06ppaOiKA1RMB2JaACsABEcTvO9HmxQVBNFLdU7VKLgD8AA/uNeDdB5Lu1p59ouPZ9uPBLREX7yEdGlkACVF2X1BGEXXUKP6GNM9t5GyfgcV9xDpUgLBU1WALOKqO+mFYHBs5VBjRij4p26unTCleEEmXTTel1nDZxKxMhf1HZECDqkO/BAAAA="
+    },
     {
       "id": "18124995073946517",
       "permalink": "https://www.instagram.com/p/DgAG-oQn37T/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBQCdASoUABQAPulep02pJSOiN/VYASAdCWYAxvQPOgZpctnEK5UJRgY5u0t3XcIAAP7yslA5SGf5DIaomm6hhLb/QRBb3P+IPWjEaRI1uCRhbyiEtz/7Sy30Wn5ckY+R8xPLq4sjPSOHHXFQefGytrXqG1YteG2XmO5gAAA="
-    },
-    {
-      "id": "17913475257566177",
-      "permalink": "https://www.instagram.com/p/DfwzgGAks6Q/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-11-15T12:41:29+0000",
-      "caption": "Top:*viscos pashmina digital print with heavy khatli work.* *bottom:*viscos pashmina solid* *dupatta:*viscos woollen showl with digital print*",
-      "alt": "Top:*viscos pashmina digital print with heavy khatli work",
-      "width": 750,
-      "height": 999,
-      "aspect": 0.7508,
-      "variants": [
-        {
-          "width": 480,
-          "file": "17913475257566177-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "17913475257566177-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAQBQCdASoUABsAPu1iqU2ppaOiMAgBMB2JZwDGBB4de6uItC4FyBnA8tAhm+JMg5swAP4LHv/sBMUY0xVKoBx3LqsppKtM+H3IB1RvTd4j4nRzahKMjYlYYyPdN812w5Bg3zcvefeMfPLtsejXTadxOHUKQeZAWtZnfeWCGD+rwXzMyt3kBashMjv6weK5SXAIgOb1ypNQ0qE1UkUshPUQPl55kRyvEouuU+C/p4oAAA=="
     }
   ]
 }
