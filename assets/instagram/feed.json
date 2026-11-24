@@ -1,6 +1,28 @@
 {
-  "fetchedAt": "2026-11-24T04:52:36.290Z",
+  "fetchedAt": "2026-11-24T19:35:40.554Z",
   "posts": [
+    {
+      "id": "18141846565760754",
+      "permalink": "https://www.instagram.com/p/DgH1DefGqM7/",
+      "type": "CAROUSEL_ALBUM",
+      "timestamp": "2026-11-24T11:17:35+0000",
+      "caption": "Ganga top premium woven silk jacquard with hand work, embroidery patch & jari lace for daman bottom premium silk satin solid colour dupatta premium woven silk jacquard with jari…",
+      "alt": "Ganga top premium woven silk jacquard with hand work, embroidery patch & jari lace for daman bottom premium silk satin solid colour dupatta premium woven silk…",
+      "width": 750,
+      "height": 1000,
+      "aspect": 0.75,
+      "variants": [
+        {
+          "width": 480,
+          "file": "18141846565760754-480.webp"
+        },
+        {
+          "width": 960,
+          "file": "18141846565760754-960.webp"
+        }
+      ],
+      "lqip": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAAAwBQCdASoUABsAPu1sq1EppaOiqAqpMB2JQBZ0H+AoW8+KzW+tss89N23/6X7iKSpGwAD+78zea5og4y3MVrlel/x+/hhnQLjgjdXAmcXB3by3sX1jwEq1ioM6Q6WsCRLd3r+vUz8mw+MjeCtHy3qJCU59zZtwjtz9s2JaqA4kBXyfy3qt3aSUoKP8TCEhm7RhSWGm6AICrlXvkTjrCmxc2qyNVIEgdQLeS4Jr+/7cUapefJgNce83w0vWU1oAAAA="
+    },
     {
       "id": "18117071927582685",
       "permalink": "https://www.instagram.com/p/DgFcnYzGp8m/",
@@ -110,28 +132,6 @@
         }
       ],
       "lqip": "data:image/webp;base64,UklGRuwAAABXRUJQVlA4IOAAAAAwBgCdASoUACMAPu1qq1CppaOiqqgBMB2JQBbZ75QNUOjJZiP7T0LOHHPmL2M2dFoX01nFYxQugYnAAP6WpgCL0vVPQeeup6dqL0TN7nvKXPey5JYN2LSHx/kaL4Qexd1l/Xr1tF0SKGkzUxyOOFvnc9AxQY0opgDKx2MWuOfrlStI6ivPy9af+SYFlkm5eO/804t0rk7PPVIMP7fYbZ/R/HDd2cw93I5/dctPmAmFLBbBorWQQcwqJb/EC5GLJJrPTDNekG9u+4B4N/mw0duMKGdfAKsS3HVPvvsFk4AAAA=="
-    },
-    {
-      "id": "18123258736980867",
-      "permalink": "https://www.instagram.com/p/Df_nwNLGiZK/",
-      "type": "CAROUSEL_ALBUM",
-      "timestamp": "2026-11-21T06:47:26+0000",
-      "caption": "Top banglory silk with hand work dupatta banglory silk bottom maslin dyed",
-      "alt": "Top banglory silk with hand work dupatta banglory silk bottom maslin dyed",
-      "width": 750,
-      "height": 1000,
-      "aspect": 0.75,
-      "variants": [
-        {
-          "width": 480,
-          "file": "18123258736980867-480.webp"
-        },
-        {
-          "width": 960,
-          "file": "18123258736980867-960.webp"
-        }
-      ],
-      "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAACwBQCdASoUABsAPu1qrlCppaQiqAqpMB2JQBWGcdy5gQdJy7SVmbFMpsL1BFH02MmdWcYkaIAA/rMkfquALqIO6iB2mcC9r8n7tiMZbd34PKpVtji38wZvKPOD9Gxj1ECvd1IM99vZ93LxlsCGd/gKeLwUmHvapHckB4GpGz1640q0HUQEBi78IWXD5+IDICR+Fk52OTkSuLTsY9xdM6vqUKcYkP/9bIdsEQLouaGg1ut8MUl0IcVZ+XLtEwrHHoiHMJnkQAA="
     }
   ]
 }
